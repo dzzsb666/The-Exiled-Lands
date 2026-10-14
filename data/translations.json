@@ -1,0 +1,1178 @@
+{
+  "Cavern of Fiends": {
+    "name": "恶魔洞窟",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Hanuman's Grotto": {
+    "name": "猴神洞穴",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Gallaman's Tomb": {
+    "name": "加拉曼之墓",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Skittering Cavern": {
+    "name": "掠行洞穴",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sinner's Refuge": {
+    "name": "罪人避难所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Weaver's Hollow": {
+    "name": "编织者幽谷",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Scuttler's Shortcut": {
+    "name": "凿孔者捷径",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Lockstone Cave": {
+    "name": "锁石洞穴",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Jhil's Roost": {
+    "name": "吉尔的栖息处",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Scraps": {
+    "name": "废料地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Barrow King": {
+    "name": "巴罗之王",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Dragonmouth": {
+    "name": "龙口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Xalthar's Refuge": {
+    "name": "夏尔塔的避难所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The High Way": {
+    "name": "公路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Floe": {
+    "name": "浮冰",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Crevice": {
+    "name": "裂隙",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Warren of Degenerates": {
+    "name": "退化者地洞",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Shaleback Hollow": {
+    "name": "岩背怪幽谷",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Executioners Entrance": {
+    "name": "刽子手入口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Abandoned Silver Mine": {
+    "name": "废弃的银矿",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Dregs": {
+    "name": "沉滓迷宫",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Black Keep": {
+    "name": "黑暗要塞",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Palace of the Witch Queen": {
+    "name": "巫后宫殿",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Passage": {
+    "name": "通道",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Undergate": {
+    "name": "地底之门",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Well of Skelos": {
+    "name": "斯凯洛斯之井",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Algar's Overlook": {
+    "name": "阿尔加瞭望站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Shattered Bridge": {
+    "name": "残桥",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Sentinels": {
+    "name": "哨所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Deathwhisper Ruins": {
+    "name": "亡语者废墟",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Broken Highway": {
+    "name": "破碎公路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Arena": {
+    "name": "竞技场",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Sinkhole": {
+    "name": "沉洞",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Tower of Bats": {
+    "name": "蝙蝠之塔",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Weeping Ruin": {
+    "name": "流泪废墟",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Mek-kamoses's Spire": {
+    "name": "迈卡摩西尖崖",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Hand of the Maker": {
+    "name": "上帝之手",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Shattered Basin": {
+    "name": "残败盆地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Slave Road": {
+    "name": "奴隶通路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Imperial Highway": {
+    "name": "帝国公路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Dawn Gate": {
+    "name": "曙光之门",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Archives": {
+    "name": "档案馆",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Aviary": {
+    "name": "大鸟笼",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Slave Pits": {
+    "name": "奴隶坑",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Spawning Pools": {
+    "name": "滋生之池",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Citadel of the Triumvirate": {
+    "name": "三位一体城堡",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Southern Aqueduct": {
+    "name": "南方水渠",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ruins of Old Nebthu": {
+    "name": "老內布苏遗迹",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Tyros's Passage": {
+    "name": "泰罗斯之途",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Tradeway": {
+    "name": "贸易之路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Deserter's Gutter": {
+    "name": "逃亡者贫窟",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Westwatch Keep": {
+    "name": "西方观察哨",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Klael’s Stronghold": {
+    "name": "克立尔的堡垒",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sandswept Ruins": {
+    "name": "风沙遗迹",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Chaosmouth": {
+    "name": "混沌之口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Slaveway": {
+    "name": "奴隶之路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sanctuary Ruins": {
+    "name": "圣所废墟",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Breach": {
+    "name": "突破口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Northern Aqueduct": {
+    "name": "北方水渠",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Great Dam": {
+    "name": "大坝",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Lakewatch": {
+    "name": "河畔戒护站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ruins of Xullan": {
+    "name": "祖兰遗迹",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Bridge of the Betrayer": {
+    "name": "叛徒之桥",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Skyholme Ruins": {
+    "name": "斯凯尔摩废墟",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Circle of Swords": {
+    "name": "万剑圈",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Xel-ha Docks": {
+    "name": "谢尔哈码头",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Dagon's Embrace": {
+    "name": "达贡山坳",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Celestial Plaza": {
+    "name": "天界广场",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Black Garden": {
+    "name": "黑色庭院",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Avenue of the Sun": {
+    "name": "烈日大道",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Gate of the Moon": {
+    "name": "皎月之扉",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Penitent's Crossing": {
+    "name": "忏悔者分岔路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Descent of Dagon": {
+    "name": "达贡落坡",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Dagon's Eye": {
+    "name": "达贡之眼",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Watcher of the Passage": {
+    "name": "通道守望所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "A Light to Guide Them Home": {
+    "name": "指引归途之光",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Boulevard of the North Star": {
+    "name": "北地之星大道",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Eye that Never Closes": {
+    "name": "不瞑之目",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Eastern Barracks": {
+    "name": "东部军营",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Upper Staging Area": {
+    "name": "上部区域",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ruined Outpost": {
+    "name": "破败的哨站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Lower Staging Area": {
+    "name": "下部区域",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ring of Silence": {
+    "name": "静寂圆环",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ruins of Velstad": {
+    "name": "韦施塔德遗迹",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "King's Niche": {
+    "name": "国王的壁龛",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Cursed Mound": {
+    "name": "受诅土丘",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Bleakwood Ruins": {
+    "name": "布利克伍德遗迹",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Carrowmore": {
+    "name": "卡洛莫尔",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Bjornar's Stand": {
+    "name": "布约纳的抵抗站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ravaged Barrows": {
+    "name": "遭劫掠的古冢",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Shrine of the Oracle": {
+    "name": "先知神龛",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Walkway of the Devout": {
+    "name": "虔诚者通道",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Road of the Righteous": {
+    "name": "公正之路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Shattered Stairs": {
+    "name": "残败阶梯",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Sunken City": {
+    "name": "沉没的城市入口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Warmaker's Sanctuary": {
+    "name": "引战者圣殿入口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Wine Cellar": {
+    "name": "酒窖入口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Pariah's Overwatch": {
+    "name": "弃民的掩护地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Swagger Rock": {
+    "name": "神气巨岩",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Boundary Spillway": {
+    "name": "边界溢洪道",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Priestking's Retreat": {
+    "name": "祭司王修行所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Godsight Spire": {
+    "name": "神目尖崖",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Fingerfang Rock": {
+    "name": "指齿巨岩",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sandscour Pass": {
+    "name": "流沙通路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Shattered Springs": {
+    "name": "碎泉",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Crowngrove": {
+    "name": "王冠树丛",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Oasis of Nekhet": {
+    "name": "内喀特绿洲",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Oasis Overlook": {
+    "name": "绿洲瞭望站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ironbreaker Ridge": {
+    "name": "碎铁者山脊",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Relicwatcher Rise": {
+    "name": "遗宝戒护者高地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Rhinohorn Ridge": {
+    "name": "犀牛角山脊",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Jawbone": {
+    "name": "下颌骨",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Telith's Island": {
+    "name": "泰利斯之岛",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Scartalon Ridgeline": {
+    "name": "爪痕山脊线",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Imi's Cradle": {
+    "name": "伊米的摇篮",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Devil's Squat": {
+    "name": "魔鬼的居所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Rockfall Canyon": {
+    "name": "岩崩峡谷",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Icespire Chasm": {
+    "name": "冰塔断层",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Godsclaw Passage": {
+    "name": "神爪之途",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Dirgewood": {
+    "name": "哀乐林",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Eyelet Lake": {
+    "name": "孔湖",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Dagon's Claw": {
+    "name": "达贡之爪",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Silkwood": {
+    "name": "西克伍德",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Hullshatter Cove": {
+    "name": "船骸海湾",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Xalthar's Crossing": {
+    "name": "夏尔塔分岔路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Warrior's Walk": {
+    "name": "战士的步道",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Forkspring Hollow": {
+    "name": "岔泉幽谷",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Wreck of the Martyr": {
+    "name": "殉难者残骸",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Island of Unsightly Sirens": {
+    "name": "丑陋塞壬之岛",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Pitfall Pass": {
+    "name": "陷阱关",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Crossway": {
+    "name": "交叉路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Messenger's Respite": {
+    "name": "信使休憩所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Canopy Outlook": {
+    "name": "冠层瞭望站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Bay of Hulks": {
+    "name": "残骸湾",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Mire of Eternal Dreams": {
+    "name": "永恒梦境泥沼",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Wreck of the Wagtail": {
+    "name": "鹡鸰残骸",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Heliograph Heights": {
+    "name": "日光仪高地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Buccaneer Bay": {
+    "name": "海盗湾",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Inlet of the Hook": {
+    "name": "钩爪入口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Road of the Pilgrim": {
+    "name": "朝圣者之路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Riversend": {
+    "name": "河流赋礼",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Frostneedle Forest": {
+    "name": "霜针森林",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Disjunction": {
+    "name": "分裂处",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Forge of Ymir": {
+    "name": "尤弥尔锻炉",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Frozen Slopes": {
+    "name": "寒霜坡道",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Skyfall Ridge": {
+    "name": "天幕山岭",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Terrace of the Tenders": {
+    "name": "处理者平台",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Bridge of Voormithadreth": {
+    "name": "沃尔米撒德斯桥",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Pens": {
+    "name": "兽栏",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Path of the Penitent": {
+    "name": "忏悔者之路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Hidden Way": {
+    "name": "隐蔽通路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Shaman's Rise": {
+    "name": "萨满高地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Mitra's Serenity": {
+    "name": "米彻的静堂",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Muriela's Hope": {
+    "name": "穆里拉的希望",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Drifter's Rest": {
+    "name": "流浪者休憩所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Wightwatch Lookout": {
+    "name": "尸鬼瞭望台",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Slithering Beach": {
+    "name": "蜿蜒海滩",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Skulker's End": {
+    "name": "潜伏者的尽头",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Riverwatch Camp": {
+    "name": "守河营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Narrowneck Span": {
+    "name": "窄颈区域",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Cannibal's Rest": {
+    "name": "食人族栖息地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Bonebreaker's Bend": {
+    "name": "碎骨弯道",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Carver's Crest": {
+    "name": "雕工之顶",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Howling Plateau": {
+    "name": "嚎叫高原",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Death's Shadow Camp": {
+    "name": "死亡阴影营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Dustdevil Ridge": {
+    "name": "尘魔山脊",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Cursed Way": {
+    "name": "诅咒之路",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ravager's Cleft": {
+    "name": "劫掠者裂隙",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Witness Camp": {
+    "name": "目击者营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Raider's Ridge": {
+    "name": "袭击者山脊",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Thugra's Stand": {
+    "name": "图格拉的抵抗站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Marrowman's Height": {
+    "name": "莫罗曼高地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Fleshtearer Falls": {
+    "name": "撕肉者瀑布",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Dryfalls": {
+    "name": "干涸瀑布",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Corner of Bones": {
+    "name": "骸骨拐角",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Heartsblood Rise": {
+    "name": "心脏之血高地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Spinebreaker's Flank": {
+    "name": "碎脊侧翼",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Gallaman's Overlook": {
+    "name": "加拉曼瞭望站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Scavenger's Berth": {
+    "name": "拾荒者休憩处",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Lookout Point": {
+    "name": "观景点",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Tarman's Berth": {
+    "name": "焦黑者休憩处",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Watchers Waystation": {
+    "name": "守望者驿站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Spotter's Squat": {
+    "name": "观测者居所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sailstitch Camp": {
+    "name": "航迹营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Sandspit": {
+    "name": "沙岬",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Anchor Point": {
+    "name": "锚点",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Voyager's Vigil": {
+    "name": "航行者的坚守",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Marauder's Muster": {
+    "name": "劫掠者集群",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Scoundrel's Gateway": {
+    "name": "恶棍门径",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Bilgewater Break": {
+    "name": "比亚吉沃特裂口",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sullys's Ambush": {
+    "name": "苏丽思的伏击点",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Deathwhisper Camp": {
+    "name": "亡语者的营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Pocket": {
+    "name": "口袋盆地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Deckswab's Retreat": {
+    "name": "甲板海盗的休憩处",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Scupper's Shelter": {
+    "name": "排水孔庇护所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Talier's Berth": {
+    "name": "塔利尔休憩处",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Jamilla's Liberty": {
+    "name": "嘉蜜拉的自由",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Captain's Quarters": {
+    "name": "船长的住处",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Flotsam": {
+    "name": "废料",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Claw Outcrop": {
+    "name": "利爪岩地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Waterhole Outlook": {
+    "name": "水源远望所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "N'batu's Pack": {
+    "name": "恩疤图大群",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sharptooth Passage": {
+    "name": "利齿之途",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Hunter's View": {
+    "name": "猎人视景站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Bonepicker Camp": {
+    "name": "拾骨者营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Howler's Lode": {
+    "name": "嚎者矿脉",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Temple Quarter": {
+    "name": "圣殿住所",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Waterside": {
+    "name": "水滨",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Southlake": {
+    "name": "南湖",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Westwall": {
+    "name": "西墙",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Westwall Prison": {
+    "name": "西墙牢狱",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Freya's Hovel": {
+    "name": "弗雷娅的陋舍",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Trapper's Cabin": {
+    "name": "捕猎者小屋",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Lian's Watch": {
+    "name": "莱安的戒护站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Coldfish Camp": {
+    "name": "冷漠之人的营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Meadowwatch": {
+    "name": "牧场戒护站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Mammothrider's  Shanty": {
+    "name": "猛犸象骑者的棚屋",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Desertwatch": {
+    "name": "沙漠戒护站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Stormwatch": {
+    "name": "风暴戒护站",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Nordhof": {
+    "name": "诺德霍夫",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Rimefisher's Hut": {
+    "name": "利姆费舍的小屋",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Meltwater Crag": {
+    "name": "融水峭壁",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Wardtowers": {
+    "name": "瞭望塔",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ghostward Tower": {
+    "name": "鬼视塔",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sandward Tower": {
+    "name": "沙视塔",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Godsward Tower": {
+    "name": "神视塔",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Outcast Camp": {
+    "name": "放逐者营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Crystalline Chasm": {
+    "name": "结晶深坑",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Flamemist Camp": {
+    "name": "焰雾营地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Blizzard's Overwatch": {
+    "name": "暴风雪守望处",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Icekeeper Hollow": {
+    "name": "护冰人幽谷",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Ymir's Delusion": {
+    "name": "尤弥尔的错觉",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Pagoda of Boundless Lusts": {
+    "name": "无边欲望之塔",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Stargazer's Crest": {
+    "name": "观星者山峰",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Black Galleon": {
+    "name": "黑暗巨帆",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Summoning Place": {
+    "name": "召唤之地",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Den": {
+    "name": "兽穴",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Sepermeru, City of the Relic Hunters": {
+    "name": "遗宝猎人之城赛珀梅鲁",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "New Asagarth": {
+    "name": "新阿萨加斯",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Temple of Frost": {
+    "name": "寒霜殿堂",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Forgotten City of Xel-ha": {
+    "name": "谢尔哈遗忘之都",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Mounds of the Dead": {
+    "name": "亡者之丘",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Unnamed City": {
+    "name": "无名之城",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Obelisk": {
+    "name": "方尖碑",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Seduce": {
+    "name": "诱惑",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Squirm": {
+    "name": "蠕动",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Spank": {
+    "name": "拍打",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "By Yog": {
+    "name": "向约格祈祷",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Blow Kiss": {
+    "name": "飞吻",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Show Off": {
+    "name": "炫耀",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Submissive": {
+    "name": "顺从",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Arms Crossed": {
+    "name": "抱臂",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Comb Hair": {
+    "name": "梳发",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Sigh": {
+    "name": "叹气",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Come Here": {
+    "name": "过来",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Score": {
+    "name": "得分",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Yawn": {
+    "name": "打哈欠",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Flirt": {
+    "name": "调情",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Khitan Dance": {
+    "name": "契丹舞",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "By Set": {
+    "name": "向塞特祈祷",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Snake Dance": {
+    "name": "蛇舞",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Grovel": {
+    "name": "匍匐",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Bear Hug": {
+    "name": "拥抱",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Clap": {
+    "name": "鼓掌",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Surrender": {
+    "name": "投降",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Ponder": {
+    "name": "沉思",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Polite Clap": {
+    "name": "礼貌鼓掌",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "By Mitra": {
+    "name": "向米彻祈祷",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Belly Dance": {
+    "name": "肚皮舞",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "War Dance": {
+    "name": "战舞",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Cimmerian Dance": {
+    "name": "西米里亚舞",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Aquilonian Dance": {
+    "name": "阿奎罗尼亚舞",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Pirate Cuisine": {
+    "name": "海盗料理",
+    "source": "沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+  },
+  "Specialist Brewing I": {
+    "name": "酿造专家 I",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking II": {
+    "name": "烹饪专家 II",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Brewing II": {
+    "name": "酿造专家 II",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking III": {
+    "name": "烹饪专家 III",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking IV": {
+    "name": "烹饪专家 IV",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking V": {
+    "name": "烹饪专家 V",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking VI": {
+    "name": "烹饪专家 VI",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking VII": {
+    "name": "烹饪专家 VII",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking VIII": {
+    "name": "烹饪专家 VIII",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking IX": {
+    "name": "烹饪专家 IX",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Specialist Cooking X": {
+    "name": "烹饪专家 X",
+    "source": "已验收学习点地图 learning-revision3-points.json"
+  },
+  "Vanquisher of the King Beneath": {
+    "name": "地底之王征服者配方",
+    "source": "用户在会话 01a1329a-ccf1-7a82-8834-1f850eb69ead 的明确回复"
+  },
+  "Shaleback": {
+    "name": "岩背怪",
+    "source": "用户本会话确认；宠物分类动物名称"
+  },
+  "Frostwolf": {
+    "name": "霜狼",
+    "source": "用户本会话确认；宠物分类动物名称"
+  },
+  "The Unnamed City": {
+    "name": "无名之城",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Aviary": {
+    "name": "大鸟笼",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Slave Pits": {
+    "name": "奴隶坑",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "The Northern Aqueduct": {
+    "name": "北方水渠",
+    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+  },
+  "Midnight Grove": {
+    "name": "午夜林地",
+    "source": "用户此前会话反复确认的副本名称"
+  },
+  "Point": {
+    "name": "指向",
+    "source": "用户已验收的圣殿圣所日志表情名称，learning-revision3-points.json"
+  },
+  "Shrug": {
+    "name": "耸肩",
+    "source": "用户已验收的圣殿圣所日志表情名称，learning-revision3-points.json"
+  }
+}

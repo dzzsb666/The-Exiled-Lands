@@ -1,0 +1,81 @@
+import {
+  Mountain,
+  Castle,
+  Flag,
+  Landmark,
+  MapPin,
+  Gem,
+  Snowflake,
+  Flame,
+  Pickaxe,
+  BookOpen,
+  MessageCircle,
+  ScrollText,
+  Skull,
+  UserRound,
+  Users,
+  Swords,
+  Hammer,
+  Axe,
+  WandSparkles,
+  Shield,
+  TreePine,
+  CookingPot,
+  Paintbrush,
+  Music,
+  FlaskConical,
+  Package,
+  Crosshair,
+  PawPrint,
+  CircleHelp,
+} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+const byId: Record<number, LucideIcon> = {
+  3290: Castle,
+  3282: Mountain,
+  3283: Castle,
+  3286: Landmark,
+  3285: Landmark,
+  3284: Flag,
+  3308: BookOpen,
+  3305: MessageCircle,
+  3303: ScrollText,
+  3304: BookOpen,
+  3318: Package,
+  3315: UserRound,
+  3320: FlaskConical,
+  3319: Crosshair,
+  3321: Shield,
+  3322: Package,
+  3323: Hammer,
+  3324: Axe,
+  3325: CookingPot,
+  3326: Swords,
+  3327: Music,
+  3328: WandSparkles,
+  3332: Users,
+  3329: Flame,
+  3330: Paintbrush,
+  3331: Hammer,
+  3357: Snowflake,
+  3359: Flame,
+  3361: Gem,
+  3366: Gem,
+  3358: Snowflake,
+  3362: Pickaxe,
+  3360: Gem,
+  3363: Gem,
+  3364: Gem,
+  3369: Skull,
+  3372: CircleHelp,
+};
+export function categoryIcon(id: number): LucideIcon {
+  return (
+    byId[id] ||
+    (id >= 3333 && id <= 3350
+      ? PawPrint
+      : id >= 3291 && id <= 3301
+        ? TreePine
+        : MapPin)
+  );
+}

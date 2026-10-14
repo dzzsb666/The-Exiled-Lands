@@ -1,0 +1,514 @@
+[
+  {
+    "id": 3290,
+    "groupId": 750,
+    "title": "Capital City",
+    "name": null,
+    "icon": "capital_city",
+    "color": "#9aadb9"
+  },
+  {
+    "id": 3282,
+    "groupId": 750,
+    "title": "Cave",
+    "name": "洞穴",
+    "icon": "cave",
+    "color": "#9aadb9"
+  },
+  {
+    "id": 3283,
+    "groupId": 750,
+    "title": "Dungeon",
+    "name": "副本",
+    "icon": "dungeon",
+    "color": "#9aadb9"
+  },
+  {
+    "id": 3286,
+    "groupId": 750,
+    "title": "Obelisk",
+    "name": "方尖碑",
+    "icon": "obelisk",
+    "color": "#9aadb9"
+  },
+  {
+    "id": 3285,
+    "groupId": 750,
+    "title": "Ruin",
+    "name": null,
+    "icon": "ruin",
+    "color": "#9aadb9"
+  },
+  {
+    "id": 3284,
+    "groupId": 750,
+    "title": "Vista",
+    "name": null,
+    "icon": "vista",
+    "color": "#9aadb9"
+  },
+  {
+    "id": 3292,
+    "groupId": 757,
+    "title": "Black Hand Camp",
+    "name": null,
+    "icon": "black_hand_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3293,
+    "groupId": 757,
+    "title": "Cimmerian Camp",
+    "name": null,
+    "icon": "cimmerian_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3291,
+    "groupId": 757,
+    "title": "Dafari Camp",
+    "name": "达法人营地",
+    "icon": "dafari_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3294,
+    "groupId": 757,
+    "title": "Desert Dogs Camp",
+    "name": null,
+    "icon": "desert_dogs_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3301,
+    "groupId": 757,
+    "title": "Exile Camp",
+    "name": null,
+    "icon": "exile_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3295,
+    "groupId": 757,
+    "title": "Frost Giant Camp",
+    "name": null,
+    "icon": "frost_giant_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3296,
+    "groupId": 757,
+    "title": "Lemurian Camp",
+    "name": null,
+    "icon": "lemurian_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3300,
+    "groupId": 757,
+    "title": "Other Camp",
+    "name": null,
+    "icon": "other_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3299,
+    "groupId": 757,
+    "title": "Relic Hunter Camp",
+    "name": "遗宝猎人营地",
+    "icon": "relic_hunter_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3298,
+    "groupId": 757,
+    "title": "Vanir Camp",
+    "name": null,
+    "icon": "vanir_camp",
+    "color": "#dba573"
+  },
+  {
+    "id": 3308,
+    "groupId": 751,
+    "title": "Dictionary",
+    "name": null,
+    "icon": "dictionary",
+    "color": "#d3b369"
+  },
+  {
+    "id": 3305,
+    "groupId": 751,
+    "title": "Emote",
+    "name": "表情",
+    "icon": "emote",
+    "color": "#d3b369"
+  },
+  {
+    "id": 3303,
+    "groupId": 751,
+    "title": "Lore",
+    "name": null,
+    "icon": "lore",
+    "color": "#d3b369"
+  },
+  {
+    "id": 3304,
+    "groupId": 751,
+    "title": "Recipe",
+    "name": "配方",
+    "icon": "recipe",
+    "color": "#d3b369"
+  },
+  {
+    "id": 3318,
+    "groupId": 753,
+    "title": "Merchant",
+    "name": null,
+    "icon": "merchant",
+    "color": "#7cbeae"
+  },
+  {
+    "id": 3315,
+    "groupId": 753,
+    "title": "NPC",
+    "name": null,
+    "icon": "npc",
+    "color": "#7cbeae"
+  },
+  {
+    "id": 3320,
+    "groupId": 754,
+    "title": "Alchemist",
+    "name": null,
+    "icon": "alchemist",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3319,
+    "groupId": 754,
+    "title": "Archer",
+    "name": null,
+    "icon": "archer",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3321,
+    "groupId": 754,
+    "title": "Armorer",
+    "name": null,
+    "icon": "armorer",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3322,
+    "groupId": 754,
+    "title": "Bearer",
+    "name": null,
+    "icon": "bearer",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3323,
+    "groupId": 754,
+    "title": "Blacksmith",
+    "name": null,
+    "icon": "blacksmith",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3324,
+    "groupId": 754,
+    "title": "Carpenter",
+    "name": null,
+    "icon": "carpenter",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3325,
+    "groupId": 754,
+    "title": "Cook",
+    "name": null,
+    "icon": "cook",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3326,
+    "groupId": 754,
+    "title": "Fighter",
+    "name": null,
+    "icon": "fighter",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3327,
+    "groupId": 754,
+    "title": "Performer",
+    "name": "艺人",
+    "icon": "performer",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3328,
+    "groupId": 754,
+    "title": "Priest",
+    "name": null,
+    "icon": "priest",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3332,
+    "groupId": 754,
+    "title": "Random Thrall",
+    "name": null,
+    "icon": "random_thrall",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3329,
+    "groupId": 754,
+    "title": "Smelter",
+    "name": null,
+    "icon": "smelter",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3330,
+    "groupId": 754,
+    "title": "Tanner",
+    "name": null,
+    "icon": "tanner",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3331,
+    "groupId": 754,
+    "title": "Taskmaster",
+    "name": "监工",
+    "icon": "taskmaster",
+    "color": "#86a9cf"
+  },
+  {
+    "id": 3333,
+    "groupId": 755,
+    "title": "Bear",
+    "name": null,
+    "icon": "bear",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3334,
+    "groupId": 755,
+    "title": "Boar",
+    "name": null,
+    "icon": "boar",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3335,
+    "groupId": 755,
+    "title": "Crocodile",
+    "name": null,
+    "icon": "crocodile",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3336,
+    "groupId": 755,
+    "title": "Elephant",
+    "name": null,
+    "icon": "elephant",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3337,
+    "groupId": 755,
+    "title": "Fawn",
+    "name": null,
+    "icon": "fawn",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3338,
+    "groupId": 755,
+    "title": "Frostwolf",
+    "name": "霜狼",
+    "icon": "frostwolf",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3340,
+    "groupId": 755,
+    "title": "Jaguar",
+    "name": null,
+    "icon": "jaguar",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3341,
+    "groupId": 755,
+    "title": "Lion",
+    "name": null,
+    "icon": "lion",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3342,
+    "groupId": 755,
+    "title": "Ostrich",
+    "name": null,
+    "icon": "ostrich",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3343,
+    "groupId": 755,
+    "title": "Panther",
+    "name": null,
+    "icon": "panther",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3344,
+    "groupId": 755,
+    "title": "Rhino",
+    "name": null,
+    "icon": "rhino",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3345,
+    "groupId": 755,
+    "title": "Sabretooth",
+    "name": null,
+    "icon": "sabretooth",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3346,
+    "groupId": 755,
+    "title": "Shaleback",
+    "name": "岩背怪",
+    "icon": "shaleback",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3347,
+    "groupId": 755,
+    "title": "Spotted Hyena",
+    "name": null,
+    "icon": "spotted_hyena",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3348,
+    "groupId": 755,
+    "title": "Striped Hyena",
+    "name": null,
+    "icon": "striped_hyena",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3349,
+    "groupId": 755,
+    "title": "Tiger",
+    "name": null,
+    "icon": "tiger",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3350,
+    "groupId": 755,
+    "title": "Wolf",
+    "name": null,
+    "icon": "wolf",
+    "color": "#adbd81"
+  },
+  {
+    "id": 3357,
+    "groupId": 756,
+    "title": "Black Ice",
+    "name": null,
+    "icon": "black_ice",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3359,
+    "groupId": 756,
+    "title": "Brimstone",
+    "name": null,
+    "icon": "brimstone",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3361,
+    "groupId": 756,
+    "title": "Coal",
+    "name": null,
+    "icon": "coal",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3366,
+    "groupId": 756,
+    "title": "Crystal",
+    "name": null,
+    "icon": "crystal",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3358,
+    "groupId": 756,
+    "title": "Ice",
+    "name": null,
+    "icon": "ice",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3362,
+    "groupId": 756,
+    "title": "Iron",
+    "name": null,
+    "icon": "iron",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3360,
+    "groupId": 756,
+    "title": "Obsidian",
+    "name": null,
+    "icon": "obsidian",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3363,
+    "groupId": 756,
+    "title": "Silver",
+    "name": null,
+    "icon": "silver",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3364,
+    "groupId": 756,
+    "title": "Star Metal",
+    "name": null,
+    "icon": "star_metal",
+    "color": "#9ca8b8"
+  },
+  {
+    "id": 3369,
+    "groupId": 758,
+    "title": "Boss",
+    "name": "Boss",
+    "icon": "boss",
+    "color": "#c97c85"
+  },
+  {
+    "id": 3372,
+    "groupId": 758,
+    "title": "Miscellaneous",
+    "name": null,
+    "icon": "miscellaneous",
+    "color": "#c97c85"
+  }
+]
