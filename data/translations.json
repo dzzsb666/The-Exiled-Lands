@@ -1174,5 +1174,21 @@
   "Shrug": {
     "name": "耸肩",
     "source": "用户已验收的圣殿圣所日志表情名称，learning-revision3-points.json"
+  },
+  "Performer": {
+    "name": "艺人",
+    "source": "用户本会话明确确认；奴隶职业或营地分类名称"
+  },
+  "Taskmaster": {
+    "name": "监工",
+    "source": "用户本会话明确确认；奴隶职业或营地分类名称"
+  },
+  "Relic Hunter Camp": {
+    "name": "遗宝猎人营地",
+    "source": "用户本会话明确确认；奴隶职业或营地分类名称"
+  },
+  "Dafari Camp": {
+    "name": "达法人营地",
+    "source": "用户本会话明确确认；奴隶职业或营地分类名称"
   }
 }

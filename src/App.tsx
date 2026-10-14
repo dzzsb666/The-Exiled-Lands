@@ -275,7 +275,11 @@ export default function App() {
         </div>
         <div className="topbar-right">
           <span className="edition">中文核对版</span>
-          <button className="about-button" onClick={() => setInfo(true)}>
+          <button
+            className="about-button"
+            aria-label="地图说明"
+            onClick={() => setInfo(true)}
+          >
             <Info size={15} />
             <span>地图说明</span>
           </button>

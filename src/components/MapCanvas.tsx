@@ -155,7 +155,8 @@ export default function MapCanvas(props: Props) {
         });
         marker.on("click", (e) => {
           L.DomEvent.stopPropagation(e);
-          if (!latest.current.addMode) latest.current.onSelect(p);
+          if (latest.current.addMode) latest.current.onAdd(p.x, p.y);
+          else latest.current.onSelect(p);
         });
         group.addLayer(marker);
       }

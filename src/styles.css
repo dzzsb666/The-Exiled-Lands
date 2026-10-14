@@ -1135,6 +1135,7 @@ textarea::placeholder {
   }
   .sidebar {
     position: fixed;
+    visibility: hidden;
     left: 0;
     top: var(--header);
     bottom: 0;
@@ -1146,6 +1147,7 @@ textarea::placeholder {
   }
   .sidebar-open .sidebar {
     transform: translateX(0);
+    visibility: visible;
   }
   .mobile-backdrop {
     display: block;
