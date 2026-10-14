@@ -37,7 +37,7 @@ export default function MapCanvas(props: Props) {
       crs: L.CRS.Simple,
       zoomControl: false,
       attributionControl: false,
-      minZoom: -3,
+      minZoom: -4,
       maxZoom: 2,
       zoomSnap: 0.25,
       zoomDelta: 0.5,
@@ -67,10 +67,16 @@ export default function MapCanvas(props: Props) {
       zoomIn: () => m.zoomIn(),
       zoomOut: () => m.zoomOut(),
       reset,
-      focus: (p) =>
-        m.flyTo([4000 - p.y, p.x], Math.max(m.getZoom(), -0.25), {
-          duration: 0.5,
-        }),
+      focus: (p) => {
+        const zoom = Math.max(m.getZoom(), -0.25);
+        const target = L.latLng(4000 - p.y, p.x);
+        const offset = m.getSize().x < 760 ? m.getSize().y * 0.18 : 0;
+        const center = m.unproject(
+          m.project(target, zoom).add([0, offset]),
+          zoom,
+        );
+        m.flyTo(center, zoom, { duration: 0.5 });
+      },
     };
     m.on("click", (e) => {
       if (latest.current.addMode) {
