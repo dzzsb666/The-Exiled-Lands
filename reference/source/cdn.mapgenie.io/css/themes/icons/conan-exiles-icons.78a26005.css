@@ -1,0 +1,519 @@
+@font-face{font-family:icomoon;src:url('/source/cdn.mapgenie.io/fonts/conan-exiles/icons/icomoon.ttf') format('truetype');font-weight:normal;font-style:normal;font-display:block;}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wolf:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-volatile_gland:before {
+  content: "\e901";
+  color: #e8b17e;
+}
+.icon-vista:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-vault:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-vanir_camp:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-tuskbeast:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-turtle:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-torchlighter:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-tiger:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-thrall_cage:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-taskmaster:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-tanner:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-symbol_5:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-symbol_4:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-symbol_3:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-symbol_2:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-symbol_1:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-striped_hyena:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-storm_boss:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-star_metal:before {
+  content: "\e913";
+  color: #b1b6e8;
+}
+.icon-spotted_hyena:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-spiderling:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon-spider:before {
+  content: "\e916";
+  color: #fff;
+}
+.icon-smelter:before {
+  content: "\e917";
+  color: #fff;
+}
+.icon-silver:before {
+  content: "\e918";
+  color: #fff;
+}
+.icon-shaleback:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon-scorpion:before {
+  content: "\e91a";
+  color: #fff;
+}
+.icon-sand_reaper:before {
+  content: "\e91b";
+  color: #fff;
+}
+.icon-sabretooth:before {
+  content: "\e91c";
+  color: #fff;
+}
+.icon-ruin:before {
+  content: "\e91d";
+  color: #fff;
+}
+.icon-rocknose:before {
+  content: "\e91e";
+  color: #fff;
+}
+.icon-rhino:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon-religion_trainer:before {
+  content: "\e920";
+  color: #fff;
+}
+.icon-relic_hunter_camp:before {
+  content: "\e921";
+  color: #fff;
+}
+.icon-recipe:before {
+  content: "\e922";
+  color: #f7f7f7;
+}
+.icon-random_thrall:before {
+  content: "\e923";
+  color: #fff;
+}
+.icon-priest:before {
+  content: "\e924";
+  color: #fff;
+}
+.icon-point_of_interest:before {
+  content: "\e925";
+  color: #fff;
+}
+.icon-plant:before {
+  content: "\e926";
+  color: #fff;
+}
+.icon-pet_merchant:before {
+  content: "\e927";
+  color: #fff;
+}
+.icon-performer:before {
+  content: "\e928";
+  color: #fff;
+}
+.icon-panther:before {
+  content: "\e929";
+  color: #fff;
+}
+.icon-other_camp:before {
+  content: "\e92a";
+  color: #fff;
+}
+.icon-ostrich:before {
+  content: "\e92b";
+  color: #fff;
+}
+.icon-obsidian:before {
+  content: "\e92c";
+  color: #77a2af;
+}
+.icon-obelisk:before {
+  content: "\e92d";
+  color: #fff;
+}
+.icon-npc:before {
+  content: "\e92e";
+  color: #fff;
+}
+.icon-musician:before {
+  content: "\e92f";
+  color: #fff;
+}
+.icon-mountain_lion:before {
+  content: "\e930";
+  color: #fff;
+}
+.icon-miscellaneous:before {
+  content: "\e931";
+  color: #fff;
+}
+.icon-mini_boss:before {
+  content: "\e932";
+  color: #fff;
+}
+.icon-mineral:before {
+  content: "\e933";
+  color: #fff;
+}
+.icon-merchant:before {
+  content: "\e934";
+  color: #fff;
+}
+.icon-mason:before {
+  content: "\e935";
+  color: #fff;
+}
+.icon-lorestone:before {
+  content: "\e936";
+  color: #fff;
+}
+.icon-lore:before {
+  content: "\e937";
+  color: #fff;
+}
+.icon-loot .path1:before {
+  content: "\e938";
+  color: rgb(255, 255, 255);
+}
+.icon-loot .path2:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-loot .path3:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-loot .path4:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(35, 29, 29);
+}
+.icon-locust:before {
+  content: "\e93c";
+  color: #fff;
+}
+.icon-lion:before {
+  content: "\e93d";
+  color: #fff;
+}
+.icon-leyshrine:before {
+  content: "\e93e";
+  color: #fff;
+}
+.icon-lemurian_camp:before {
+  content: "\e93f";
+  color: #fff;
+}
+.icon-legendary_chest:before {
+  content: "\e940";
+  color: #fff;
+}
+.icon-komodo_dragon:before {
+  content: "\e941";
+  color: #fff;
+}
+.icon-jungleclaw:before {
+  content: "\e942";
+  color: #fff;
+}
+.icon-jaguar:before {
+  content: "\e943";
+  color: #fff;
+}
+.icon-item:before {
+  content: "\e944";
+  color: #fff;
+}
+.icon-island_lynx:before {
+  content: "\e945";
+  color: #fff;
+}
+.icon-iron:before {
+  content: "\e946";
+  color: #c98f77;
+}
+.icon-icon_plant:before {
+  content: "\e947";
+  color: #fff;
+}
+.icon-ice:before {
+  content: "\e948";
+  color: #fff;
+}
+.icon-hyena:before {
+  content: "\e949";
+  color: #fff;
+}
+.icon-horse:before {
+  content: "\e94a";
+  color: #fff;
+}
+.icon-hide:before {
+  content: "\e94b";
+  color: #fff;
+}
+.icon-gossamer:before {
+  content: "\e94c";
+  color: #fff;
+}
+.icon-gold:before {
+  content: "\e94d";
+  color: #d4b157;
+}
+.icon-glowing_goop:before {
+  content: "\e94e";
+  color: #8acec0;
+}
+.icon-giant_kings_tablet:before {
+  content: "\e94f";
+  color: #fff;
+}
+.icon-frostwolf:before {
+  content: "\e950";
+  color: #fff;
+}
+.icon-frost_giant_camp:before {
+  content: "\e951";
+  color: #fff;
+}
+.icon-foal:before {
+  content: "\e952";
+  color: #fff;
+}
+.icon-figurine:before {
+  content: "\e953";
+  color: #fff;
+}
+.icon-fighter:before {
+  content: "\e954";
+  color: #fff;
+}
+.icon-feather:before {
+  content: "\e955";
+  color: #fff;
+}
+.icon-fawn:before {
+  content: "\e956";
+  color: #fff;
+}
+.icon-exile_camp:before {
+  content: "\e957";
+  color: #fff;
+}
+.icon-emote_old .path1:before {
+  content: "\e958";
+  color: rgb(255, 255, 255);
+}
+.icon-emote_old .path2:before {
+  content: "\e959";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-emote_old .path3:before {
+  content: "\e95a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-emote_old .path4:before {
+  content: "\e95b";
+  margin-left: -1em;
+  color: rgb(35, 29, 29);
+}
+.icon-emote:before {
+  content: "\e95c";
+  color: #fff;
+}
+.icon-elephant:before {
+  content: "\e95d";
+  color: #fff;
+}
+.icon-dye:before {
+  content: "\e95e";
+  color: #fff;
+}
+.icon-dungeon:before {
+  content: "\e95f";
+  color: #fff;
+}
+.icon-dry_wood:before {
+  content: "\e960";
+  color: #fff;
+}
+.icon-dog:before {
+  content: "\e961";
+  color: #fff;
+}
+.icon-dictionary:before {
+  content: "\e962";
+  color: #fff;
+}
+.icon-desert_dogs_camp:before {
+  content: "\e963";
+  color: #fff;
+}
+.icon-dafari_camp:before {
+  content: "\e964";
+  color: #fff;
+}
+.icon-crystal:before {
+  content: "\e965";
+  color: #fff;
+}
+.icon-crocodile:before {
+  content: "\e966";
+  color: #fff;
+}
+.icon-crested_lacerta:before {
+  content: "\e967";
+  color: #fff;
+}
+.icon-cook:before {
+  content: "\e968";
+  color: #fff;
+}
+.icon-coal:before {
+  content: "\e969";
+  color: #9f9898;
+}
+.icon-cimmerian_camp:before {
+  content: "\e96a";
+  color: #fff;
+}
+.icon-chest:before {
+  content: "\e96b";
+  color: #fff;
+}
+.icon-cave:before {
+  content: "\e96c";
+  color: #fff;
+}
+.icon-carpenter:before {
+  content: "\e96d";
+  color: #fff;
+}
+.icon-capital_city:before {
+  content: "\e96e";
+  color: #fff;
+}
+.icon-camel:before {
+  content: "\e96f";
+  color: #fff;
+}
+.icon-brimstone:before {
+  content: "\e970";
+  color: #dbd0d0;
+}
+.icon-boss:before {
+  content: "\e971";
+  color: #fff;
+}
+.icon-boar:before {
+  content: "\e972";
+  color: #fff;
+}
+.icon-blacksmith:before {
+  content: "\e973";
+  color: #fff;
+}
+.icon-black_ice:before {
+  content: "\e974";
+  color: #fff;
+}
+.icon-black_hand_camp:before {
+  content: "\e975";
+  color: #fff;
+}
+.icon-bearer:before {
+  content: "\e976";
+  color: #fff;
+}
+.icon-bear:before {
+  content: "\e977";
+  color: #fff;
+}
+.icon-armorer:before {
+  content: "\e978";
+  color: #fff;
+}
+.icon-archer:before {
+  content: "\e979";
+  color: #fefefe;
+}
+.icon-alchemist:before {
+  content: "\e97a";
+  color: #fefefe;
+}
+.icon-aardwolf:before {
+  content: "\e97b";
+  color: #fff;
+}

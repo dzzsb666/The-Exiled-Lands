@@ -1,0 +1,2 @@
+/* Remove original advertising and upgrade promotions; no layout redesign. */
+#nitro-floating-wrapper,#nitro-floating,#blobby-left,#blobby-overlay,.pro-upgrade-element,#categories .presets-panel,#categories .settings-section{display:none!important}

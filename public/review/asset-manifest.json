@@ -1,0 +1,299 @@
+{
+  "source": "User-provided saved webpage and HAR, 2026-10-15",
+  "adsExcluded": true,
+  "remoteRequestsAllowed": false,
+  "tiles": {
+    "capturedZoom": 12,
+    "capturedCount": 24,
+    "fullZoom12Count": 256,
+    "complete": false
+  },
+  "sourceLocations": 2812,
+  "assets": [
+    {
+      "file": "ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js",
+      "bytes": 87464,
+      "sha256": "646be94d8c530951d009c8553231592b098e8708da86fbf13019cde550148742"
+    },
+    {
+      "file": "cdn.jsdelivr.net/npm/markdown-it@13.0.2/dist/markdown-it.min.js",
+      "bytes": 102951,
+      "sha256": "f290bacd5278c39bb8f291c8e1af86608269adfb4681e8e664d7d2e9d67efd14"
+    },
+    {
+      "file": "cdn.mapgenie.io/css/app.ef9a420e.css",
+      "bytes": 172207,
+      "sha256": "c98d746d2875e088ad360de615bfa9ee58b5882f0f006705c0d120a038c05475"
+    },
+    {
+      "file": "cdn.mapgenie.io/css/themes/base-theme.919dc57a.css",
+      "bytes": 37280,
+      "sha256": "7bcb6f92d499dd5a7cf0bf3f61385396f201f4f335e9614addf0c897d190f66b"
+    },
+    {
+      "file": "cdn.mapgenie.io/css/themes/icons/conan-exiles-icons.78a26005.css",
+      "bytes": 9025,
+      "sha256": "23042f6430a663c815a249c734656bbd3a1ad30954edba103bdd13901dd694f5"
+    },
+    {
+      "file": "cdn.mapgenie.io/css/vendor/ionicons@4.2.6.min.css",
+      "bytes": 45891,
+      "sha256": "7c6a0815613be2dd9ed3f16fc1be57847d40aaa655736e85d059982c8432d150"
+    },
+    {
+      "file": "cdn.mapgenie.io/css/vendor/maplibre-gl.9ec5b480.css",
+      "bytes": 70024,
+      "sha256": "ab1e70d59ec40465bae7e7030da2f3ccf28133fd502e62bd598eefbadfd7a732"
+    },
+    {
+      "file": "cdn.mapgenie.io/fonts/conan-exiles/icons/icomoon.ttf",
+      "bytes": 86048,
+      "sha256": "a5b47e6fb9a1d14124e15de794bb988f8939469164449a6a217337736d2119d3"
+    },
+    {
+      "file": "cdn.mapgenie.io/fonts/ionicons/ionicons.woff2",
+      "bytes": 50632,
+      "sha256": "649218d06ada6cbd24cd0a01d080a34b497c2c65f16792e3e4afee7bf950e558"
+    },
+    {
+      "file": "cdn.mapgenie.io/images/games/rdr2/pins/pin-205098.png",
+      "bytes": 1555,
+      "sha256": "c892ed26c9753695e4ef900eb37aabad2fb5085666081f4ffac87671bf5cc2fb"
+    },
+    {
+      "file": "cdn.mapgenie.io/images/games/rdr2/pins/pin-668f56.png",
+      "bytes": 1564,
+      "sha256": "0ab51b3b84ad37d9922a96410c77cb0c62a5361c739e96ab508a88124296a787"
+    },
+    {
+      "file": "cdn.mapgenie.io/images/games/rdr2/pins/pin-8bb9bf.png",
+      "bytes": 1627,
+      "sha256": "ce3bc3c6350aa11401cb06589aad61148b7d7ef0f01d1d63c5aea9c988e5f44d"
+    },
+    {
+      "file": "cdn.mapgenie.io/images/games/rdr2/pins/pin-b66f8d.png",
+      "bytes": 1606,
+      "sha256": "1c478313b8ce82f32b4ab5d71b2841ebc0a41a9609e5d38cda2c0a92a83dd92f"
+    },
+    {
+      "file": "cdn.mapgenie.io/images/games/rdr2/pins/pin-dc7146.png",
+      "bytes": 1625,
+      "sha256": "57d3fb1bdcbd6a6ef9c8b730cfa8082d80bb7935a1c19e28f51720bf95c94784"
+    },
+    {
+      "file": "cdn.mapgenie.io/images/games/rdr2/pins/pin-ffcd00.png",
+      "bytes": 1643,
+      "sha256": "090754e6d15d9abb2521e2cc1e5b8981369791eadee5b85ee90ffc6e0b72b3bd"
+    },
+    {
+      "file": "cdn.mapgenie.io/js/map.70aefaa6.js",
+      "bytes": 1251010,
+      "sha256": "f380954b7ad47d414becc0c898b34ebeeec62b75153b7e102e20dc4fe93c6043"
+    },
+    {
+      "file": "cdn.mapgenie.io/js/vendor/maplibre-gl.db497461.js",
+      "bytes": 1056844,
+      "sha256": "6bc8cc0b907f3c9f83222f7189ff5b76eda0791e173fa724b902e1d2acdd4305"
+    },
+    {
+      "file": "cdn.mapgenie.io/js/vendor/toastr-2.1.3-modified.min.js",
+      "bytes": 5261,
+      "sha256": "b30aa583510b45b662bc0cccc4550f536656fc41ade594dba361784961fb5e79"
+    },
+    {
+      "file": "cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css",
+      "bytes": 162270,
+      "sha256": "5e125dfd65ea45a5af0bde6f71cbe72a8c4b4aa04f2d9c270ce65a6012567eb3"
+    },
+    {
+      "file": "cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js",
+      "bytes": 62569,
+      "sha256": "6b441e8a52c8a3714343a62d1b73c4b3d03c9e09b9708e71841eefd68072def9"
+    },
+    {
+      "file": "cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/intro.min.js",
+      "bytes": 28927,
+      "sha256": "301b24266c4c5c09acffe622519e9c103afd30ad4be970e1012ffa8a0176e0a2"
+    },
+    {
+      "file": "cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js",
+      "bytes": 20219,
+      "sha256": "b0a45cd5aed66e27bd8ee861d0e3b782c8e79849bde32f90f078b9f2451a36f2"
+    },
+    {
+      "file": "cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js",
+      "bytes": 20342,
+      "sha256": "895007a0cd0e769c9d4c3763d2b3cdd09dc3c19c1036929061df323a4fe101ba"
+    },
+    {
+      "file": "cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.css",
+      "bytes": 6454,
+      "sha256": "47dd690f8f315bea076e92581a7e7147443bb4c847e313ab5a7d50a8c44836d0"
+    },
+    {
+      "file": "fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+      "bytes": 48320,
+      "sha256": "d8e4fe0452aa2076429a9bb5d8757d00a994dd95986cf950e9a1a371b9a072a0"
+    },
+    {
+      "file": "media.mapgenie.io/v2/assets/prod/fonts/crom/ttf/41704e3fedec.ttf",
+      "bytes": 18688,
+      "sha256": "41704e3fedec8c5320a40c552c1033164a0d90d91837ef462bbae87e221dfcaf"
+    },
+    {
+      "file": "media.mapgenie.io/v2/assets/prod/games/conan-exiles/favicon/favicon.ico",
+      "bytes": 15086,
+      "sha256": "88ab27850deeea6cc954e25c0f8c96ea5c3cada9f3e1f1a9422b303872d955c1"
+    },
+    {
+      "file": "media.mapgenie.io/v2/assets/prod/games/conan-exiles/favicon/site.webmanifest",
+      "bytes": 587,
+      "sha256": "fc5df0058b3b720a56e38aa77a59f3314d6dde6aed86af06884ecd8a049d5c2d"
+    },
+    {
+      "file": "media.mapgenie.io/v2/assets/prod/games/conan-exiles/logo-512.png",
+      "bytes": 5184,
+      "sha256": "eedc5a86e464a51537eeea68d50d1ac6d603e344d426e736c30ad6907a4afce8"
+    },
+    {
+      "file": "media.mapgenie.io/v2/assets/prod/games/conan-exiles/logo-small.png",
+      "bytes": 1282,
+      "sha256": "cae135f5e7a766ce0810c4f7e45f16e6b17e4892dd6f25d920764437aa0b6435"
+    },
+    {
+      "file": "media.mapgenie.io/v2/assets/prod/games/conan-exiles/markers/markers.json",
+      "bytes": 7390,
+      "sha256": "33f796f338c589f0239018d907f1a6b0d01836bac6bffde907390d28b4577e35"
+    },
+    {
+      "file": "media.mapgenie.io/v2/assets/prod/games/conan-exiles/markers/markers.png",
+      "bytes": 30242,
+      "sha256": "cc5095b05e25a88413ee053d64f0c1f778bfb48d19a01d8e08212ad7f1c6e472"
+    },
+    {
+      "file": "media.mapgenie.io/v2/assets/prod/games/conan-exiles/theme/v3/theme.css",
+      "bytes": 3680,
+      "sha256": "4ddbf28589e273bb555a632bbacd035b7fcd6295dbc25c984f4d533e03c4118d"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2036/2040.jpg",
+      "bytes": 33271,
+      "sha256": "fc5de8f0d8d0529669567fc574484f69ed8a92889bd1b20d503fa6c6fb2114fd"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2036/2041.jpg",
+      "bytes": 31079,
+      "sha256": "ffeb5c706c161bf36921aceb0035cc677aca98d688fb3a42caa38aa2ad7c189b"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2036/2042.jpg",
+      "bytes": 32993,
+      "sha256": "30947a3edab67971405765f81d60aee33e2f6224be98d1d0f7046d8570dfcf4d"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2036/2043.jpg",
+      "bytes": 32782,
+      "sha256": "407efb05666cca9b6468b610a661703b1eb08efc80b900dbc28aa4b01a2e5125"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2037/2040.jpg",
+      "bytes": 51633,
+      "sha256": "ef6e4f0fe42fbd6fe08bcc12b19ef386ea1fbe1a31ea1accee000cde1e30509f"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2037/2041.jpg",
+      "bytes": 44885,
+      "sha256": "965ac4478d5db5ae6d797e87893a954686322cd10ce031c00a3e33bf45a3039f"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2037/2042.jpg",
+      "bytes": 36234,
+      "sha256": "b5bcbdc73091212b2a8ba32e4ee05ec5577f9fabe5f5b4a215cec273882a7beb"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2037/2043.jpg",
+      "bytes": 33212,
+      "sha256": "9786c31f18471fae00aa609c9ec130a5012cd30e3d32674624cd8c5b713251b6"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2038/2040.jpg",
+      "bytes": 46548,
+      "sha256": "fa27ad888e8a029d75b09ced798f98674f24e3c047188e5cb96f5b4877bf0c75"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2038/2041.jpg",
+      "bytes": 50077,
+      "sha256": "7bb0905417e4e3f9ccf0c0d7c3dadb0b069603adfdb8c7b16db31c73f1da8cdd"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2038/2042.jpg",
+      "bytes": 50257,
+      "sha256": "1d66dbc39941930d9f00354ea9615f96105d41e8f6962d761bac6cd05d3302a9"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2038/2043.jpg",
+      "bytes": 33465,
+      "sha256": "5d5a709b129a347b959a710796c07210d6284923b1a38828851b65b2966984d5"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2039/2040.jpg",
+      "bytes": 47872,
+      "sha256": "1d74b9105bd8f93bc24c68fd540fd5bc67d9776e34cca4bdf9b02e47310de561"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2039/2041.jpg",
+      "bytes": 49979,
+      "sha256": "0b941546ba0a7a942112a7dc77e4c961de181ac70213dd9f6f2c4d8a7bbd7529"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2039/2042.jpg",
+      "bytes": 51059,
+      "sha256": "99848974d08a49ccde915d76e336a29dd52b8d5162910c570d74ed59089cf024"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2039/2043.jpg",
+      "bytes": 34470,
+      "sha256": "cbc8a0ee06bfd45adb6552e300ed7828b9741193d3fbb969835136d8a1ed2b36"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2040/2040.jpg",
+      "bytes": 38750,
+      "sha256": "0f81ebcfbf2eb0c5de54c2b39ad0480c6daa0d0703b4a30d8a8d08d866a66014"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2040/2041.jpg",
+      "bytes": 48393,
+      "sha256": "476c6440fa42eb2524096107ff219396fb7ae6ac35f67646d81a0f790d929312"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2040/2042.jpg",
+      "bytes": 43971,
+      "sha256": "6f459aaa7587151e1ffc09ee7545db171dd8b653bd088aa66463e3b8ecc91262"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2040/2043.jpg",
+      "bytes": 34496,
+      "sha256": "d65ae48cc9edb69bf2d4e5463551229fd8114ef244fee028e5fa03dfe82e9c1d"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2041/2040.jpg",
+      "bytes": 42350,
+      "sha256": "86a6d1ce2e9c4b5a0279142d162386c910919dfc1de9b18e1c9d8aa006ec2381"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2041/2041.jpg",
+      "bytes": 49781,
+      "sha256": "08f31c46b0f7a660ccb08986f4b1f5eab01c4df4ddb72591b16347446978765c"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2041/2042.jpg",
+      "bytes": 39256,
+      "sha256": "a63b869d9238ae08082fada6f7c38cd22d73d00c4b4cb3c009e78a453752dc08"
+    },
+    {
+      "file": "tiles.mapgenie.io/games/conan-exiles/exiled-lands/default-v1/12/2041/2043.jpg",
+      "bytes": 33606,
+      "sha256": "4150d0f856b1bb495720a3ea4af3a75cc5d70933d42e0af40b55cebb9812fa01"
+    }
+  ]
+}

@@ -35,7 +35,7 @@ for name in css_names:
         if font not in manifest["missingFontReferences"]:
             manifest["missingFontReferences"].append(font)
     # Disable imports to remote fonts while preserving the supplied local rules.
-    css = re.sub(r"@import\s+[^;]+;", "/* Remote import disabled in offline evidence viewer. */", css)
+    css = re.sub(r"@import\s+url\([^)]*\)\s*;", "/* Remote import disabled in offline evidence viewer. */", css)
     (OUT / "assets" / name).write_text(css, encoding="utf-8")
 icon_css = (ASSETS / "conan-exiles-icons.78a26005.css").read_text(encoding="utf-8")
 for name, glyph, color in re.findall(r"\.icon-([\w-]+):before\s*\{\s*content:\s*\"\\([0-9a-f]+)\";\s*(?:color:\s*([^;]+);)?", icon_css):
