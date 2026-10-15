@@ -44,8 +44,12 @@ test("every Chinese label has a recorded source, and pending names remain empty"
   assert.equal(map.categories.find((c) => c.id === 3346).name, "岩背怪");
   assert.equal(map.categories.find((c) => c.id === 3321).name, "制甲匠");
   assert.equal(map.categories.find((c) => c.id === 3332).name, "随机奴隶");
+  for (const [id, name] of [[3290, "大型聚落"], [3285, "遗迹"], [3284, "景点"], [3292, "黑手会"], [3293, "西米利亚"], [3294, "沙漠之犬"]])
+    assert.equal(map.categories.find((c) => c.id === id).name, name);
   assert.equal(map.points.find((p) => p.id === 199370).name, null);
   assert.equal(map.points.find((p) => p.id === 120164).name, "遗宝猎人套装");
+  assert.equal(map.points.find((p) => p.id === 88250).name, "比特雅金的印章");
+  assert.equal(map.points.find((p) => p.id === 88189).name, "阿梅莱亚废墟");
 });
 test("ten projected obelisks agree with the map control points within 14 pixels", () => {
   const points = map.points.filter((p) => p.categoryId === 3286);

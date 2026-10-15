@@ -10,8 +10,16 @@
 - 用户本会话明确确认：Performer=艺人；Taskmaster=监工；Shaleback=岩背怪；Frostwolf=霜狼；Relic Hunter Camp=遗宝猎人营地；Dafari Camp=达法人营地。前两项属奴隶职业，接着两项属宠物，最后两项属营地。
 - 用户本会话资源分类确认：Black Ice=黑冰；Brimstone=硫磺；Coal=煤；Crystal=水晶；Ice=冰；Iron=铁；Obsidian=黑曜石；Silver=银矿；Star Metal=星辰矿。这些是资源采集点，未据此自动翻译其他颜色水晶、石鼻兽或装备名称。
 - 用户2026-10-15确认：Armorer=制甲匠；Random Thrall沿用“随机奴隶”，分类含义为随机种类奴隶的刷新点。此分类的原始点位标题`Named Thrall`尚未确认中文，仍保留英文，不把分类名套用为NPC姓名。
+- 用户本轮确认：Capital City=大型聚落；Ruin=遗迹；Vista=景点；Black Hand Camp=黑手会；Cimmerian Camp=西米利亚；Desert Dogs Camp=沙漠之犬。后面三项为营地分类，严格沿用用户原文，不自行添加“营地”。
+- 用户其他会话已明确确认、2026-10-15同步：Bin-Yakin's Seal（原绘图记录写作Bit-Yakin's Seal）=比特雅金的印章；Ruins of al-Merayah=阿梅莱亚废墟。依据`assets/maps/exiled-lands-points-revision23.json`中的用户确认注记，分别匹配原站点位88250和88189。
 
-## 坐标变换
+## 原站素材中文核对入口
+
+`/review/index.html`使用用户提供的原站HTML/HAR中保存的原程序、字体、CSS、图标图集与2812个原生经纬度点位，去广告并本地化；本页不使用下文旧React首页的近似投影。原始HAR和请求头不提交。长篇说明保留英文，内部地图链接改为本地。登录/PRO服务和部分外部媒体没有实现。
+
+现有完整成品图为`assets/maps/exiled-lands-bosses-revision26-HD-12000.jpg`。完整干净底图与24张原站瓦片的离线比对显示地形吻合但非像素相同，见`fidelity/terrain-alignment.json`；未生成替代瓦片。缺口详见[需要补充的资料](NEEDED-MATERIALS.md)。
+
+## 旧React首页的坐标变换
 
 MapGenie快照 latitude/longitude 通过十个方尖碑与既有底图配准。像素原点在左上角，宽高4000。
 
@@ -28,4 +36,4 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 
 ## 未导入内容
 
-原网站程序、用户账号/云同步、评论、付费内容、说明图片和长篇文本未导入。未确认中文不自行补写；档案馆有争议的旧清单不导入。网站提供点位原站链接供核对。
+旧React首页没有导入原网站程序、用户账号/云同步、评论、付费内容、说明图片和长篇文本。中文核对入口已导入保存的原程序及说明原文，但账号服务和未保存的外部媒体仍缺。未确认中文不自行补写；档案馆有争议的旧清单不导入。

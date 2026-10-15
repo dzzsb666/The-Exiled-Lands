@@ -1,0 +1,27 @@
+{
+  "analysisOnly": true,
+  "runtimeTilesChanged": false,
+  "source": "24 captured z12 MapGenie tiles; x2036–2041, y2040–2043",
+  "candidate": "assets\\maps\\exiled-lands-clean-original-4000x4000.jpg",
+  "candidateSha256": "82fb465bff1b1d1955cd3f577ae8559556ee829401f0e66361f16100836cdde2",
+  "matrixCapturedMosaicToClean4000": [
+    [
+      2.000002764325099,
+      8.507919418415134e-06,
+      -48.011652375456016
+    ],
+    [
+      -8.507919418415134e-06,
+      2.000002764325099,
+      1999.9954591271107
+    ]
+  ],
+  "featureMatches": 9713,
+  "inliers": 9707,
+  "medianResidualCleanPixels": 0.1500147544056755,
+  "p95ResidualCleanPixels": 0.5760275839110188,
+  "grayCorrelation": 0.9822301006481535,
+  "meanAbsoluteChannelDifference": 8.526367823282877,
+  "exactPixelMatch": false,
+  "conclusion": "Shared terrain can be geometrically aligned; this is not evidence of identical pixels or full-map equivalence. Keep original captured tiles in the faithful clone."
+}

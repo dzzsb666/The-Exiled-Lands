@@ -1234,5 +1234,13 @@
   "Random Thrall": {
     "name": "随机奴隶",
     "source": "用户2026-10-15使用的分类名称；含义为随机种类的奴隶刷新点，不是固定职业或NPC专名。"
+  },
+  "Bin-Yakin's Seal": {
+    "name": "比特雅金的印章",
+    "source": "用户2026-10-15在地图制作会话确认；exiled-lands-points-revision23.json 的 Bit-Yakin's Seal、sourceId AA64B3284E56519970039CBAB9067DF1，对应MapGenie点位88250（原站拼写Bin-Yakin's Seal）。"
+  },
+  "Ruins of al-Merayah": {
+    "name": "阿梅莱亚废墟",
+    "source": "用户2026-10-15在地图制作会话确认；exiled-lands-points-revision23.json 的同英文地点，sourceId C6A43FAE49DCEB07C1E0699480D894BF，对应MapGenie点位88189。"
   }
 }

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build:review": "node scripts/build-source-review.mjs",
+    "build:review": "node scripts/build-data.mjs && node scripts/build-source-review.mjs",
     "prebuild": "npm run build:review",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",

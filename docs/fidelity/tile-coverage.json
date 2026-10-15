@@ -1,0 +1,225 @@
+{
+  "source": "User-provided HAR and map configuration; no remote requests",
+  "mapId": 258,
+  "tilePath": "conan-exiles/exiled-lands/default-v1",
+  "extension": "jpg",
+  "complete": false,
+  "note": "Configured bounds include background/padding; counts do not prove every coordinate contains playable terrain. Do not invent uncaptured tiles.",
+  "fontsAvailable": [
+    "cdn.mapgenie.io/fonts/conan-exiles/icons/icomoon.ttf",
+    "cdn.mapgenie.io/fonts/ionicons/ionicons.woff2",
+    "fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2",
+    "media.mapgenie.io/v2/assets/prod/fonts/crom/ttf/41704e3fedec.ttf"
+  ],
+  "levels": [
+    {
+      "z": 8,
+      "configuredBounds": {
+        "x": {
+          "max": 127,
+          "min": 127
+        },
+        "y": {
+          "max": 127,
+          "min": 127
+        }
+      },
+      "configuredTileCount": 1,
+      "capturedCount": 0,
+      "captured": []
+    },
+    {
+      "z": 9,
+      "configuredBounds": {
+        "x": {
+          "max": 255,
+          "min": 254
+        },
+        "y": {
+          "max": 255,
+          "min": 254
+        }
+      },
+      "configuredTileCount": 4,
+      "capturedCount": 0,
+      "captured": []
+    },
+    {
+      "z": 10,
+      "configuredBounds": {
+        "x": {
+          "max": 511,
+          "min": 508
+        },
+        "y": {
+          "max": 511,
+          "min": 508
+        }
+      },
+      "configuredTileCount": 16,
+      "capturedCount": 0,
+      "captured": []
+    },
+    {
+      "z": 11,
+      "configuredBounds": {
+        "x": {
+          "max": 1023,
+          "min": 1016
+        },
+        "y": {
+          "max": 1023,
+          "min": 1016
+        }
+      },
+      "configuredTileCount": 64,
+      "capturedCount": 0,
+      "captured": []
+    },
+    {
+      "z": 12,
+      "configuredBounds": {
+        "x": {
+          "max": 2047,
+          "min": 2032
+        },
+        "y": {
+          "max": 2047,
+          "min": 2032
+        }
+      },
+      "configuredTileCount": 256,
+      "capturedCount": 24,
+      "captured": [
+        [
+          2036,
+          2040
+        ],
+        [
+          2036,
+          2041
+        ],
+        [
+          2036,
+          2042
+        ],
+        [
+          2036,
+          2043
+        ],
+        [
+          2037,
+          2040
+        ],
+        [
+          2037,
+          2041
+        ],
+        [
+          2037,
+          2042
+        ],
+        [
+          2037,
+          2043
+        ],
+        [
+          2038,
+          2040
+        ],
+        [
+          2038,
+          2041
+        ],
+        [
+          2038,
+          2042
+        ],
+        [
+          2038,
+          2043
+        ],
+        [
+          2039,
+          2040
+        ],
+        [
+          2039,
+          2041
+        ],
+        [
+          2039,
+          2042
+        ],
+        [
+          2039,
+          2043
+        ],
+        [
+          2040,
+          2040
+        ],
+        [
+          2040,
+          2041
+        ],
+        [
+          2040,
+          2042
+        ],
+        [
+          2040,
+          2043
+        ],
+        [
+          2041,
+          2040
+        ],
+        [
+          2041,
+          2041
+        ],
+        [
+          2041,
+          2042
+        ],
+        [
+          2041,
+          2043
+        ]
+      ]
+    },
+    {
+      "z": 13,
+      "configuredBounds": {
+        "x": {
+          "max": 4095,
+          "min": 4064
+        },
+        "y": {
+          "max": 4095,
+          "min": 4064
+        }
+      },
+      "configuredTileCount": 1024,
+      "capturedCount": 0,
+      "captured": []
+    },
+    {
+      "z": 14,
+      "configuredBounds": {
+        "x": {
+          "max": 8191,
+          "min": 8128
+        },
+        "y": {
+          "max": 8191,
+          "min": 8128
+        }
+      },
+      "configuredTileCount": 4096,
+      "capturedCount": 0,
+      "captured": []
+    }
+  ]
+}

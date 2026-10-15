@@ -3,7 +3,7 @@
     "id": 3290,
     "groupId": 750,
     "title": "Capital City",
-    "name": null,
+    "name": "大型聚落",
     "icon": "capital_city",
     "color": "#9aadb9"
   },
@@ -35,7 +35,7 @@
     "id": 3285,
     "groupId": 750,
     "title": "Ruin",
-    "name": null,
+    "name": "遗迹",
     "icon": "ruin",
     "color": "#9aadb9"
   },
@@ -43,7 +43,7 @@
     "id": 3284,
     "groupId": 750,
     "title": "Vista",
-    "name": null,
+    "name": "景点",
     "icon": "vista",
     "color": "#9aadb9"
   },
@@ -51,7 +51,7 @@
     "id": 3292,
     "groupId": 757,
     "title": "Black Hand Camp",
-    "name": null,
+    "name": "黑手会",
     "icon": "black_hand_camp",
     "color": "#dba573"
   },
@@ -59,7 +59,7 @@
     "id": 3293,
     "groupId": 757,
     "title": "Cimmerian Camp",
-    "name": null,
+    "name": "西米利亚",
     "icon": "cimmerian_camp",
     "color": "#dba573"
   },
@@ -75,7 +75,7 @@
     "id": 3294,
     "groupId": 757,
     "title": "Desert Dogs Camp",
-    "name": null,
+    "name": "沙漠之犬",
     "icon": "desert_dogs_camp",
     "color": "#dba573"
   },

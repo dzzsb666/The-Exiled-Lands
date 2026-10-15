@@ -96,6 +96,11 @@ for(const group of window.mapData.groups){
 }
 for(const category of Object.values(window.mapData.categories)) category.title=confirmedNames.categories[category.id]||category.title;
 window.mapData.map.title="流放之地";
+// Keep the source map's own navigation and share targets on this local copy.
+const originalMapUrl='https://mapgenie.io/conan-exiles/maps/exiled-lands';
+const localMapUrl=new URL('/review/index.html',location.href);
+for(const anchor of document.querySelectorAll('.social a[href]'))
+  anchor.href=anchor.href.replace(encodeURIComponent(originalMapUrl),encodeURIComponent(localMapUrl.href));
 window.offlineSearch=async function(query){
   const data=await fetch('/review/data/locations.json').then(r=>r.json());
   const q=query.trim().toLocaleLowerCase();
@@ -120,7 +125,7 @@ html = html.replace("</head>", '<link rel="stylesheet" href="/review/no-ads.css"
 for (const [source, translated] of Object.entries(ui))
   html = html.replaceAll(`aria-label="${source}"`, `aria-label="${translated}"`)
     .replaceAll(`placeholder="${source}"`, `placeholder="${translated}"`);
-html = html.replace('href="https://mapgenie.io/conan-exiles/maps/exiled-lands"', 'href="/review/index.html"');
+html = html.replaceAll('href="https://mapgenie.io/conan-exiles/maps/exiled-lands"', 'href="/review/index.html"');
 fs.writeFileSync(path.join(target, "index.html"), html.split(/\r?\n/).map((line) => line.trimEnd()).join("\n").trimEnd() + "\n");
 fs.writeFileSync(path.join(target, "asset-manifest.json"), JSON.stringify({
   source: "User-provided saved webpage and HAR, 2026-10-15",
