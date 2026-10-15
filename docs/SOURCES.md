@@ -8,6 +8,8 @@
   https://conanexiles.th.gl/zh-Hans/guides/Locations?map=ExiledLands
 - 学习点与三星类别：此前用户验收的地图修订文件；保留名称身份边界，例如“攀爬套装”表示该NPC提供的学习点，不把它当NPC本名。
 - 用户本会话明确确认：Performer=艺人；Taskmaster=监工；Shaleback=岩背怪；Frostwolf=霜狼；Relic Hunter Camp=遗宝猎人营地；Dafari Camp=达法人营地。前两项属奴隶职业，接着两项属宠物，最后两项属营地。
+- 用户本会话资源分类确认：Black Ice=黑冰；Brimstone=硫磺；Coal=煤；Crystal=水晶；Ice=冰；Iron=铁；Obsidian=黑曜石；Silver=银矿；Star Metal=星辰矿。这些是资源采集点，未据此自动翻译其他颜色水晶、石鼻兽或装备名称。
+- 用户2026-10-15确认：Armorer=制甲匠；Random Thrall沿用“随机奴隶”，分类含义为随机种类奴隶的刷新点。此分类的原始点位标题`Named Thrall`尚未确认中文，仍保留英文，不把分类名套用为NPC姓名。
 
 ## 坐标变换
 
@@ -19,6 +21,8 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 ```
 
 十个控制点在 `projection-controls.json` 中保留。拟合在12K标注图中的最大残差39.1px，折算4000图约13.03px。Leaflet 使用 `CRS.Simple`，显示点位转为 `[4000-y, x]`，避免上下翻转。
+
+网格沿用原有地图生成脚本中的标定：A列从x约171开始，第17行从y约185开始，单格约226.7像素。点位详情、搜索结果与鼠标位置使用同一换算。网格为导航参考，边界附近仍应以实际点位为准。
 
 底图SHA-256：82fb465bff1b1d1955cd3f577ae8559556ee829401f0e66361f16100836cdde2。
 

@@ -89,7 +89,18 @@ export default function MapCanvas(props: Props) {
     m.on("mousemove", (e) =>
       latest.current.onPosition(e.latlng.lng, 4000 - e.latlng.lat),
     );
-    const obs = new ResizeObserver(() => m.invalidateSize());
+    let previousSize = m.getSize();
+    const obs = new ResizeObserver(() => {
+      m.invalidateSize();
+      const size = m.getSize();
+      if (size.x !== previousSize.x || size.y !== previousSize.y) {
+        const selectedPoint = latest.current.points.find(
+          (point) => point.id === latest.current.selected,
+        );
+        if (selectedPoint) latest.current.apiRef.current?.focus(selectedPoint);
+      }
+      previousSize = size;
+    });
     obs.observe(node.current!);
     return () => {
       obs.disconnect();
@@ -119,16 +130,28 @@ export default function MapCanvas(props: Props) {
         let marker: L.Marker | L.CircleMarker;
         if (isResource && !selected)
           marker = L.circleMarker(latlng, {
-            radius: zoom > 0 ? 6 : 4.5,
-            color: cat.color,
+            radius: zoom > 0 ? 6 : zoom < -2 ? 2.5 : 3.5,
+            color: "#19212b",
             weight: 1,
             fillColor: found ? "#5a6570" : cat.color,
-            fillOpacity: found ? 0.25 : 0.9,
+            fillOpacity: found ? 0.25 : zoom < -2 ? 0.7 : 0.9,
             opacity: found ? 0.35 : 1,
           });
         else {
           const Icon = categoryIcon(p.categoryId);
-          const size = selected ? 28 : zoom <= -1 ? 18 : zoom < 0 ? 23 : 27;
+          const size = selected
+            ? 28
+            : zoom < -2.5
+              ? cat.groupId === 750
+                ? 13
+                : 10
+              : zoom <= -1
+                ? cat.groupId === 755
+                  ? 15
+                  : 18
+                : zoom < 0
+                  ? 23
+                  : 27;
           const key = `${p.categoryId}:${size}`;
           if (!iconCache.has(key))
             iconCache.set(

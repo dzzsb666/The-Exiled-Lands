@@ -13,6 +13,7 @@ import {
 import { categoryIcon } from "../icons";
 import type { Category, Group, Point, Progress } from "../types";
 import { useState } from "react";
+import { mapGrid } from "../map-grid";
 interface Props {
   groups: Group[];
   categories: Category[];
@@ -75,7 +76,7 @@ export default function Sidebar(p: Props) {
         <Search size={17} />
         <input
           aria-label="搜索地点或分类"
-          placeholder="搜索地点、配方、分类…"
+          placeholder="搜索地点、配方、网格…"
           value={p.query}
           onChange={(e) => p.onQuery(e.target.value)}
         />
@@ -139,6 +140,8 @@ export default function Sidebar(p: Props) {
                       <strong>{point.name || point.title}</strong>
                       <small>
                         {c.name || c.title}
+                        {mapGrid(point.x, point.y) &&
+                          ` · ${mapGrid(point.x, point.y)}`}
                         {!point.name ? " · 中文待核对" : ""}
                       </small>
                     </span>
@@ -192,6 +195,7 @@ export default function Sidebar(p: Props) {
                     return (
                       <button
                         className={`category-row ${active ? "" : "disabled"}`}
+                        title={c.info || c.title}
                         key={c.id}
                         aria-pressed={active}
                         onClick={() => p.onToggle(c.id)}

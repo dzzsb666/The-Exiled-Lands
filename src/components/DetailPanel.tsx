@@ -1,6 +1,7 @@
 import { X, Check, Copy, ExternalLink, MapPin } from "lucide-react";
 import type { Category, Point } from "../types";
 import { categoryIcon } from "../icons";
+import { mapGrid } from "../map-grid";
 interface Props {
   point: Point;
   category: Category;
@@ -36,7 +37,14 @@ export default function DetailPanel(p: Props) {
           游戏内简体中文待核对，暂保留英文原名。
         </div>
       )}
+      {p.category.info && <p className="category-context">{p.category.info}</p>}
       {p.point.note && <div className="point-note">{p.point.note}</div>}
+      {mapGrid(p.point.x, p.point.y) && (
+        <div className="point-grid">
+          地图网格 <strong>{mapGrid(p.point.x, p.point.y)}</strong>
+          <span>边界附近以实际点位为准</span>
+        </div>
+      )}
       <button
         className={`found-button ${p.found ? "done" : ""}`}
         onClick={p.onFound}

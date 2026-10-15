@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .vercel/
+.vercel-upload/
 .env*
 !.env.example
 research/

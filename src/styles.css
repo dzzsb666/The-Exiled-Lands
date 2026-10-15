@@ -648,6 +648,32 @@ textarea::placeholder {
   color: #c0c7cf;
   margin: 14px 0;
 }
+.point-grid {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin-top: 14px;
+  font-size: 11px;
+  color: #a6b3bf;
+}
+.category-context {
+  font-size: 11px;
+  line-height: 1.8;
+  color: #a8b6c2;
+  margin-top: 10px;
+}
+.point-grid strong {
+  font:
+    600 18px system-ui,
+    sans-serif;
+  letter-spacing: 0.5px;
+  color: #e0c395;
+}
+.point-grid span {
+  margin-left: auto;
+  font-size: 8px;
+  color: #83929f;
+}
 .found-button {
   display: flex;
   align-items: center;

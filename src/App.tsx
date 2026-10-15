@@ -17,27 +17,31 @@ import {
 import type { MapData, PersonalPin, Point, Progress } from "./types";
 import {
   STORAGE_KEY,
+  PREFERENCES_KEY,
   downloadFile,
   loadProgress,
+  loadPreferences,
   validateProgress,
 } from "./storage";
 import MapCanvas from "./components/MapCanvas";
 import type { MapApi } from "./components/MapCanvas";
 import Sidebar from "./components/Sidebar";
 import DetailPanel from "./components/DetailPanel";
+import { mapGrid } from "./map-grid";
 
 export default function App() {
+  const [preferences] = useState(loadPreferences);
   const [data, setData] = useState<MapData | null>(null),
     [error, setError] = useState("");
   const [progress, setProgress] = useState<Progress>(loadProgress),
     [enabled, setEnabled] = useState<Set<number>>(new Set());
   const [query, setQuery] = useState(""),
     [tab, setTab] = useState("筛选"),
-    [hideFound, setHideFound] = useState(false),
-    [onlyPending, setOnlyPending] = useState(false);
+    [hideFound, setHideFound] = useState(preferences.hideFound),
+    [onlyPending, setOnlyPending] = useState(preferences.onlyPending);
   const [selected, setSelected] = useState<Point | null>(null),
     [mobileOpen, setMobileOpen] = useState(false),
-    [labels, setLabels] = useState(false),
+    [labels, setLabels] = useState(preferences.labels),
     [addMode, setAddMode] = useState(false);
   const [pinEditor, setPinEditor] = useState<PersonalPin | null>(null),
     [info, setInfo] = useState(false),
@@ -62,7 +66,14 @@ export default function App() {
       })
       .then((d: MapData) => {
         setData(d);
-        setEnabled(new Set(d.categories.map((c) => c.id)));
+        const valid = new Set(d.categories.map((c) => c.id));
+        setEnabled(
+          new Set(
+            preferences.enabled === null
+              ? [...valid]
+              : preferences.enabled.filter((id) => valid.has(id)),
+          ),
+        );
       })
       .catch((e) => {
         if (e.name !== "AbortError")
@@ -77,6 +88,23 @@ export default function App() {
       setToast("浏览器存储不可用，请导出进度备份。");
     }
   }, [progress]);
+  useEffect(() => {
+    if (!data) return;
+    try {
+      localStorage.setItem(
+        PREFERENCES_KEY,
+        JSON.stringify({
+          version: 1,
+          enabled: [...enabled],
+          hideFound,
+          onlyPending,
+          labels,
+        }),
+      );
+    } catch {
+      /* Exploration backup remains available if browser storage is disabled. */
+    }
+  }, [data, enabled, hideFound, onlyPending, labels]);
   useEffect(() => {
     if (!toast) return;
     const t = setTimeout(() => {
@@ -96,6 +124,9 @@ export default function App() {
         setAddMode(false);
         setMobileOpen(false);
         setSelected(null);
+        const url = new URL(location.href);
+        url.searchParams.delete("point");
+        history.replaceState(null, "", url);
       }
       if (e.key === "/" && !edit) {
         e.preventDefault();
@@ -123,12 +154,24 @@ export default function App() {
         (!hideFound || !found.has(p.id)) &&
         (!onlyPending || !p.name) &&
         (!q ||
-          [p.name, p.title, c.name, c.title, String(p.id)].some((s) =>
-            s?.toLowerCase().includes(q),
-          ))
+          [
+            p.name,
+            p.title,
+            c.name,
+            c.title,
+            mapGrid(p.x, p.y),
+            String(p.id),
+          ].some((s) => s?.toLowerCase().includes(q)))
       );
     });
   }, [data, query, enabled, hideFound, found, onlyPending, categories]);
+  const mapPoints = useMemo(
+    () =>
+      selected && !filtered.some((p) => p.id === selected.id)
+        ? [...filtered, selected]
+        : filtered,
+    [filtered, selected],
+  );
   const select = useCallback((point: Point) => {
     setSelected(point);
     setPinEditor(null);
@@ -337,7 +380,7 @@ export default function App() {
       />
       <main className="map-area">
         <MapCanvas
-          points={filtered}
+          points={mapPoints}
           categories={data.categories}
           found={found}
           selected={selected?.id ?? null}
@@ -428,7 +471,7 @@ export default function App() {
         <div className="map-bottom">
           <span className="coordinate-readout">
             {position
-              ? `X ${Math.round(position.x)} · Y ${Math.round(position.y)}`
+              ? `${mapGrid(position.x, position.y) || "地图边界"} · X ${Math.round(position.x)} · Y ${Math.round(position.y)}`
               : "拖动移动 · 滚轮缩放"}
           </span>
           <span>

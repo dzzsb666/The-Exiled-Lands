@@ -1,5 +1,42 @@
 import type { Progress } from "./types";
 export const STORAGE_KEY = "exiled-lands.progress.v1";
+export const PREFERENCES_KEY = "exiled-lands.preferences.v1";
+export interface MapPreferences {
+  version: 1;
+  enabled: number[] | null;
+  hideFound: boolean;
+  onlyPending: boolean;
+  labels: boolean;
+}
+export function loadPreferences(): MapPreferences {
+  const fallback: MapPreferences = {
+    version: 1,
+    enabled: null,
+    hideFound: false,
+    onlyPending: false,
+    labels: false,
+  };
+  try {
+    const raw = JSON.parse(localStorage.getItem(PREFERENCES_KEY) || "null");
+    if (
+      !raw ||
+      raw.version !== 1 ||
+      !Array.isArray(raw.enabled) ||
+      raw.enabled.length > 1000 ||
+      !raw.enabled.every(Number.isSafeInteger)
+    )
+      return fallback;
+    return {
+      version: 1,
+      enabled: [...new Set<number>(raw.enabled)],
+      hideFound: raw.hideFound === true,
+      onlyPending: raw.onlyPending === true,
+      labels: raw.labels === true,
+    };
+  } catch {
+    return fallback;
+  }
+}
 const empty = (): Progress => ({ version: 1, found: [], notes: {}, pins: [] });
 export function validateProgress(raw: unknown): Progress {
   if (!raw || typeof raw !== "object") throw new Error("文件格式不正确");

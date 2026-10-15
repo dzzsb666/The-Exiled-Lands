@@ -195,7 +195,7 @@
     "id": 3321,
     "groupId": 754,
     "title": "Armorer",
-    "name": null,
+    "name": "制甲匠",
     "icon": "armorer",
     "color": "#86a9cf"
   },
@@ -259,9 +259,10 @@
     "id": 3332,
     "groupId": 754,
     "title": "Random Thrall",
-    "name": null,
+    "name": "随机奴隶",
     "icon": "random_thrall",
-    "color": "#86a9cf"
+    "color": "#86a9cf",
+    "info": "随机种类的奴隶刷新点。点位说明标记为有几率出现，具体以游戏内实际刷新为准。"
   },
   {
     "id": 3329,
@@ -427,73 +428,73 @@
     "id": 3357,
     "groupId": 756,
     "title": "Black Ice",
-    "name": null,
+    "name": "黑冰",
     "icon": "black_ice",
-    "color": "#9ca8b8"
+    "color": "#a7bdd3"
   },
   {
     "id": 3359,
     "groupId": 756,
     "title": "Brimstone",
-    "name": null,
+    "name": "硫磺",
     "icon": "brimstone",
-    "color": "#9ca8b8"
+    "color": "#d6b55e"
   },
   {
     "id": 3361,
     "groupId": 756,
     "title": "Coal",
-    "name": null,
+    "name": "煤",
     "icon": "coal",
-    "color": "#9ca8b8"
+    "color": "#978d83"
   },
   {
     "id": 3366,
     "groupId": 756,
     "title": "Crystal",
-    "name": null,
+    "name": "水晶",
     "icon": "crystal",
-    "color": "#9ca8b8"
+    "color": "#ce9de2"
   },
   {
     "id": 3358,
     "groupId": 756,
     "title": "Ice",
-    "name": null,
+    "name": "冰",
     "icon": "ice",
-    "color": "#9ca8b8"
+    "color": "#a6d9ec"
   },
   {
     "id": 3362,
     "groupId": 756,
     "title": "Iron",
-    "name": null,
+    "name": "铁",
     "icon": "iron",
-    "color": "#9ca8b8"
+    "color": "#c28a69"
   },
   {
     "id": 3360,
     "groupId": 756,
     "title": "Obsidian",
-    "name": null,
+    "name": "黑曜石",
     "icon": "obsidian",
-    "color": "#9ca8b8"
+    "color": "#a695d4"
   },
   {
     "id": 3363,
     "groupId": 756,
     "title": "Silver",
-    "name": null,
+    "name": "银矿",
     "icon": "silver",
-    "color": "#9ca8b8"
+    "color": "#dbe1e8"
   },
   {
     "id": 3364,
     "groupId": 756,
     "title": "Star Metal",
-    "name": null,
+    "name": "星辰矿",
     "icon": "star_metal",
-    "color": "#9ca8b8"
+    "color": "#74b6a5"
   },
   {
     "id": 3369,

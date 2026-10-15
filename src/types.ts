@@ -6,6 +6,7 @@ export interface Category {
   icon: string;
   color: string;
   count: number;
+  info?: string;
 }
 export interface Group {
   id: number;

@@ -1,7 +1,12 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { validateProgress } from "../src/storage.ts";
+import {
+  validateProgress,
+  loadPreferences,
+  PREFERENCES_KEY,
+} from "../src/storage.ts";
+import { mapGrid } from "../src/map-grid.ts";
 const read = (file) =>
   JSON.parse(fs.readFileSync(new URL(file, import.meta.url), "utf8"));
 const map = read("../public/data/map.json");
@@ -37,6 +42,9 @@ test("every Chinese label has a recorded source, and pending names remain empty"
   );
   assert.equal(map.categories.find((c) => c.id === 3327).name, "艺人");
   assert.equal(map.categories.find((c) => c.id === 3346).name, "岩背怪");
+  assert.equal(map.categories.find((c) => c.id === 3321).name, "制甲匠");
+  assert.equal(map.categories.find((c) => c.id === 3332).name, "随机奴隶");
+  assert.equal(map.points.find((p) => p.id === 199370).name, null);
   assert.equal(map.points.find((p) => p.id === 120164).name, "遗宝猎人套装");
 });
 test("ten projected obelisks agree with the map control points within 14 pixels", () => {
@@ -73,4 +81,49 @@ test("progress import validates schema and rejects malformed or excessive values
     { ...good, pins: [good.pins[0], good.pins[0]] },
   ])
     assert.throws(() => validateProgress(bad));
+});
+test("map grids agree with retained landmark coordinates", () => {
+  assert.equal(mapGrid(1315.9698, 3265.5165), "F4");
+  assert.equal(mapGrid(988.2788, 3253.3294), "D4");
+  assert.equal(mapGrid(514.7432, 1696.4137), "B11");
+  for (const [x, y] of [
+    [100, 500],
+    [-1, 1000],
+    [500, 5000],
+    [NaN, 600],
+    [200, Infinity],
+  ])
+    assert.equal(mapGrid(x, y), null);
+});
+test("view preferences preserve intentional empty filters and recover from corrupt storage", () => {
+  const previous = Object.getOwnPropertyDescriptor(globalThis, "localStorage");
+  let payload = JSON.stringify({
+    version: 1,
+    enabled: [],
+    hideFound: true,
+    onlyPending: false,
+    labels: true,
+  });
+  Object.defineProperty(globalThis, "localStorage", {
+    configurable: true,
+    value: { getItem: (key) => (key === PREFERENCES_KEY ? payload : null) },
+  });
+  try {
+    assert.deepEqual(loadPreferences().enabled, []);
+    assert.equal(loadPreferences().hideFound, true);
+    payload = "{invalid";
+    assert.equal(loadPreferences().enabled, null);
+    payload = JSON.stringify({ version: 1, enabled: ["3290"] });
+    assert.equal(loadPreferences().enabled, null);
+    payload = JSON.stringify({
+      version: 1,
+      enabled: [3290, 3290],
+      hideFound: "true",
+    });
+    assert.deepEqual(loadPreferences().enabled, [3290]);
+    assert.equal(loadPreferences().hideFound, false);
+  } finally {
+    if (previous) Object.defineProperty(globalThis, "localStorage", previous);
+    else delete globalThis.localStorage;
+  }
 });
