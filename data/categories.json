@@ -136,7 +136,8 @@
     "id": 3308,
     "groupId": 751,
     "title": "Dictionary",
-    "name": null,
+    "name": "词典",
+    "translationSource": "用户2026-10-16确认：语言相关收集点的分类标题。",
     "icon": "dictionary",
     "color": "#d3b369"
   },
@@ -152,7 +153,8 @@
     "id": 3303,
     "groupId": 751,
     "title": "Lore",
-    "name": null,
+    "name": "文献",
+    "translationSource": "用户2026-10-16确认：日记等剧情文本收集点的分类标题。",
     "icon": "lore",
     "color": "#d3b369"
   },
@@ -168,7 +170,8 @@
     "id": 3318,
     "groupId": 753,
     "title": "Merchant",
-    "name": null,
+    "name": "商人",
+    "translationSource": "用户2026-10-16确认：出售物品的角色分类，不作为NPC专名译文。",
     "icon": "merchant",
     "color": "#7cbeae"
   },
@@ -176,7 +179,8 @@
     "id": 3315,
     "groupId": 753,
     "title": "NPC",
-    "name": null,
+    "name": "NPC",
+    "translationSource": "用户2026-10-16确认：可交互角色分类，保留NPC英文。",
     "icon": "npc",
     "color": "#7cbeae"
   },
@@ -538,7 +542,8 @@
     "id": 3372,
     "groupId": 758,
     "title": "Miscellaneous",
-    "name": null,
+    "name": "杂项",
+    "translationSource": "用户2026-10-16确认：未归入其他类别的点位分类。",
     "icon": "miscellaneous",
     "color": "#c97c85"
   }

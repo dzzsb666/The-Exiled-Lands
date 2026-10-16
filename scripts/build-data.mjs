@@ -8,7 +8,12 @@ const translations = read("translations.json");
 const overrides = read("point-overrides.json");
 const categories = read("categories.json");
 const points = source.points.map((p) => {
-  const entry = overrides[p.id] || translations[p.title];
+  const category = categories.find((c) => c.id === p.categoryId);
+  // Reuse confirmed generic animal/job labels only inside the identical category.
+  const generic = [754, 755].includes(category?.groupId) && p.title === category.title && category.name
+    ? { name: category.name, source: category.translationSource || "用户本会话已确认的同类通用名称；分类与点位英文完全相同，不适用于NPC专名或幼兽后缀。" }
+    : null;
+  const entry = overrides[p.id] || translations[p.title] || generic;
   return {
     ...p,
     name: entry?.name || null,

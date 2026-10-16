@@ -16,6 +16,8 @@
 - 用户2026-10-16确认营地分类：Exile Camp=流放者营地；Frost Giant Camp=冰霜巨人营地；Lemurian Camp=勒穆里亚营地；Other Camp=其他营地；Vanir Camp=华纳神族营地。至此11项营地分类均已确认中文，具体地点专名不据此改写。
 - 用户2026-10-16确认宠物分类：Bear=熊；Boar=野猪；Crocodile=鳄鱼；Elephant=大象；Fawn=幼鹿；Jaguar=美洲狮。Jaguar严格按用户指定用语保留，不自行改为其他译法；带Cub/Calf等字样的具体点位名称仍另行核对。
 - 用户2026-10-16补齐宠物分类：Lion=狮子；Ostrich=鸵鸟；Panther=黑豹；Rhino=犀牛；Sabretooth=剑齿虎；Spotted Hyena=斑点鬣狗；Striped Hyena=条纹鬣狗；Tiger=老虎；Wolf=狼。17项宠物分类均已确认，具体幼兽或蛋的点名仍另行核对。
+- 用户2026-10-16确认剩余分类：Dictionary=词典；Lore=文献；Merchant=商人；NPC=NPC（保留英文）；Miscellaneous=杂项。64项分类均已有确认显示名称，不代表点位本名或长篇说明全部翻译完成。
+- 已确认动物与职业名称的同语境复用：仅当点位属于宠物/奴隶分类，且英文标题与该分类英文逐字相同时，沿用该分类确认译名。共597处通用标题，无新译文；Named Thrall、NPC专名、幼兽后缀及Sabertooth等不同拼写不适用。单点覆盖和既有确认词条仍优先。
 - 用户其他会话已明确确认、2026-10-15同步：Bin-Yakin's Seal（原绘图记录写作Bit-Yakin's Seal）=比特雅金的印章；Ruins of al-Merayah=阿梅莱亚废墟。依据`assets/maps/exiled-lands-points-revision23.json`中的用户确认注记，分别匹配原站点位88250和88189。
 
 ## 原站素材中文核对入口
