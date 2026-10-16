@@ -1,5 +1,7 @@
 # 当前上线方式
 
+最新结果：用户实际站点[the-exiled-lands-kappa.vercel.app](https://the-exiled-lands-kappa.vercel.app/)已通过GitHub main自动部署原站素材修正版（代码提交`c8eaa43095c6ea4dfea27d0a8d5b0371ca52c6bf`），[Vercel部署记录](https://vercel.com/dzz893437690-8401s-projects/the-exiled-lands/EGuUc5zFEo2NjQDPKmRjdi4PhAnn)由GitHub提交状态确认success。修正了嵌套assets/dist被Git忽略导致9个资源404的问题；干净Git归档构建、12项测试与发布清单验证通过。线上68个公开文件均HTTP200，其中67个与干净构建SHA-1完全一致；旧版未使用的`favicon.svg`仅CRLF/LF换行不同，内容归一后相同。全部原站图集、字体、CSS、地图程序和瓦片均匹配。报告见`fidelity/kappa-live-assets-2026-10-16.json`。浏览器画面读取仍超时，不能声称已经获得线上截图。
+
 2026-10-16目标核对更正：用户实际打开的网站是`https://the-exiled-lands-kappa.vercel.app/`，属于`dzz893437690-8401s-projects`下另一个同名项目。下文正式网址是本会话此前连接的heifang项目，不能视为用户当前项目已更新。核查时kappa首页仍为旧React入口；已将原站素材修正版快进推送到GitHub main。当前Vercel连接直接读取用户团队项目返回403，尚未确认kappa项目是否自动构建并更新。
 
 2026-10-16用户追加要求“部署了给我看下”，本次据此发布最新原站素材修正版。默认仍由用户处理后续Vercel操作，本次发布不表示获得长期自动部署授权。
