@@ -241,7 +241,8 @@
     "id": 3326,
     "groupId": 754,
     "title": "Fighter",
-    "name": null,
+    "name": "斗士",
+    "translationSource": "用户2026-10-16确认：奴隶职业分类，不作为NPC专名译文。",
     "icon": "fighter",
     "color": "#86a9cf"
   },
@@ -257,7 +258,8 @@
     "id": 3328,
     "groupId": 754,
     "title": "Priest",
-    "name": null,
+    "name": "祭司",
+    "translationSource": "用户2026-10-16确认：奴隶职业分类，不作为NPC专名译文。",
     "icon": "priest",
     "color": "#86a9cf"
   },
@@ -274,7 +276,8 @@
     "id": 3329,
     "groupId": 754,
     "title": "Smelter",
-    "name": null,
+    "name": "司炉",
+    "translationSource": "用户2026-10-16确认：负责熔炼的奴隶职业分类，按用户原文不补后缀。",
     "icon": "smelter",
     "color": "#86a9cf"
   },
@@ -282,7 +285,8 @@
     "id": 3330,
     "groupId": 754,
     "title": "Tanner",
-    "name": null,
+    "name": "制革",
+    "translationSource": "用户2026-10-16确认：负责制革的奴隶职业分类，按用户原文不补后缀。",
     "icon": "tanner",
     "color": "#86a9cf"
   },
