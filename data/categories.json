@@ -307,7 +307,8 @@
     "id": 3333,
     "groupId": 755,
     "title": "Bear",
-    "name": null,
+    "name": "熊",
+    "translationSource": "用户2026-10-16确认：宠物动物分类，不自动用于具体幼兽点名。",
     "icon": "bear",
     "color": "#adbd81"
   },
@@ -315,7 +316,8 @@
     "id": 3334,
     "groupId": 755,
     "title": "Boar",
-    "name": null,
+    "name": "野猪",
+    "translationSource": "用户2026-10-16确认：宠物动物分类，不自动用于具体幼兽点名。",
     "icon": "boar",
     "color": "#adbd81"
   },
@@ -323,7 +325,8 @@
     "id": 3335,
     "groupId": 755,
     "title": "Crocodile",
-    "name": null,
+    "name": "鳄鱼",
+    "translationSource": "用户2026-10-16确认：宠物动物分类，不自动用于具体幼兽点名。",
     "icon": "crocodile",
     "color": "#adbd81"
   },
@@ -331,7 +334,8 @@
     "id": 3336,
     "groupId": 755,
     "title": "Elephant",
-    "name": null,
+    "name": "大象",
+    "translationSource": "用户2026-10-16确认：宠物动物分类，不自动用于具体幼兽点名。",
     "icon": "elephant",
     "color": "#adbd81"
   },
@@ -339,7 +343,8 @@
     "id": 3337,
     "groupId": 755,
     "title": "Fawn",
-    "name": null,
+    "name": "幼鹿",
+    "translationSource": "用户2026-10-16确认：宠物动物分类。",
     "icon": "fawn",
     "color": "#adbd81"
   },
@@ -355,7 +360,8 @@
     "id": 3340,
     "groupId": 755,
     "title": "Jaguar",
-    "name": null,
+    "name": "美洲狮",
+    "translationSource": "用户2026-10-16明确指定Jaguar分类为美洲狮，严格沿用用户游戏内用语，不自动用于具体幼兽点名。",
     "icon": "jaguar",
     "color": "#adbd81"
   },
