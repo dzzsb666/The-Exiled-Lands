@@ -27,6 +27,6 @@ npm run build
 
 ## GitHub与Vercel
 
-最新修改位于`codex/source-fidelity`分支。用户自行处理Vercel部署，本会话不执行部署；旧线上站点不会因本地修正自动更新。导入仓库时使用Vite，构建命令`npm run build`，输出目录`dist`，配置见`vercel.json`。
+最新修改位于`codex/source-fidelity`分支。2026-10-16按用户追加要求，已把最新静态构建发布至[正式地图](https://the-exiled-lands.vercel.app/)，线上68个公开文件与构建摘要全部一致；发布记录见[DEPLOYMENT.md](docs/DEPLOYMENT.md)。本次未配置Git自动发布。导入仓库时使用Vite，构建命令`npm run build`，输出目录`dist`，配置见`vercel.json`。
 
 原始HAR可能含请求头和账号信息，只保留在被Git忽略的`research`目录；仓库只保存筛选、净化后的公开地图素材。来源与边界见[来源记录](docs/SOURCES.md)、[英文参照](reference/README.md)。第三方代码和游戏素材的权利归原权利人，项目不宣称原创这些素材。

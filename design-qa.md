@@ -4,6 +4,8 @@
 
 final result: blocked
 
+2026-10-16按用户追加“部署了给我看下”执行本次生产发布：`dpl_HdWr23m1vWDdWY44St5DuVvL2pBh`已READY，正式域名为`https://the-exiled-lands.vercel.app/`。68个公开文件全部HTTP200且SHA-1与构建匹配，报告`docs/fidelity/live-deployment-assets-2026-10-16.json`。线上浏览器画面读取超时，未取得线上截图或复验搜索/手机交互；不以本地截图代替。缺图、账号功能和整站保真验收仍未完成，blocked保持。
+
 2026-10-16最新入口修正：`/`与`/review/index.html`现由同一生成器输出原站素材HTML。此前“未替换首页”均为历史状态；用户再次反馈图标问题后，查明首页仍加载旧React/Lucide实现，现已停用该入口。全站验收状态保持blocked，缺图和未实现功能不因入口修正消失。详见本轮验证及`docs/ERRORS.md`。
 
 ## 当前结果与证据
