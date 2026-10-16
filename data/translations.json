@@ -1235,6 +1235,30 @@
     "name": "随机奴隶",
     "source": "用户2026-10-15使用的分类名称；含义为随机种类的奴隶刷新点，不是固定职业或NPC专名。"
   },
+  "Argossean": {
+    "name": "辞典(阿格斯语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15121；以用户确认为准，未独立核验页面。"
+  },
+  "Turanian": {
+    "name": "辞典(图兰语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15140；以用户确认为准，未独立核验页面。"
+  },
+  "Kothian": {
+    "name": "辞典(寇斯语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15133；以用户确认为准，未独立核验页面。"
+  },
+  "Lemurian": {
+    "name": "辞典(勒穆里亚语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15134；以用户确认为准，未独立核验页面。"
+  },
+  "Atlantean": {
+    "name": "辞典(亚特兰蒂斯语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15122；以用户确认为准，未独立核验页面。"
+  },
+  "Khitani": {
+    "name": "辞典(契泰语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15132；以用户确认为准，未独立核验页面。"
+  },
   "Hyrkanian": {
     "name": "辞典(赫卡尼亚语)",
     "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15129；以用户确认为准，未独立核验页面。"
