@@ -1,11 +1,11 @@
 node_modules/
-dist/
+/dist/
 .vercel/
 .vercel-upload/
 .env*
 !.env.example
 research/
-assets/
+/assets/
 .qa/
 *.log
 *.tsbuildinfo

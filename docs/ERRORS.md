@@ -1,5 +1,11 @@
 # 发布错误与规避
 
+## 2026-10-16：Git忽略规则误伤嵌套原站素材
+
+kappa站点切换原站入口后，按发布清单读取实际资源，发现图集、Crom字体、Logo和markdown-it等9个必需资源404。本地素材验证通过却没有覆盖干净Git检出：`.gitignore`的未锚定`assets/`和`dist/`规则同时忽略了`media.mapgenie.io/v2/assets/...`与`markdown-it/.../dist/...`，导致它们从未进入仓库。
+
+修复：将这两条规则限定到项目根目录，补齐英文参照和生成页面缺失素材。原站参照整体按字节保存，重新登记已验证的工作区素材，避免原参照配置与vendor文本的Git换行转换使本地与Linux构建输出不同。用干净Git归档重新构建、测试和校验发布清单，然后验证用户实际域名上的素材响应；不能再用当前工作区的文件存在代替仓库交付完整性。
+
 ## 2026-10-16：没有核对用户实际访问的部署项目
 
 用户提供旧版与原站截图，指出图标依旧不一致。浏览器地址及公开首页源码核查确认：用户访问`https://the-exiled-lands-kappa.vercel.app/`，属于其`dzz893437690-8401s-projects`项目，仍加载`/assets/index-DymEKldR.js`和React root；本会话发布的`https://the-exiled-lands.vercel.app/`属于此前连接的heifang项目，已加载原版MapLibre、图集和侧栏。两个项目同名但不相同，不是找不到原站图标，也不能归因于用户浏览器缓存。

@@ -1,0 +1,139 @@
+
+
+
+@font-face {
+  font-family: 'Crom';
+  src: url("/source/media.mapgenie.io/v2/assets/prod/fonts/crom/ttf/41704e3fedec.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root, ::after {
+  --text-color: #FFFAEE;
+  --text-color-dark: #000;
+  --accent-color: #F9D6BC;
+  --border-color: #4F4B49;
+
+  --body-font-family: 'Open Sans';
+  --title-font-family: 'Crom';
+
+  --navbar-logo-width: 90px;
+
+  /* TITLE FONT */
+  --title-font-size: 18px;
+  --title-font-weight: normal;
+  --title-font-color: var(--accent-color);
+  --title-font-letter-spacing: 0px;
+
+  --map-background: #000000;
+
+  --sidebar-background-color: #272727;
+  --sidebar-subtitle-size: 18px;
+  --sidebar-subtitle-font-family: var(--title-font-family);
+
+  --map-link-color: color-mix(in srgb, var(--accent-color), transparent 75%);
+  --map-link-color-hover: color-mix(in srgb, var(--map-link-color), transparent 5%);
+  --map-link-color-selected: color-mix(in srgb, var(--map-link-color), transparent 10%);
+
+
+  --social-icon-background: color-mix(in srgb, var(--accent-color), transparent 85%);
+  --social-icon-background-hover: color-mix(in srgb, var(--accent-color), transparent 75%);
+
+  --popup-background: color-mix(in srgb, var(--sidebar-background-color), transparent 1%);
+  --popup-border-color: var(--sidebar-border-color);
+  --popup-button-highlight-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
+
+
+  /* GAME HUB PAGE */
+  --game-card-background-color: var(--accent-color);
+  --game-card-title-color: var(--sidebar-background-color);
+  --game-card-title-color-hover: color-mix(in srgb, var(--game-card-title-color), black 50%);
+
+  --series-card-title-background-color-hover: color-mix(in srgb, var(--game-card-background-color), transparent 75%);
+
+  /* GUIDES */
+
+
+  --checklist-filter-button-background-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
+  --checklist-filter-select-background-color: color-mix(in srgb, var(--sidebar-border-color), transparent 90%);
+}
+
+
+#categories .header {
+  color: var(--accent-color);
+}
+
+/* Font fixes*/
+#purchase-button, .upgrade-price {
+  font-family: var(--body-font-family), sans-serif; /* Crom font doesn't have $ symbol */
+}
+
+#categories .category-item .title {
+  font-size: 13px;
+}
+
+.region-panel .region-link {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+#left-sidebar {
+  .map-switcher-panel:before, .region-panel:before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    bottom: -10px;
+    font-size: 8px;
+    background: color-mix(in srgb, var(--map-link-color), transparent 10%);
+    transform: scale(-1);
+    padding: 7px 7px 7px 6px;
+    line-height: 8px;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .map-switcher-panel:before {
+    content: "MAPS";
+  }
+
+  .region-panel:before {
+    content: "BIOMES";
+  }
+
+  .map-switcher-panel {
+    position: relative;
+    padding-left: 25px;
+  }
+}
+
+.navbar-collapse .region-link {
+  width: 31%;
+  margin: 4px 1%;
+  font-size: 11px;
+}
+
+
+.tool-info-panel {
+  background-color: var(--sidebar-background-color);
+  color: var(--text-color);
+  border: 1px solid color-mix(in srgb, var(--sidebar-border-color), transparent 60%);
+
+  .tool-info-title {
+    color: var(--accent-color);
+  }
+}
+
+#marker-info {
+  a {
+    color: var(--accent-color) !important;
+    text-decoration: none !important;
+
+    &:hover {
+      background-color: color-mix(in srgb, var(--accent-color), transparent 75%);
+    }
+  }
+}
+
