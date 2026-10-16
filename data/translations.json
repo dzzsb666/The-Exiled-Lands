@@ -1467,6 +1467,30 @@
     "name": "黑暗外域的信徒",
     "source": "用户2026-10-16确认：3处可快速前往Isle of Siptah的NPC点位标题。"
   },
+  "Polite Laugh, Laughbig": {
+    "name": "礼貌地笑, 衷心地笑",
+    "source": "用户2026-10-16确认两个表情名称：Polite Laugh=礼貌地笑，Laughbig（Laugh Heartily）=衷心地笑；保留原站合并标题及逗号空格分隔。用户资料：https://conanexiles.th.gl/zh-Hans/db/emotes/emote_laughsmall 和 https://conanexiles.th.gl/zh-Hans/db/emotes/emote_laughbig；未独立核验页面。"
+  },
+  "Cheer": {
+    "name": "欢呼",
+    "source": "用户2026-10-16确认表情学习点标题；用户资料：https://conanexiles.th.gl/zh-Hans/db/emotes/emote_cheer；以用户确认为准，未独立核验页面。"
+  },
+  "Push-Ups": {
+    "name": "俯卧撑",
+    "source": "用户2026-10-16确认表情学习点标题；用户资料：https://conanexiles.th.gl/zh-Hans/db/emotes/emote_pushups；以用户确认为准，未独立核验页面。"
+  },
+  "Shake Fist": {
+    "name": "挥拳",
+    "source": "用户2026-10-16确认表情学习点标题；用户资料：https://conanexiles.th.gl/zh-Hans/db/emotes/emote_shakefist；以用户确认为准，未独立核验页面。"
+  },
+  "Fist Punch": {
+    "name": "出拳",
+    "source": "用户2026-10-16确认表情学习点标题；用户资料：https://conanexiles.th.gl/zh-Hans/db/emotes/emote_fistpunch；以用户确认为准，未独立核验页面。"
+  },
+  "Spit": {
+    "name": "吐唾沫",
+    "source": "用户2026-10-16确认表情学习点标题；用户资料：https://conanexiles.th.gl/zh-Hans/db/emotes/emote_spit；以用户确认为准，未独立核验页面。"
+  },
   "By Crom": {
     "name": "以克罗姆之名",
     "source": "用户2026-10-16确认：The Temple of Frost入口右侧石碑的表情学习点标题。"

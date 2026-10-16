@@ -35,6 +35,8 @@
 
 - 用户2026-10-16核实同名物品Etched Note的简中名称为“刻下的笔记”（item_30014），但明确说明尚未确认点位198449对应此物品，因此仅记为候选，不进入正式译名表。The Aqueduct、The Observatory、The Summoning Circle、The Gladiator Conscription、The Gallery五项中文仍未核实，继续保留英文。详见`TRANSLATION-CANDIDATES.md`。
 
+- 用户2026-10-16确认七个表情名称：Polite Laugh=礼貌地笑、Laughbig（Laugh Heartily）=衷心地笑、Cheer=欢呼、Push-Ups=俯卧撑、Shake Fist=挥拳、Fist Punch=出拳、Spit=吐唾沫。原站前两项共用一个点位标题，沿用“礼貌地笑, 衷心地笑”的合并格式，共更新六个点位；不拆点或改变原分类。用户提供的七个TH.GL表情资料链接已登记到译名来源，未独立核验页面。
+
 ## 原站素材中文核对入口
 
 `/review/index.html`使用用户提供的原站HTML/HAR中保存的原程序、字体、CSS、图标图集与2812个原生经纬度点位，去广告并本地化；本页不使用下文旧React首页的近似投影。原始HAR和请求头不提交。长篇说明保留英文，内部地图链接改为本地。登录/PRO服务和部分外部媒体没有实现。

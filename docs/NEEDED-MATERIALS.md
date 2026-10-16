@@ -30,11 +30,11 @@ HAR可能含Cookie和请求头，只保留在本地 `research`，不要上传Git
 
 ## 3. 游戏名称和说明
 
-当前2812个点位中2614处已应用用户确认的显示译名，198处标题保留英文。64项分类、28项词典点位名称全部确认；已补齐三组29处文献系列，以及“向猴神祈祷的祷文”“浸水的笔记”。用户提供的百科/攻略名称如实记录来源，不标为游戏客户端实测。Ophirean的百科候选及Techtosa、Raknys三个待核实系列继续为英文；The Refugee Highway、Ruins of Nebthub、Torn Diary Page、Sealing the Borders还需中文交互标题截图，不能用编辑器标签直译定名，见`TRANSLATION-CANDIDATES.md`。按分类和英文标题去重的待核对清单共198条，全部为点位标题；见 `../data/pending-translations.csv`。该清单不包含所有长篇说明的逐句翻译，未确认的游戏说明也继续保留英文。
+当前2812个点位中2620处已应用用户确认的显示译名，192处标题保留英文。64项分类、28项词典点位名称全部确认；已补齐三组29处文献系列、“向猴神祈祷的祷文”“浸水的笔记”及本批六个表情学习点标题。用户提供的百科/攻略名称如实记录来源，不标为游戏客户端实测。Ophirean的百科候选及Techtosa、Raknys三个待核实系列继续为英文；The Refugee Highway、Ruins of Nebthub、Torn Diary Page、Sealing the Borders还需中文交互标题截图，不能用编辑器标签直译定名，见`TRANSLATION-CANDIDATES.md`。按分类和英文标题去重的待核对清单共192条，全部为点位标题；见 `../data/pending-translations.csv`。该清单不包含所有长篇说明的逐句翻译，未确认的游戏说明也继续保留英文。
 
 本轮新增：
 
-最新待核实对应关系：Etched Note（198449）的同名物品简中为“刻下的笔记”（item_30014），但尚无该点位确实对应该物品的证据，暂保留英文。The Aqueduct、The Observatory、The Summoning Circle、The Gladiator Conscription、The Gallery五项也继续保留英文；本批没有新增正式译名，待确认标题仍为198处。
+待核实对应关系：Etched Note（198449）的同名物品简中为“刻下的笔记”（item_30014），但尚无该点位确实对应该物品的证据，暂保留英文。The Aqueduct、The Observatory、The Summoning Circle、The Gladiator Conscription、The Gallery五项也继续保留英文。
 
 | 英文原文 | 用户确认中文 | 使用语境 |
 | --- | --- | --- |
