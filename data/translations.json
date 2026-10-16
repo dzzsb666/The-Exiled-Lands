@@ -1235,6 +1235,30 @@
     "name": "随机奴隶",
     "source": "用户2026-10-15使用的分类名称；含义为随机种类的奴隶刷新点，不是固定职业或NPC专名。"
   },
+  "Black Kingdoms": {
+    "name": "辞典(黑色王国语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15124；链接已登记，未独立读取页面内容。"
+  },
+  "Pictish": {
+    "name": "辞典(皮克特语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15137；链接已登记，未独立读取页面内容。"
+  },
+  "Kambujan": {
+    "name": "辞典(卡姆布佳语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15130；链接已登记，未独立读取页面内容。"
+  },
+  "Brythunian": {
+    "name": "辞典(布鲁苏尼亚语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15125；链接已登记，未独立读取页面内容。"
+  },
+  "Himelian": {
+    "name": "辞典(西米利亚语)",
+    "source": "用户2026-10-16明确指定Himelian词典点位为辞典(西米利亚语)，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15127；严格沿用用户对应关系，链接未独立读取。"
+  },
+  "Keshani": {
+    "name": "辞典(克沙尼语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15131；链接已登记，未独立读取页面内容。"
+  },
   "Adherent of the Outer Dark": {
     "name": "黑暗外域的信徒",
     "source": "用户2026-10-16确认：3处可快速前往Isle of Siptah的NPC点位标题。"
