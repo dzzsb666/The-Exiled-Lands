@@ -11,6 +11,7 @@
 - 用户本会话资源分类确认：Black Ice=黑冰；Brimstone=硫磺；Coal=煤；Crystal=水晶；Ice=冰；Iron=铁；Obsidian=黑曜石；Silver=银矿；Star Metal=星辰矿。这些是资源采集点，未据此自动翻译其他颜色水晶、石鼻兽或装备名称。
 - 用户2026-10-15确认：Armorer=制甲匠；Random Thrall沿用“随机奴隶”，分类含义为随机种类奴隶的刷新点。此分类的原始点位标题`Named Thrall`尚未确认中文，仍保留英文，不把分类名套用为NPC姓名。
 - 用户本轮确认：Capital City=大型聚落；Ruin=遗迹；Vista=景点；Black Hand Camp=黑手会；Cimmerian Camp=西米利亚；Desert Dogs Camp=沙漠之犬。后面三项为营地分类，严格沿用用户原文，不自行添加“营地”。
+- 用户2026-10-16确认奴隶分类：Alchemist=炼金术士；Archer=弓箭手；Bearer=搬运工；Blacksmith=铁匠；Carpenter=木匠；Cook=厨师。仅用于职业/类型筛选，不据此替换英文NPC姓名。
 - 用户其他会话已明确确认、2026-10-15同步：Bin-Yakin's Seal（原绘图记录写作Bit-Yakin's Seal）=比特雅金的印章；Ruins of al-Merayah=阿梅莱亚废墟。依据`assets/maps/exiled-lands-points-revision23.json`中的用户确认注记，分别匹配原站点位88250和88189。
 
 ## 原站素材中文核对入口

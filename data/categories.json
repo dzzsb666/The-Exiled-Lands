@@ -179,7 +179,8 @@
     "id": 3320,
     "groupId": 754,
     "title": "Alchemist",
-    "name": null,
+    "name": "炼金术士",
+    "translationSource": "用户2026-10-16确认：奴隶职业分类，不作为NPC专名译文。",
     "icon": "alchemist",
     "color": "#86a9cf"
   },
@@ -187,7 +188,8 @@
     "id": 3319,
     "groupId": 754,
     "title": "Archer",
-    "name": null,
+    "name": "弓箭手",
+    "translationSource": "用户2026-10-16确认：奴隶职业分类，不作为NPC专名译文。",
     "icon": "archer",
     "color": "#86a9cf"
   },
@@ -203,7 +205,8 @@
     "id": 3322,
     "groupId": 754,
     "title": "Bearer",
-    "name": null,
+    "name": "搬运工",
+    "translationSource": "用户2026-10-16确认：负责搬运物资的奴隶类型，不作为NPC专名译文。",
     "icon": "bearer",
     "color": "#86a9cf"
   },
@@ -211,7 +214,8 @@
     "id": 3323,
     "groupId": 754,
     "title": "Blacksmith",
-    "name": null,
+    "name": "铁匠",
+    "translationSource": "用户2026-10-16确认：奴隶职业分类，不作为NPC专名译文。",
     "icon": "blacksmith",
     "color": "#86a9cf"
   },
@@ -219,7 +223,8 @@
     "id": 3324,
     "groupId": 754,
     "title": "Carpenter",
-    "name": null,
+    "name": "木匠",
+    "translationSource": "用户2026-10-16确认：奴隶职业分类，不作为NPC专名译文。",
     "icon": "carpenter",
     "color": "#86a9cf"
   },
@@ -227,7 +232,8 @@
     "id": 3325,
     "groupId": 754,
     "title": "Cook",
-    "name": null,
+    "name": "厨师",
+    "translationSource": "用户2026-10-16确认：奴隶职业分类，不作为NPC专名译文。",
     "icon": "cook",
     "color": "#86a9cf"
   },
