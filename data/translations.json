@@ -1235,6 +1235,46 @@
     "name": "随机奴隶",
     "source": "用户2026-10-15使用的分类名称；含义为随机种类的奴隶刷新点，不是固定职业或NPC专名。"
   },
+  "Ancient Stygian": {
+    "name": "辞典(古斯泰吉亚语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15120；以用户确认为准，未独立核验页面。"
+  },
+  "Nemedian": {
+    "name": "辞典(内梅迪亚语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15135；以用户确认为准，未独立核验页面。"
+  },
+  "Vilayet": {
+    "name": "辞典(维拉耶语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15143；以用户确认为准，未独立核验页面。"
+  },
+  "Zhemri": {
+    "name": "辞典(贞姆尔语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15145；以用户确认为准，未独立核验页面。"
+  },
+  "Cimmerian": {
+    "name": "辞典(西米里亚语)",
+    "source": "用户2026-10-16明确单独核对词典点位，确认西米里亚语，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15126；不套用其他分类或Himelian旧译名，未独立核验页面。"
+  },
+  "Hyperborean": {
+    "name": "辞典(海珀波利亚语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15128；以用户确认为准，未独立核验页面。"
+  },
+  "Zuagir": {
+    "name": "辞典(爪吉尔语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15147；以用户确认为准，未独立核验页面。"
+  },
+  "Nordheimr": {
+    "name": "辞典(诺德海姆语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15136；以用户确认为准，未独立核验页面。"
+  },
+  "Valusian": {
+    "name": "辞典(瓦鲁西亚语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15141；以用户确认为准，未独立核验页面。"
+  },
+  "Tongue of the Serpent Men": {
+    "name": "辞典(蛇人腔)",
+    "source": "用户2026-10-16明确确认资料原名用腔而非语，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15139；以用户确认为准，未独立核验页面。"
+  },
   "Argossean": {
     "name": "辞典(阿格斯语)",
     "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15121；以用户确认为准，未独立核验页面。"
@@ -1300,8 +1340,8 @@
     "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15125；链接已登记，未独立读取页面内容。"
   },
   "Himelian": {
-    "name": "辞典(西米利亚语)",
-    "source": "用户2026-10-16明确指定Himelian词典点位为辞典(西米利亚语)，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15127；严格沿用用户对应关系，链接未独立读取。"
+    "name": "辞典(希玛拉亚语 )",
+    "source": "用户2026-10-16最新更正Himelian为辞典(希玛拉亚语 )，保留括号内空格，覆盖此前西米利亚语的确认；资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15127；未独立核验页面。"
   },
   "Keshani": {
     "name": "辞典(克沙尼语)",

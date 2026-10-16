@@ -24,6 +24,8 @@
 - 用户2026-10-16确认六项词典点位：Black Kingdoms=辞典(黑色王国语)（item_15124）；Pictish=辞典(皮克特语)（item_15137）；Kambujan=辞典(卡姆布佳语)（item_15130）；Brythunian=辞典(布鲁苏尼亚语)（item_15125）；Himelian=辞典(西米利亚语)（item_15127）；Keshani=辞典(克沙尼语)（item_15131）。按用户给出的英文对应关系、完整名称与半角括号保留。TH.GL资料链接记录于译名来源；网页工具未能读取链接内容，依据为用户明确确认，不声称已独立核验页面。分类标题仍为“词典”。
 - 用户2026-10-16继续确认：Hyrkanian=辞典(赫卡尼亚语)（item_15129）；Vendhyan=辞典(温迪雅语)（item_15142）；Zingaran=辞典(辛加拉语)（item_15146）；Zamoran=辞典(萨莫拉语)（item_15144）；Shemitish=辞典(谢姆语)（item_15138）；Barachan=辞典(巴拉尚语)（item_15123）。链接为用户提供的资料引用，以用户确认名称为准，未独立核验页面。
 - 用户2026-10-16第三批确认：Argossean=辞典(阿格斯语)（item_15121）；Turanian=辞典(图兰语)（item_15140）；Kothian=辞典(寇斯语)（item_15133）；Lemurian=辞典(勒穆里亚语)（item_15134）；Atlantean=辞典(亚特兰蒂斯语)（item_15122）；Khitani=辞典(契泰语)（item_15132）。保留用户完整名称及英文对应关系，资料引用未独立核验。
+- 用户2026-10-16最后一批确认：Ancient Stygian=辞典(古斯泰吉亚语)（item_15120）；Nemedian=辞典(内梅迪亚语)（item_15135）；Vilayet=辞典(维拉耶语)（item_15143）；Zhemri=辞典(贞姆尔语)（item_15145）；Cimmerian=辞典(西米里亚语)（item_15126）；Hyperborean=辞典(海珀波利亚语)（item_15128）；Zuagir=辞典(爪吉尔语)（item_15147）；Nordheimr=辞典(诺德海姆语)（item_15136）；Valusian=辞典(瓦鲁西亚语)（item_15141）；Tongue of the Serpent Men=辞典(蛇人腔)（item_15139）。全部链接登记于译名来源，未独立核验页面。
+- 同轮最新更正：Himelian=辞典(希玛拉亚语 )（item_15127），覆盖此前“辞典(西米利亚语)”；括号内空格按用户原文保留。Cimmerian已单独确认使用“西米里亚”，不与Himelian混用；“蛇人腔”不改为“蛇人语”。28项词典点位均已有用户确认名称。
 - 用户其他会话已明确确认、2026-10-15同步：Bin-Yakin's Seal（原绘图记录写作Bit-Yakin's Seal）=比特雅金的印章；Ruins of al-Merayah=阿梅莱亚废墟。依据`assets/maps/exiled-lands-points-revision23.json`中的用户确认注记，分别匹配原站点位88250和88189。
 
 ## 原站素材中文核对入口
