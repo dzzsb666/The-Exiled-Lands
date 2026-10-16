@@ -1235,6 +1235,30 @@
     "name": "随机奴隶",
     "source": "用户2026-10-15使用的分类名称；含义为随机种类的奴隶刷新点，不是固定职业或NPC专名。"
   },
+  "Hyrkanian": {
+    "name": "辞典(赫卡尼亚语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15129；以用户确认为准，未独立核验页面。"
+  },
+  "Vendhyan": {
+    "name": "辞典(温迪雅语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15142；以用户确认为准，未独立核验页面。"
+  },
+  "Zingaran": {
+    "name": "辞典(辛加拉语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15146；以用户确认为准，未独立核验页面。"
+  },
+  "Zamoran": {
+    "name": "辞典(萨莫拉语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15144；以用户确认为准，未独立核验页面。"
+  },
+  "Shemitish": {
+    "name": "辞典(谢姆语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15138；以用户确认为准，未独立核验页面。"
+  },
+  "Barachan": {
+    "name": "辞典(巴拉尚语)",
+    "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15123；以用户确认为准，未独立核验页面。"
+  },
   "Black Kingdoms": {
     "name": "辞典(黑色王国语)",
     "source": "用户2026-10-16明确确认词典点位标题，并提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_15124；链接已登记，未独立读取页面内容。"
