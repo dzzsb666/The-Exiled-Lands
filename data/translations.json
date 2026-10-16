@@ -1235,6 +1235,30 @@
     "name": "随机奴隶",
     "source": "用户2026-10-15使用的分类名称；含义为随机种类的奴隶刷新点，不是固定职业或NPC专名。"
   },
+  "Named Thrall": {
+    "name": "传奇奴隶",
+    "source": "用户2026-10-16确认：随机奴隶分类下52处通用点位标题；不改分类名，不作为具体NPC姓名。"
+  },
+  "Sabertooth": {
+    "name": "剑齿虎",
+    "source": "用户2026-10-16确认：原站宠物点位拼写Sabertooth，与分类Sabretooth同用剑齿虎。"
+  },
+  "Exiles Camp": {
+    "name": "流放者营地",
+    "source": "用户2026-10-16确认：24处通用营地点位标题，与分类Exile Camp同用流放者营地。"
+  },
+  "Green Crystal": {
+    "name": "绿水晶",
+    "source": "用户2026-10-16确认：水晶资源点标题，语境为The Passage内的资源点。"
+  },
+  "Red Crystal": {
+    "name": "红水晶",
+    "source": "用户2026-10-16确认：水晶资源点标题，语境为Hanuman's Grotto内的资源点。"
+  },
+  "Journal": {
+    "name": "日记",
+    "source": "用户2026-10-16确认：文献分类下不带角色姓名的通用点位标题，不自动翻译具名日记。"
+  },
   "Bin-Yakin's Seal": {
     "name": "比特雅金的印章",
     "source": "用户2026-10-15在地图制作会话确认；exiled-lands-points-revision23.json 的 Bit-Yakin's Seal、sourceId AA64B3284E56519970039CBAB9067DF1，对应MapGenie点位88250（原站拼写Bin-Yakin's Seal）。"
