@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "predev": "npm run build:review",
     "dev": "vite --host 127.0.0.1",
     "build:review": "node scripts/build-data.mjs && node scripts/build-source-review.mjs",
     "prebuild": "npm run build:review",

@@ -94,6 +94,13 @@ const names = {
   groups: Object.fromEntries([...groups].map(([id, g]) => [id, g.name])),
 };
 config += `
+// Preserve links created by the retired React entry without changing point identity.
+const legacyPointUrl=new URL(location.href);
+if(legacyPointUrl.searchParams.has('point')&&!legacyPointUrl.searchParams.has('locationIds')){
+  legacyPointUrl.searchParams.set('locationIds',legacyPointUrl.searchParams.get('point'));
+  legacyPointUrl.searchParams.delete('point');
+  history.replaceState(null,'',legacyPointUrl.href);
+}
 const confirmedNames=${JSON.stringify(names)};
 for(const group of window.mapData.groups){
   group.title=confirmedNames.groups[group.id]||group.title;
@@ -132,7 +139,10 @@ for (const [source, translated] of Object.entries(ui))
     .replaceAll(`title="${source}"`, `title="${translated}"`)
     .replaceAll(`placeholder="${source}"`, `placeholder="${translated}"`);
 html = html.replaceAll('href="https://mapgenie.io/conan-exiles/maps/exiled-lands"', 'href="/review/index.html"');
-fs.writeFileSync(path.join(target, "index.html"), html.split(/\r?\n/).map((line) => line.trimEnd()).join("\n").trimEnd() + "\n");
+const localizedHtml = html.split(/\r?\n/).map((line) => line.trimEnd()).join("\n").trimEnd() + "\n";
+fs.writeFileSync(path.join(target, "index.html"), localizedHtml);
+// The public entry must use the same source renderer as the review page.
+fs.writeFileSync(path.join(root, "index.html"), localizedHtml);
 fs.writeFileSync(path.join(target, "asset-manifest.json"), JSON.stringify({
   source: "User-provided saved webpage and HAR, 2026-10-15",
   adsExcluded: true, remoteRequestsAllowed: false,

@@ -46,6 +46,27 @@ test("all 64 source category sprites and real fonts are retained without substit
   ]) assert.deepEqual(fs.readFileSync(path.join(root, "public/review/source", file)), fs.readFileSync(path.join(root, "reference/source", file)));
 });
 
+test("public entry uses the source renderer and all category icons keep their original identity", () => {
+  assert.equal(text("index.html"), text("public/review/index.html"));
+  assert.doesNotMatch(text("index.html"), /src\/main\.tsx|lucide|leaflet|id="root"/i);
+  const staticData = (file) => JSON.parse(text(file).match(/^window\.mapData=(.+);$/m)[1]);
+  const source = staticData("reference/offline-config.js");
+  const localized = staticData("public/review/map-config.js");
+  const sprites = json("public/review/source/media.mapgenie.io/v2/assets/prod/games/conan-exiles/markers/markers.json");
+  const positions = JSON.parse(text("reference/offline-config.js").match(/^var MARKER_SPRITE_POSITIONS_V3=(.+);$/m)[1]);
+  for (const category of json("data/categories.json")) {
+    const original = source.categories[category.id];
+    assert.equal(category.icon, original.icon, `${category.id}: icon identity`);
+    assert.deepEqual(localized.categories[category.id], original, `${category.id}: source styling`);
+    const sourceSprite = positions[category.id];
+    const iconSprite = sprites[original.icon];
+    for (const key of ["x", "y", "width", "height"])
+      assert.equal(sourceSprite[key] / sourceSprite.pixelRatio, iconSprite[key] / iconSprite.pixelRatio, `${category.id}:${key}`);
+  }
+  for (const group of source.groups)
+    assert.deepEqual(localized.groups.find((g) => g.id === group.id), group, `${group.id}: original category order and styling`);
+});
+
 test("review contains only allowlisted assets, blocks remote loads and excludes ad containers", () => {
   const manifest = json("public/review/asset-manifest.json");
   const html = text("public/review/index.html");

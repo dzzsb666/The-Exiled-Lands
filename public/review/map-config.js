@@ -38,6 +38,13 @@ window.mapboxgl=window.maplibregl;window.Analytics={trackEngagement(){},trackEve
 for(const key of ['cdnUrl','tilesCdnUrl']) window[key]=location.origin+window[key];MARKER_IMAGES_URL=location.origin+MARKER_IMAGES_URL;window.mapData.mapConfig.glyphs_url=location.origin+window.mapData.mapConfig.glyphs_url;
 
 
+// Preserve links created by the retired React entry without changing point identity.
+const legacyPointUrl=new URL(location.href);
+if(legacyPointUrl.searchParams.has('point')&&!legacyPointUrl.searchParams.has('locationIds')){
+  legacyPointUrl.searchParams.set('locationIds',legacyPointUrl.searchParams.get('point'));
+  legacyPointUrl.searchParams.delete('point');
+  history.replaceState(null,'',legacyPointUrl.href);
+}
 const confirmedNames={"categories":{"3282":"洞穴","3283":"副本","3284":"景点","3285":"遗迹","3286":"方尖碑","3290":"大型聚落","3291":"达法人营地","3292":"黑手会","3293":"西米利亚","3294":"沙漠之犬","3295":"冰霜巨人营地","3296":"勒穆里亚营地","3298":"华纳神族营地","3299":"遗宝猎人营地","3300":"其他营地","3301":"流放者营地","3303":"文献","3304":"配方","3305":"表情","3308":"词典","3315":"NPC","3318":"商人","3319":"弓箭手","3320":"炼金术士","3321":"制甲匠","3322":"搬运工","3323":"铁匠","3324":"木匠","3325":"厨师","3326":"斗士","3327":"艺人","3328":"祭司","3329":"司炉","3330":"制革","3331":"监工","3332":"随机奴隶","3333":"熊","3334":"野猪","3335":"鳄鱼","3336":"大象","3337":"幼鹿","3338":"霜狼","3340":"美洲狮","3341":"狮子","3342":"鸵鸟","3343":"黑豹","3344":"犀牛","3345":"剑齿虎","3346":"岩背怪","3347":"斑点鬣狗","3348":"条纹鬣狗","3349":"老虎","3350":"狼","3357":"黑冰","3358":"冰","3359":"硫磺","3360":"黑曜石","3361":"煤","3362":"铁","3363":"银矿","3364":"星辰矿","3366":"水晶","3369":"Boss","3372":"杂项"},"groups":{"750":"地点","751":"收集品","753":"人物","754":"奴隶","755":"宠物","756":"资源","757":"营地","758":"其他"}};
 for(const group of window.mapData.groups){
   group.title=confirmedNames.groups[group.id]||group.title;

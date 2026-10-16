@@ -39,6 +39,8 @@
 
 ## 原站素材中文核对入口
 
+2026-10-16入口更正：首页`/`与`/review/index.html`由同一生成器输出相同原站素材HTML，首页不再加载旧React/Lucide图标和Leaflet投影。旧React相关说明仅是退役实现的历史记录。64类图标身份与原分类配置逐项相同，图集坐标按pixelRatio归一后与原分类ID对应，不以图标名称“看起来合适”作替换。
+
 `/review/index.html`使用用户提供的原站HTML/HAR中保存的原程序、字体、CSS、图标图集与2812个原生经纬度点位，去广告并本地化；本页不使用下文旧React首页的近似投影。原始HAR和请求头不提交。长篇说明保留英文，内部地图链接改为本地。登录/PRO服务和部分外部媒体没有实现。
 
 现有完整成品图为`assets/maps/exiled-lands-bosses-revision26-HD-12000.jpg`。完整干净底图与24张原站瓦片的离线比对显示地形吻合但非像素相同，见`fidelity/terrain-alignment.json`；未生成替代瓦片。缺口详见[需要补充的资料](NEEDED-MATERIALS.md)。
