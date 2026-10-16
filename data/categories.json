@@ -83,7 +83,8 @@
     "id": 3301,
     "groupId": 757,
     "title": "Exile Camp",
-    "name": null,
+    "name": "流放者营地",
+    "translationSource": "用户2026-10-16确认：营地分类。",
     "icon": "exile_camp",
     "color": "#dba573"
   },
@@ -91,7 +92,8 @@
     "id": 3295,
     "groupId": 757,
     "title": "Frost Giant Camp",
-    "name": null,
+    "name": "冰霜巨人营地",
+    "translationSource": "用户2026-10-16确认：营地分类。",
     "icon": "frost_giant_camp",
     "color": "#dba573"
   },
@@ -99,7 +101,8 @@
     "id": 3296,
     "groupId": 757,
     "title": "Lemurian Camp",
-    "name": null,
+    "name": "勒穆里亚营地",
+    "translationSource": "用户2026-10-16确认：营地分类。",
     "icon": "lemurian_camp",
     "color": "#dba573"
   },
@@ -107,7 +110,8 @@
     "id": 3300,
     "groupId": 757,
     "title": "Other Camp",
-    "name": null,
+    "name": "其他营地",
+    "translationSource": "用户2026-10-16确认：未归入其他势力的营地分类。",
     "icon": "other_camp",
     "color": "#dba573"
   },
@@ -123,7 +127,8 @@
     "id": 3298,
     "groupId": 757,
     "title": "Vanir Camp",
-    "name": null,
+    "name": "华纳神族营地",
+    "translationSource": "用户2026-10-16确认：营地分类。",
     "icon": "vanir_camp",
     "color": "#dba573"
   },

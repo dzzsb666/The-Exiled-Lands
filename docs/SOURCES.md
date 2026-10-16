@@ -13,6 +13,7 @@
 - 用户本轮确认：Capital City=大型聚落；Ruin=遗迹；Vista=景点；Black Hand Camp=黑手会；Cimmerian Camp=西米利亚；Desert Dogs Camp=沙漠之犬。后面三项为营地分类，严格沿用用户原文，不自行添加“营地”。
 - 用户2026-10-16确认奴隶分类：Alchemist=炼金术士；Archer=弓箭手；Bearer=搬运工；Blacksmith=铁匠；Carpenter=木匠；Cook=厨师。仅用于职业/类型筛选，不据此替换英文NPC姓名。
 - 用户2026-10-16继续确认：Fighter=斗士；Priest=祭司；Smelter=司炉；Tanner=制革。用于奴隶职业分类，严格保留用户原文，不添加“工”或“匠”。至此14项奴隶分类均有用户确认的中文。
+- 用户2026-10-16确认营地分类：Exile Camp=流放者营地；Frost Giant Camp=冰霜巨人营地；Lemurian Camp=勒穆里亚营地；Other Camp=其他营地；Vanir Camp=华纳神族营地。至此11项营地分类均已确认中文，具体地点专名不据此改写。
 - 用户其他会话已明确确认、2026-10-15同步：Bin-Yakin's Seal（原绘图记录写作Bit-Yakin's Seal）=比特雅金的印章；Ruins of al-Merayah=阿梅莱亚废墟。依据`assets/maps/exiled-lands-points-revision23.json`中的用户确认注记，分别匹配原站点位88250和88189。
 
 ## 原站素材中文核对入口
