@@ -7,6 +7,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
 const files = [];
 function add(file, bytes) {
+  if (!Buffer.isBuffer(bytes)) throw new Error(`Expected binary file content: ${file}`);
   files.push({
     file,
     size: bytes.length,
@@ -27,12 +28,6 @@ const sourceConfig = JSON.parse(
 );
 add(
   "vercel.json",
-  "review/index.html",
-  "review/map-config.js",
-  "review/fonts.css",
-  "review/no-ads.css",
-  "review/data/locations.json",
-  "review/asset-manifest.json",
   Buffer.from(JSON.stringify({ headers: sourceConfig.headers })),
 );
 const required = [
@@ -41,6 +36,12 @@ const required = [
   "data/pending-translations.csv",
   "maps/exiled-lands-4000-v1.jpg",
   "vercel.json",
+  "review/index.html",
+  "review/map-config.js",
+  "review/fonts.css",
+  "review/no-ads.css",
+  "review/data/locations.json",
+  "review/asset-manifest.json",
 ];
 for (const name of required)
   if (!files.some((file) => file.file === name && file.size > 0))
