@@ -4,6 +4,8 @@
 
 final result: blocked
 
+2026-10-16图标尺寸和颜色专项核对：原版图集每项33×44 CSS像素，默认iconSize=1，原程序另有0.6的小图标档；图钉锚点bottom。64个启用分类中47类使用图钉、17类宠物使用圆点；原版宠物圆点默认半径6px、填充#659654、描边#E4E0DD，描边宽1px/不透明度0.9。直接统计PNG不透明像素确认资源底色#696257、营地#8F4141、收集品#4A9AAB、奴隶#B28F52、地点#384149，图案为白色。完整分类参数见`docs/fidelity/marker-style-metrics-2026-10-16.json`。新增回归检查对比原版与中文程序的icon-size、anchor及圆点paint对象，13项测试通过。本轮没有凭感觉改写已与原版一致的生产数值；实际线上画面仍未取得新的浏览器截图，不据此声称视觉验收通过。
+
 2026-10-16最新用户站点修正：此前发布heifang同名项目与用户实际kappa域名不一致；已将修正快进同步main，并修复Git忽略规则误伤嵌套原站assets/dist而漏掉9个依赖文件的问题。干净Git归档构建与12项测试通过；kappa的c8eaa43部署状态success，原站图集、字体、CSS、程序及瓦片均在线匹配，详见`docs/fidelity/kappa-live-assets-2026-10-16.json`。尚未取得线上浏览器截图，其他缺图和保真状态缺口仍未解决，整体blocked保持。
 
 2026-10-16按用户追加“部署了给我看下”执行本次生产发布：`dpl_HdWr23m1vWDdWY44St5DuVvL2pBh`已READY，正式域名为`https://the-exiled-lands.vercel.app/`。68个公开文件全部HTTP200且SHA-1与构建匹配，报告`docs/fidelity/live-deployment-assets-2026-10-16.json`。线上浏览器画面读取超时，未取得线上截图或复验搜索/手机交互；不以本地截图代替。缺图、账号功能和整站保真验收仍未完成，blocked保持。

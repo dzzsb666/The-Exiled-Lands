@@ -1,0 +1,975 @@
+{
+  "evidence": "User-provided saved source configuration and unmodified sprite PNG; not a live browser screenshot",
+  "defaultIconScale": 1,
+  "optionalSmallIconScale": 0.6,
+  "defaultMarkerAnchor": "bottom",
+  "defaultCircleRadiusCssPx": 6,
+  "circleStrokeWidthCssPx": 1,
+  "circleStrokeOpacity": 0.9,
+  "categoryCount": 64,
+  "markerCategoryCount": 47,
+  "circleCategoryCount": 17,
+  "spriteSha256": "cc5095b05e25a88413ee053d64f0c1f778bfb48d19a01d8e08212ad7f1c6e472",
+  "categories": [
+    {
+      "categoryId": 3290,
+      "originalTitle": "Capital City",
+      "name": "大型聚落",
+      "icon": "capital_city",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#384149",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3282,
+      "originalTitle": "Cave",
+      "name": "洞穴",
+      "icon": "cave",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#384149",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3283,
+      "originalTitle": "Dungeon",
+      "name": "副本",
+      "icon": "dungeon",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#384149",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3286,
+      "originalTitle": "Obelisk",
+      "name": "方尖碑",
+      "icon": "obelisk",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#384149",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3285,
+      "originalTitle": "Ruin",
+      "name": "遗迹",
+      "icon": "ruin",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#384149",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3284,
+      "originalTitle": "Vista",
+      "name": "景点",
+      "icon": "vista",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#384149",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3292,
+      "originalTitle": "Black Hand Camp",
+      "name": "黑手会",
+      "icon": "black_hand_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3293,
+      "originalTitle": "Cimmerian Camp",
+      "name": "西米利亚",
+      "icon": "cimmerian_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3291,
+      "originalTitle": "Dafari Camp",
+      "name": "达法人营地",
+      "icon": "dafari_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3294,
+      "originalTitle": "Desert Dogs Camp",
+      "name": "沙漠之犬",
+      "icon": "desert_dogs_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3301,
+      "originalTitle": "Exile Camp",
+      "name": "流放者营地",
+      "icon": "exile_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3295,
+      "originalTitle": "Frost Giant Camp",
+      "name": "冰霜巨人营地",
+      "icon": "frost_giant_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3296,
+      "originalTitle": "Lemurian Camp",
+      "name": "勒穆里亚营地",
+      "icon": "lemurian_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3300,
+      "originalTitle": "Other Camp",
+      "name": "其他营地",
+      "icon": "other_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3299,
+      "originalTitle": "Relic Hunter Camp",
+      "name": "遗宝猎人营地",
+      "icon": "relic_hunter_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3298,
+      "originalTitle": "Vanir Camp",
+      "name": "华纳神族营地",
+      "icon": "vanir_camp",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#8F4141",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3308,
+      "originalTitle": "Dictionary",
+      "name": "词典",
+      "icon": "dictionary",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#4A9AAB",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3305,
+      "originalTitle": "Emote",
+      "name": "表情",
+      "icon": "emote",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#4A9AAB",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3303,
+      "originalTitle": "Lore",
+      "name": "文献",
+      "icon": "lore",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#4A9AAB",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3304,
+      "originalTitle": "Recipe",
+      "name": "配方",
+      "icon": "recipe",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#4A9AAB",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3318,
+      "originalTitle": "Merchant",
+      "name": "商人",
+      "icon": "merchant",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#785E8D",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3315,
+      "originalTitle": "NPC",
+      "name": "NPC",
+      "icon": "npc",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#785E8D",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3320,
+      "originalTitle": "Alchemist",
+      "name": "炼金术士",
+      "icon": "alchemist",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3319,
+      "originalTitle": "Archer",
+      "name": "弓箭手",
+      "icon": "archer",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3321,
+      "originalTitle": "Armorer",
+      "name": "制甲匠",
+      "icon": "armorer",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3322,
+      "originalTitle": "Bearer",
+      "name": "搬运工",
+      "icon": "bearer",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3323,
+      "originalTitle": "Blacksmith",
+      "name": "铁匠",
+      "icon": "blacksmith",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3324,
+      "originalTitle": "Carpenter",
+      "name": "木匠",
+      "icon": "carpenter",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3325,
+      "originalTitle": "Cook",
+      "name": "厨师",
+      "icon": "cook",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3326,
+      "originalTitle": "Fighter",
+      "name": "斗士",
+      "icon": "fighter",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3327,
+      "originalTitle": "Performer",
+      "name": "艺人",
+      "icon": "performer",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3328,
+      "originalTitle": "Priest",
+      "name": "祭司",
+      "icon": "priest",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3332,
+      "originalTitle": "Random Thrall",
+      "name": "随机奴隶",
+      "icon": "random_thrall",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3329,
+      "originalTitle": "Smelter",
+      "name": "司炉",
+      "icon": "smelter",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3330,
+      "originalTitle": "Tanner",
+      "name": "制革",
+      "icon": "tanner",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3331,
+      "originalTitle": "Taskmaster",
+      "name": "监工",
+      "icon": "taskmaster",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#B28F52",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3333,
+      "originalTitle": "Bear",
+      "name": "熊",
+      "icon": "bear",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3334,
+      "originalTitle": "Boar",
+      "name": "野猪",
+      "icon": "boar",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3335,
+      "originalTitle": "Crocodile",
+      "name": "鳄鱼",
+      "icon": "crocodile",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3336,
+      "originalTitle": "Elephant",
+      "name": "大象",
+      "icon": "elephant",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3337,
+      "originalTitle": "Fawn",
+      "name": "幼鹿",
+      "icon": "fawn",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3338,
+      "originalTitle": "Frostwolf",
+      "name": "霜狼",
+      "icon": "frostwolf",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3340,
+      "originalTitle": "Jaguar",
+      "name": "美洲狮",
+      "icon": "jaguar",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3341,
+      "originalTitle": "Lion",
+      "name": "狮子",
+      "icon": "lion",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3342,
+      "originalTitle": "Ostrich",
+      "name": "鸵鸟",
+      "icon": "ostrich",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3343,
+      "originalTitle": "Panther",
+      "name": "黑豹",
+      "icon": "panther",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3344,
+      "originalTitle": "Rhino",
+      "name": "犀牛",
+      "icon": "rhino",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3345,
+      "originalTitle": "Sabretooth",
+      "name": "剑齿虎",
+      "icon": "sabretooth",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3346,
+      "originalTitle": "Shaleback",
+      "name": "岩背怪",
+      "icon": "shaleback",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3347,
+      "originalTitle": "Spotted Hyena",
+      "name": "斑点鬣狗",
+      "icon": "spotted_hyena",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3348,
+      "originalTitle": "Striped Hyena",
+      "name": "条纹鬣狗",
+      "icon": "striped_hyena",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3349,
+      "originalTitle": "Tiger",
+      "name": "老虎",
+      "icon": "tiger",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3350,
+      "originalTitle": "Wolf",
+      "name": "狼",
+      "icon": "wolf",
+      "displayType": "circle",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#ABA082",
+      "circleFill": "#659654",
+      "circleStroke": "#E4E0DD",
+      "circleRadiusCssPx": 6
+    },
+    {
+      "categoryId": 3357,
+      "originalTitle": "Black Ice",
+      "name": "黑冰",
+      "icon": "black_ice",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3359,
+      "originalTitle": "Brimstone",
+      "name": "硫磺",
+      "icon": "brimstone",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3361,
+      "originalTitle": "Coal",
+      "name": "煤",
+      "icon": "coal",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3366,
+      "originalTitle": "Crystal",
+      "name": "水晶",
+      "icon": "crystal",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3358,
+      "originalTitle": "Ice",
+      "name": "冰",
+      "icon": "ice",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3362,
+      "originalTitle": "Iron",
+      "name": "铁",
+      "icon": "iron",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3360,
+      "originalTitle": "Obsidian",
+      "name": "黑曜石",
+      "icon": "obsidian",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3363,
+      "originalTitle": "Silver",
+      "name": "银矿",
+      "icon": "silver",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3364,
+      "originalTitle": "Star Metal",
+      "name": "星辰矿",
+      "icon": "star_metal",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#696257",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3369,
+      "originalTitle": "Boss",
+      "name": "Boss",
+      "icon": "boss",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#394247",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    },
+    {
+      "categoryId": 3372,
+      "originalTitle": "Miscellaneous",
+      "name": "杂项",
+      "icon": "miscellaneous",
+      "displayType": "marker",
+      "spriteSizeCssPx": [
+        33.0,
+        44.0
+      ],
+      "spriteFillFromPixels": "#394247",
+      "circleFill": null,
+      "circleStroke": null,
+      "circleRadiusCssPx": null
+    }
+  ]
+}

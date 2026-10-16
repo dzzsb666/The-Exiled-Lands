@@ -67,6 +67,38 @@ test("public entry uses the source renderer and all category icons keep their or
     assert.deepEqual(localized.groups.find((g) => g.id === group.id), group, `${group.id}: original category order and styling`);
 });
 
+test("marker sizes, anchors, colors and circle paint retain the original source values", () => {
+  const original = text("reference/source/cdn.mapgenie.io/js/map.70aefaa6.js");
+  const localized = text("public/review/source/cdn.mapgenie.io/js/map.70aefaa6.js");
+  const styles = (script) => {
+    const result = [];
+    const visit = (node) => {
+      if (!node || typeof node !== "object") return;
+      if (node.type === "ObjectExpression" && node.properties.some((p) =>
+        p.key?.value === "icon-size" || p.key?.value === "circle-stroke-opacity"))
+        result.push(script.slice(node.start, node.end).replaceAll("\r\n", "\n"));
+      for (const value of Object.values(node)) {
+        if (Array.isArray(value)) value.forEach(visit);
+        else if (value && typeof value === "object") visit(value);
+      }
+    };
+    visit(parse(script, { sourceType: "script" }));
+    return result;
+  };
+  const originalStyles = styles(original);
+  assert.ok(originalStyles.length > 0);
+  assert.deepEqual(styles(localized), originalStyles);
+  assert.match(localized, /Ze=\.6,Qe=1/); // Original default icon scale is 1.
+  assert.match(localized, /markerAnchor:"bottom"/);
+  assert.match(localized, /circleLocationsPaint:\{"circle-radius":6\}/);
+  const sprites = json("public/review/source/media.mapgenie.io/v2/assets/prod/games/conan-exiles/markers/markers.json");
+  for (const category of json("data/categories.json")) {
+    const icon = sprites[category.icon];
+    assert.equal(icon.width / icon.pixelRatio, 33, category.icon);
+    assert.equal(icon.height / icon.pixelRatio, 44, category.icon);
+  }
+});
+
 test("review contains only allowlisted assets, blocks remote loads and excludes ad containers", () => {
   const manifest = json("public/review/asset-manifest.json");
   const html = text("public/review/index.html");
