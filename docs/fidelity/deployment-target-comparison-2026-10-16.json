@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://the-exiled-lands-kappa.vercel.app/",
+    "status": 200,
+    "sha1": "0ab25c7efe9b26a4fc0886a2067312e1f59df813",
+    "title": "流放之地 · 交互地图",
+    "reactRoot": true,
+    "sourceSidebar": false,
+    "scripts": [
+      "/assets/index-DymEKldR.js"
+    ]
+  },
+  {
+    "url": "https://the-exiled-lands.vercel.app/",
+    "status": 200,
+    "sha1": "e85e8bedf48152351119ccd587f6f4b0d727ed5f",
+    "title": "流放之地 | Conan Exiles 交互地图 | MapGenie",
+    "reactRoot": false,
+    "sourceSidebar": true,
+    "scripts": [
+      "/review/source/cdn.mapgenie.io/js/vendor/maplibre-gl.db497461.js",
+      "/review/source/cdn.jsdelivr.net/npm/markdown-it@13.0.2/dist/markdown-it.min.js",
+      "/review/source/ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js",
+      "/review/source/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js",
+      "/review/source/cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js",
+      "/review/source/cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js",
+      "/review/source/cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/intro.min.js",
+      "/review/source/cdn.mapgenie.io/js/vendor/toastr-2.1.3-modified.min.js",
+      "/review/map-config.js",
+      "/review/source/cdn.mapgenie.io/js/map.70aefaa6.js"
+    ]
+  }
+]
