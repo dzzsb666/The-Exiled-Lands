@@ -59,6 +59,8 @@ test("review contains only allowlisted assets, blocks remote loads and excludes 
   assert.match(config, /trackEngagement\(\)\{\}/);
   assert.match(html, /class="map-link selected" href="\/review\/index\.html"/);
   assert.doesNotMatch(html, /href="https:\/\/mapgenie\.io\/conan-exiles\/maps\/exiled-lands"/);
+  assert.match(html, /title="登录后记录探索进度并添加个人点位"/);
+  assert.doesNotMatch(html, /aria-label="(?:Share on [^"]+|Close)"/);
   for (const item of manifest.assets) {
     assert.match(item.file, /^(cdn\.mapgenie\.io|media\.mapgenie\.io|tiles\.mapgenie\.io|fonts\.gstatic\.com|ajax\.googleapis\.com|cdnjs\.cloudflare\.com|cdn\.jsdelivr\.net)\//);
     const bytes = fs.readFileSync(path.join(root, "public/review/source", item.file));

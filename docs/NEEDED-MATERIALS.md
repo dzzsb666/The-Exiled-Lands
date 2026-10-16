@@ -2,6 +2,10 @@
 
 更新：2026-10-15。当前核对入口 `/review/index.html`，分支 `codex/source-fidelity`。以下是实际资料缺口，不代表已经通过一比一验收。
 
+2026-10-16复查：`research`目前只有原先的`mapgenie.io.har`，1802条请求，24个z12地形响应均包含JPEG数据；没有收到新的瓦片或HAR。原导出格式有效，缺口是地图覆盖范围。
+
+可以先只导出当前操作的一份HAR，不必一次完成所有档位，也不用固定文件名。放进`research`后由我运行`scripts/audit-local-har.py`检查新增图片响应、失败请求及缩放层级；报告仅写入本地`.qa/local-har-audit.json`，不包含请求头、Cookie或令牌。
+
 ## 1. 优先补原站底图瓦片
 
 已经收到完整的12K标注成品图，以及4000×4000干净整图，无需重新绘制。干净整图与已保存的原站地形可以准确对齐，但压缩和采样后的像素不同，不能据此声称原站瓦片已齐全。比较结果见 `fidelity/terrain-alignment.json` 和 `fidelity/terrain-source-vs-clean.jpg`。

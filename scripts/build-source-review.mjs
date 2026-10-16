@@ -124,6 +124,7 @@ html = html.replace(/>([^<>]+)</g, (whole, text) => {
 html = html.replace("</head>", '<link rel="stylesheet" href="/review/no-ads.css"></head>');
 for (const [source, translated] of Object.entries(ui))
   html = html.replaceAll(`aria-label="${source}"`, `aria-label="${translated}"`)
+    .replaceAll(`title="${source}"`, `title="${translated}"`)
     .replaceAll(`placeholder="${source}"`, `placeholder="${translated}"`);
 html = html.replaceAll('href="https://mapgenie.io/conan-exiles/maps/exiled-lands"', 'href="/review/index.html"');
 fs.writeFileSync(path.join(target, "index.html"), html.split(/\r?\n/).map((line) => line.trimEnd()).join("\n").trimEnd() + "\n");
