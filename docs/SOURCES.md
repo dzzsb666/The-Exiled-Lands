@@ -30,6 +30,9 @@
 - 用户明确说明Ophirean Journal / Ophirean's Journal的“奥菲联人的日记”为百科候选、游戏界面名待确认，故继续保留英文；Techtosa's Journal、Raknys Journal也按用户要求保留英文。候选单独记录在`TRANSLATION-CANDIDATES.md`，不导入正式译名。
 - 用户其他会话已明确确认、2026-10-15同步：Bin-Yakin's Seal（原绘图记录写作Bit-Yakin's Seal）=比特雅金的印章；Ruins of al-Merayah=阿梅莱亚废墟。依据`assets/maps/exiled-lands-points-revision23.json`中的用户确认注记，分别匹配原站点位88250和88189。
 
+- 用户2026-10-16确认文献点位：A Prayer to Hanuman（198443）=向猴神祈祷的祷文（简中物品资料item_30003）；Waterstained Note（198445）=浸水的笔记（item_30024）。完整链接登记于译名来源，未独立核验页面。
+- 同轮用户明确要求The Refugee Highway、Ruins of Nebthub、Torn Diary Page、Sealing the Borders继续为英文，需要中文交互标题截图后定名；编辑器名称和Chicken表情关联不作为中文标题证据。语境及用户提供的记录见`TRANSLATION-CANDIDATES.md`。
+
 ## 原站素材中文核对入口
 
 `/review/index.html`使用用户提供的原站HTML/HAR中保存的原程序、字体、CSS、图标图集与2812个原生经纬度点位，去广告并本地化；本页不使用下文旧React首页的近似投影。原始HAR和请求头不提交。长篇说明保留英文，内部地图链接改为本地。登录/PRO服务和部分外部媒体没有实现。
