@@ -27,6 +27,12 @@ const sourceConfig = JSON.parse(
 );
 add(
   "vercel.json",
+  "review/index.html",
+  "review/map-config.js",
+  "review/fonts.css",
+  "review/no-ads.css",
+  "review/data/locations.json",
+  "review/asset-manifest.json",
   Buffer.from(JSON.stringify({ headers: sourceConfig.headers })),
 );
 const required = [
@@ -40,9 +46,19 @@ for (const name of required)
   if (!files.some((file) => file.file === name && file.size > 0))
     throw new Error(`Missing deployment file: ${name}`);
 const html = fs.readFileSync(path.join(dist, "index.html"), "utf8");
-for (const match of html.matchAll(/(?:src|href)="(\/assets\/[^"?#]+)"/g))
+if (html !== fs.readFileSync(path.join(dist, "review/index.html"), "utf8"))
+  throw new Error("Public entry differs from the verified source renderer");
+if (/src\/main\.tsx|lucide|leaflet|id="root"/i.test(html))
+  throw new Error("Public entry still references the retired renderer");
+for (const match of html.matchAll(/(?:src|href)="(\/(?:assets|review)\/[^"?#]+)(?:[?#][^"]*)?"/g))
   if (!files.some((file) => file.file === match[1].slice(1)))
     throw new Error(`Missing HTML asset: ${match[1]}`);
+const assetManifest = JSON.parse(fs.readFileSync(path.join(dist, "review/asset-manifest.json"), "utf8"));
+for (const asset of assetManifest.assets) {
+  const file = files.find((item) => item.file === `review/source/${asset.file}`);
+  if (!file || file.size !== asset.bytes || createHash("sha256").update(Buffer.from(file.base64, "base64")).digest("hex") !== asset.sha256)
+    throw new Error(`Missing or changed source asset: ${asset.file}`);
+}
 if (
   !files.some((file) => file.file.endsWith(".js")) ||
   !files.some((file) => file.file.endsWith(".css"))
