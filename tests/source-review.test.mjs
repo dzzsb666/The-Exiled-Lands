@@ -5,6 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { parse } from "@babel/parser";
+import vm from "node:vm";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const text = (file) => fs.readFileSync(path.join(root, file), "utf8");
@@ -77,4 +78,32 @@ test("localized source remains valid JavaScript and reports incomplete terrain h
   assert.equal(manifest.tiles.complete, false);
   assert.equal(manifest.tiles.fullZoom12Count, 256);
   assert.ok(tiles.every((item) => item.file.includes("/default-v1/12/")));
+});
+
+test("map initialization retains a search that finished before the map was ready", () => {
+  const script = text("public/review/source/cdn.mapgenie.io/js/map.70aefaa6.js");
+  let handler;
+  const visit = (node) => {
+    if (!node || typeof node !== "object") return;
+    if (node.type === "ObjectExpression" && node.properties.some((p) => p.key?.name === "key" && p.value?.value === "getInitialLocationsFilter"))
+      handler = node.properties.find((p) => p.key?.name === "value").value;
+    for (const value of Object.values(node)) {
+      if (Array.isArray(value)) value.forEach(visit);
+      else if (value && typeof value === "object") visit(value);
+    }
+  };
+  visit(parse(script));
+  assert.ok(handler);
+  let searchResults = { locations: [199370, 199371] };
+  const filter = vm.runInNewContext(`(${script.slice(handler.start, handler.end)})`, {
+    window: { store: { getState: () => ({ search: { searchResults } }) } },
+  });
+  const context = { getLocationsFilter: () => "category-filter" };
+  const result = () => JSON.parse(JSON.stringify(filter.call(context, null)));
+  assert.deepEqual(result(), ["in", ["get", "locationId"], ["literal", [199370, 199371]]]);
+  searchResults = { locations: [] };
+  assert.deepEqual(result(), ["in", ["get", "locationId"], ["literal", []]]);
+  searchResults = null;
+  assert.equal(filter.call(context, null), "category-filter");
+  assert.deepEqual(JSON.parse(JSON.stringify(filter.call(context, [88250]))), ["match", ["get", "locationId"], [88250], true, false]);
 });

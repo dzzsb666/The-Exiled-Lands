@@ -59,6 +59,11 @@ function copyTree(dir, relative = "") {
           if (text.split(filterStart).length !== 2)
             throw new Error("Unexpected original map filter implementation.");
           text = text.replace(filterStart, 'key:"setLocationsFilter",value:function(){if(!this.map)return;var e=this.getLocationsFilter()');
+          // Local search can finish before the asynchronous source map is initialized.
+          const initialFilter = 'key:"getInitialLocationsFilter",value:function(e){return';
+          if (text.split(initialFilter).length !== 2)
+            throw new Error("Unexpected original initial map filter implementation.");
+          text = text.replace(initialFilter, 'key:"getInitialLocationsFilter",value:function(e){var t=window.store.getState().search.searchResults;if(t&&t.locations)return["in",["get","locationId"],["literal",t.locations]];return');
           text = translateLiterals(text);
         }
         bytes = Buffer.from(text);

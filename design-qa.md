@@ -88,6 +88,8 @@ final result: blocked
 
 2026-10-16用户独立确认Named Thrall=传奇奴隶、Sabertooth=剑齿虎、Exiles Camp=流放者营地、Green Crystal=绿水晶、Red Crystal=红水晶、Journal=日记，共新增132处标题译文。随机奴隶分类名保持不变。当前2517处标题已有译名、295处保留英文，CSV去重269条；先前关于Named Thrall/Sabertooth待确认的记录已由本次确认更新。
 
+搜索加载时序修复：本地检索可能比原版地图初始化更早结束，初始化只按已隐藏分类建图时会丢失已到达的搜索筛选。生成器让原版`getInitialLocationsFilter`优先读取当前搜索结果，保留默认分类和深链接原逻辑。实际复测刚加载即搜索“传奇奴隶”，列表52项，地图图层筛选包含同样52个ID，当前视口显示42个标记；证据`docs/fidelity/named-thrall-translations-2026-10-16.png`。新增回归检查同时覆盖空结果、清除搜索和原深链接，总计11项测试通过，生产构建通过。
+
 ## 纠正记录
 
 此前自行设计Lucide图标、资源圆点、色值和布局是P1偏离；本轮中文核对入口已改为真实原版素材。旧React首页没有被当作已验收原站样式，仍留作旧实现。
