@@ -34,6 +34,8 @@ HAR可能含Cookie和请求头，只保留在本地 `research`，不要上传Git
 
 本轮新增：
 
+最新待核实对应关系：Etched Note（198449）的同名物品简中为“刻下的笔记”（item_30014），但尚无该点位确实对应该物品的证据，暂保留英文。The Aqueduct、The Observatory、The Summoning Circle、The Gladiator Conscription、The Gallery五项也继续保留英文；本批没有新增正式译名，待确认标题仍为198处。
+
 | 英文原文 | 用户确认中文 | 使用语境 |
 | --- | --- | --- |
 | Capital City | 大型聚落 | 地点分类 |

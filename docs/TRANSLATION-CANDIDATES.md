@@ -26,3 +26,13 @@ Ophirean候选引用由用户提供：[中文百科分类页](https://conanexile
 | Sealing the Borders | 198448 | 原站无说明；用户说明该标签也出现在编辑器名称记录中。 |
 
 用户提供的参考：[倒卧石碑记录](https://steamcommunity.com/sharedfiles/filedetails/comments/1391893072)、[编辑器名称讨论](https://steamcommunity.com/workshop/filedetails/discussion/1391893072/1692669912407489997/)、[Chicken资料](https://conanexiles.fandom.com/wiki/Chicken)。这些链接记录用户的核对依据，未独立核验页面；不因此导入任何中文候选，也不把Chicken的关联作为文献标题。
+
+## 物品译名已知但点位对应关系待确认
+
+| 英文标题 | 点位ID | 中文候选 | 使用边界 |
+| --- | --- | --- | --- |
+| Etched Note | 198449 | 刻下的笔记 | 用户已核实同名游戏物品的简中名称，但尚未确认该点位对应此物品。地图仍为英文，不导入正式译名表。 |
+
+用户2026-10-16提供：[同名物品简中资料item_30014](https://conanexiles.th.gl/zh-Hans/db/inventory/item_30014)。这是用户核实的物品名称记录；未独立核验页面，也不等于点位身份已确认。
+
+同轮用户确认以下五项中文仍未核实，继续保留英文：The Aqueduct（198450）、The Observatory（198465）、The Summoning Circle（198466）、The Gladiator Conscription（198468）、The Gallery（198469）。原站均无具体说明，暂不推断是游戏交互标题、编辑器标签或对应何种物品。
