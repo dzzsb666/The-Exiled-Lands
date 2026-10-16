@@ -20,6 +20,7 @@
 - 已确认动物与职业名称的同语境复用：仅当点位属于宠物/奴隶分类，且英文标题与该分类英文逐字相同时，沿用该分类确认译名。共597处通用标题，无新译文；Named Thrall、NPC专名、幼兽后缀及Sabertooth等不同拼写不适用。单点覆盖和既有确认词条仍优先。
 - 用户2026-10-16另行确认点位标题：Named Thrall=传奇奴隶；Sabertooth=剑齿虎；Exiles Camp=流放者营地；Green Crystal=绿水晶；Red Crystal=红水晶；Journal=日记。前两项已有独立标题确认，不再待核对；随机奴隶分类名称不改。具名NPC和具名日记不根据这些通用标题推导译文。
 - 用户2026-10-16确认文献点位标题：Waterskin=水袋；The First Pillar=迈出的第一步；Relic Hunter Journal=遗宝猎人日记；Note=笔记；Torn Note=受损的笔记；Black Pyramid=传说石。按用户指定的游戏内名称使用，不根据英文另行直译。
+- 用户2026-10-16确认：Adherent of the Outer Dark=黑暗外域的信徒；By Crom=以克罗姆之名；Iron Node=铁；Boss (?)=首领（？）；Black Yeti=黑雪怪；White Dragon=白龙。身份不明标题保留问号，Boss名称不添加未确认星级。
 - 用户其他会话已明确确认、2026-10-15同步：Bin-Yakin's Seal（原绘图记录写作Bit-Yakin's Seal）=比特雅金的印章；Ruins of al-Merayah=阿梅莱亚废墟。依据`assets/maps/exiled-lands-points-revision23.json`中的用户确认注记，分别匹配原站点位88250和88189。
 
 ## 原站素材中文核对入口

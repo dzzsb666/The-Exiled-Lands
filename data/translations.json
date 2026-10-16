@@ -1235,6 +1235,30 @@
     "name": "随机奴隶",
     "source": "用户2026-10-15使用的分类名称；含义为随机种类的奴隶刷新点，不是固定职业或NPC专名。"
   },
+  "Adherent of the Outer Dark": {
+    "name": "黑暗外域的信徒",
+    "source": "用户2026-10-16确认：3处可快速前往Isle of Siptah的NPC点位标题。"
+  },
+  "By Crom": {
+    "name": "以克罗姆之名",
+    "source": "用户2026-10-16确认：The Temple of Frost入口右侧石碑的表情学习点标题。"
+  },
+  "Iron Node": {
+    "name": "铁",
+    "source": "用户2026-10-16确认：铁资源采集点标题沿用铁。"
+  },
+  "Boss (?)": {
+    "name": "首领（？）",
+    "source": "用户2026-10-16确认：原站身份不明Boss点位标题，保留问号，不推定身份或星级。"
+  },
+  "Black Yeti": {
+    "name": "黑雪怪",
+    "source": "用户2026-10-16确认：Boss生物名称，未确认星级，不添加星级。"
+  },
+  "White Dragon": {
+    "name": "白龙",
+    "source": "用户2026-10-16确认：Boss生物名称，未确认星级，不添加星级。"
+  },
   "Waterskin": {
     "name": "水袋",
     "source": "用户2026-10-16确认：原站文献分类下6处Waterskin点位标题。"
