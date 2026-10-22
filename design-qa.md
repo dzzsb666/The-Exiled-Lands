@@ -4,6 +4,8 @@
 
 final result: blocked
 
+2026-10-22用户确认表情点位：Chicken=胆小、Slit Throat=割喉、Taunt=嘲讽，更新3处点位标题；Sit Emote、Eat & Converse、Sleep Journal暂保留英文。当前2623处已有显示译名、189处待确认；文献类按用户要求暂缓到最后。
+
 2026-10-16图标尺寸和颜色专项核对：原版图集每项33×44 CSS像素，默认iconSize=1，原程序另有0.6的小图标档；图钉锚点bottom。64个启用分类中47类使用图钉、17类宠物使用圆点；原版宠物圆点默认半径6px、填充#659654、描边#E4E0DD，描边宽1px/不透明度0.9。直接统计PNG不透明像素确认资源底色#696257、营地#8F4141、收集品#4A9AAB、奴隶#B28F52、地点#384149，图案为白色。完整分类参数见`docs/fidelity/marker-style-metrics-2026-10-16.json`。新增回归检查对比原版与中文程序的icon-size、anchor及圆点paint对象，13项测试通过。本轮没有凭感觉改写已与原版一致的生产数值；实际线上画面仍未取得新的浏览器截图，不据此声称视觉验收通过。
 
 2026-10-16最新用户站点修正：此前发布heifang同名项目与用户实际kappa域名不一致；已将修正快进同步main，并修复Git忽略规则误伤嵌套原站assets/dist而漏掉9个依赖文件的问题。干净Git归档构建与12项测试通过；kappa的c8eaa43部署状态success，原站图集、字体、CSS、程序及瓦片均在线匹配，详见`docs/fidelity/kappa-live-assets-2026-10-16.json`。尚未取得线上浏览器截图，其他缺图和保真状态缺口仍未解决，整体blocked保持。
