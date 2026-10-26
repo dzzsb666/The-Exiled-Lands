@@ -37,6 +37,8 @@
 
 - 用户2026-10-16确认七个表情名称：Polite Laugh=礼貌地笑、Laughbig（Laugh Heartily）=衷心地笑、Cheer=欢呼、Push-Ups=俯卧撑、Shake Fist=挥拳、Fist Punch=出拳、Spit=吐唾沫。原站前两项共用一个点位标题，沿用“礼貌地笑, 衷心地笑”的合并格式，共更新六个点位；不拆点或改变原分类。用户提供的七个TH.GL表情资料链接已登记到译名来源，未独立核验页面。
 
+- 用户2026-10-26确认五项配方点位标题：Black Hand Banners（120136）=黑手会战旗；Specialist Cooking I, VI（120142）=烹饪专家 I, VI，保留原合并结构；Skulltaker（120144）=颅骨搜刮者；Darfari Weapons（120151）=达法武器；Darfari Banners（120152）=达法战旗。六个用户提供的TH.GL物品资料链接完整登记于译名来源，未独立核验页面；不将“达法”改写为营地分类的“达法人”。Dragonbone Weapons（120139）暂跳过，“龙骨盾”不能替代未核实的统一配方名称。
+
 ## 原站素材中文核对入口
 
 2026-10-16入口更正：首页`/`与`/review/index.html`由同一生成器输出相同原站素材HTML，首页不再加载旧React/Lucide图标和Leaflet投影。旧React相关说明仅是退役实现的历史记录。64类图标身份与原分类配置逐项相同，图集坐标按pixelRatio归一后与原分类ID对应，不以图标名称“看起来合适”作替换。

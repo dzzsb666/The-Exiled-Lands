@@ -1,4 +1,24 @@
 {
+  "Black Hand Banners": {
+    "name": "黑手会战旗",
+    "source": "用户2026-10-26确认配方点位标题，提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_30087；以用户确认为准，未独立核验页面。"
+  },
+  "Specialist Cooking I, VI": {
+    "name": "烹饪专家 I, VI",
+    "source": "用户2026-10-26确认配方点位标题，保留原站合并结构与编号；提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_30057 和 https://conanexiles.th.gl/zh-Hans/db/inventory/item_30062；以用户确认为准，未独立核验页面。"
+  },
+  "Skulltaker": {
+    "name": "颅骨搜刮者",
+    "source": "用户2026-10-26确认配方点位标题，提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_30083；以用户确认为准，未独立核验页面。"
+  },
+  "Darfari Weapons": {
+    "name": "达法武器",
+    "source": "用户2026-10-26确认配方点位标题，提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_30075；严格使用用户确认的达法武器，不套用营地分类名称；未独立核验页面。"
+  },
+  "Darfari Banners": {
+    "name": "达法战旗",
+    "source": "用户2026-10-26确认配方点位标题，提供资料：https://conanexiles.th.gl/zh-Hans/db/inventory/item_30085；严格使用用户确认的达法战旗，不套用营地分类名称；未独立核验页面。"
+  },
   "Cavern of Fiends": {
     "name": "恶魔洞窟",
     "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
