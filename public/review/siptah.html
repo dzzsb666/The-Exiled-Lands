@@ -1,0 +1,853 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta name="csrf-token" content="offline-public-map"><meta name="base-url" content=""><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' blob:; worker-src 'self' blob:; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"><link rel="stylesheet" href="/review/no-ads.css">
+    <title>西普塔岛 | Conan Exiles 交互地图 | MapGenie</title>
+
+<meta charset="utf-8">
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+    <link rel="stylesheet" href="/review/source/cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/review/source/cdn.mapgenie.io/css/app.8834a8a5.css">
+
+                        <link rel="stylesheet" href="/review/source/cdn.mapgenie.io/css/themes/base-theme.366ef830.css">
+                            <link rel="stylesheet" href="/review/source/media.mapgenie.io/v2/assets/prod/games/conan-exiles/theme/v3/theme.css">
+                        <link rel="stylesheet" href="/review/source/cdn.mapgenie.io/css/themes/icons/conan-exiles-icons.78a26005.css">
+
+
+
+    <style>
+
+        .guide .location-link:after {
+        content: "\f31c";
+      }
+
+      .maplibregl-ctrl .maplibregl-ctrl-zoom-in .maplibregl-ctrl-icon:before {
+        content: '\f273';
+      }
+
+      .maplibregl-ctrl .maplibregl-ctrl-zoom-out .maplibregl-ctrl-icon:before {
+        content: '\f368';
+      }
+
+      .maplibregl-ctrl .maplibregl-ctrl-fullscreen .maplibregl-ctrl-icon:before {
+        content: '\f2e7';
+      }
+
+      .maplibregl-ctrl .maplibregl-ctrl-shrink .maplibregl-ctrl-icon:before {
+        content: '\f2d8';
+      }
+
+      .switcher-expander:after {
+        content: "\f273";
+      }
+
+      .switcher-expander.expanded:after {
+        content: "\f368";
+      }
+    </style>
+
+
+
+
+
+
+        <link rel="stylesheet" href="/review/source/cdn.mapgenie.io/css/vendor/maplibre-gl.74e94ccf.css">
+
+
+
+
+
+
+
+    <style>
+      .gmnoprint:not(.gm-bundled-control):not([role="menubar"]):not([data-control-width="40"]) {
+        display: none;
+      }
+
+      #zdcFloatingBtn {
+        display: none !important;
+      }
+
+      /*#map {*/
+      /*    right: -3000px;*/
+      /*    bottom: -3000px;*/
+      /*}*/
+
+              #categories .group-categories {
+        display: block;
+        column-count: 2;
+        column-gap: 0;
+      }
+
+      #categories .category-item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      #categories .category-item .bubble {
+        text-align: right;
+        flex: 1;
+      }
+
+      #categories .category-item .title {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      #categories .category-item .icon {
+        margin-top: 0;
+        line-height: 18px;
+      }
+
+      #categories .subheader {
+        column-span: all;
+      }
+            </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/review/fonts.css"><link rel="stylesheet" href="/review/no-ads.css"></head>
+
+<body class="theme-conan-exiles map map-259 Default pogo">
+<div id="app">
+
+
+
+
+
+    <nav id="header" class="navbar navbar-light fixed-top">
+                    <a href="https://mapgenie.io/conan-exiles">
+                <div class="navbar-logo" href="#"><img class="" src="/review/source/media.mapgenie.io/v2/assets/prod/games/conan-exiles/logo-small.png" height="36" alt="Conan Exiles Map"></div>
+            </a>
+                <div class="flex-fill"></div>
+
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse-maps" data-parent="#header" aria-controls="navbar-collapse" aria-expanded="false" aria-label="打开地图菜单">
+                <span class="navbar-toggler-categories navbar-toggler-maps">地图</span>
+            </button>
+
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse" data-parent="#header" aria-controls="navbar-collapse" aria-expanded="false" aria-label="打开分类菜单">
+            <span class="navbar-toggler-icon navbar-toggler-categories"></span>
+        </button>
+
+        <button id="navbar-toggler-user" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse-user" data-parent="#header" aria-controls="navbar-collapse-user" aria-expanded="false" aria-label="打开账号菜单" data-placement="bottom" title="登录后记录探索进度并添加个人点位">
+            <span class="navbar-toggler-icon navbar-toggler-user"></span>
+        </button>
+
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse-search" data-parent="#header" aria-controls="navbar-collapse-search" aria-expanded="false" aria-label="打开搜索菜单">
+            <span class="navbar-toggler-icon navbar-toggler-search"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-search"></div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-user"></div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse"></div>
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse-maps">
+
+                                    <div class="map-switcher-panel">
+
+                                                    <a class="map-link" href="/review/index.html">流放之地</a>
+                                                    <a class="map-link selected" href="/review/siptah.html">西普塔岛</a>
+                                            </div>
+                                            </div>
+            </nav>
+
+
+    <div id="map"></div>
+
+
+    <div id="left-sidebar" class="sidebar hidden-sm-down">
+        <div class="sidebar-close">
+            <div class="left-arrow"></div>
+        </div>
+
+        <div class="panel">
+                            <a href="https://mapgenie.io/conan-exiles" class="no-style sidebar-logo-link">
+                    <img id="logo-sidebar" class="" src="/review/source/media.mapgenie.io/v2/assets/prod/games/conan-exiles/logo-512.png" alt="Conan Exiles Map">
+                </a>
+                                    <h1 class="subtitle">Conan Exiles 交互地图</h1>
+
+
+            <div class="social">
+    <a class="map-genie-logo" href="https://mapgenie.io" target="_blank">
+        <svg width="72" height="10" viewbox="0 0 782 108" xmlns="http://www.w3.org/2000/svg" style="fill:#FFF">
+            <path d="M92.96 105l.576-72.144h-.432L66.608 105h-17.28L23.552 32.856h-.432L23.696 105H.512V3.048h34.992l23.184 65.376h.576L81.44 3.048h35.568V105H92.96zm114.192 0l-7.92-20.016h-39.456L152.288 105h-26.784L168.272 3.048h23.904L234.512 105h-27.36zm-27.36-74.736l-12.96 34.992h25.632l-12.672-34.992zm140.544 4.176c0 5.952-1.104 10.968-3.312 15.048-2.208 4.08-5.184 7.368-8.928 9.864-3.744 2.496-8.064 4.32-12.96 5.472-4.896 1.152-9.984 1.728-15.264 1.728h-12.24V105h-24.624V3.048h37.44c5.568 0 10.776.552 15.624 1.656 4.848 1.104 9.072 2.88 12.672 5.328 3.6 2.448 6.432 5.664 8.496 9.648s3.096 8.904 3.096 14.76zm-24.624.144c0-2.4-.48-4.368-1.44-5.904-.96-1.536-2.256-2.736-3.888-3.6-1.632-.864-3.48-1.44-5.544-1.728a46.336 46.336 0 00-6.408-.432h-10.8v24.048H278c2.304 0 4.512-.192 6.624-.576 2.112-.384 4.008-1.056 5.688-2.016 1.68-.96 3-2.232 3.96-3.816.96-1.584 1.44-3.576 1.44-5.976zM451.52 21.336c-3.552-3.744-7.776-6.648-12.672-8.712-4.896-2.064-10.512-3.096-16.848-3.096-6.528 0-12.408 1.2-17.64 3.6-5.232 2.4-9.672 5.64-13.32 9.72-3.648 4.08-6.456 8.808-8.424 14.184-1.968 5.376-2.952 11.04-2.952 16.992 0 5.952.984 11.616 2.952 16.992 1.968 5.376 4.776 10.08 8.424 14.112 3.648 4.032 8.088 7.248 13.32 9.648 5.232 2.4 11.112 3.6 17.64 3.6 5.76 0 11.04-.624 15.84-1.872 4.8-1.248 8.688-2.832 11.664-4.752v-30.96h-23.76V51.72h34.128v45.936c-5.568 3.36-11.568 5.856-18 7.488-6.432 1.632-13.104 2.448-20.016 2.448-7.68 0-14.784-1.344-21.312-4.032-6.528-2.688-12.144-6.408-16.848-11.16-4.704-4.752-8.376-10.392-11.016-16.92-2.64-6.528-3.96-13.68-3.96-21.456s1.344-14.928 4.032-21.456c2.688-6.528 6.408-12.168 11.16-16.92 4.752-4.752 10.368-8.472 16.848-11.16C407.24 1.8 414.272.456 421.856.456c8.16 0 15.264 1.2 21.312 3.6 6.048 2.4 11.232 5.76 15.552 10.08l-7.2 7.2zm45.216 74.448h54.576V105h-64.944V3.048h63.216v9.216h-52.848V47.4h49.392v9.072h-49.392v39.312zm147.168-5.904h.288V3.048h10.368V105H641.6l-59.328-87.696h-.288V105h-10.368V3.048h12.96l59.328 86.832zM692 105h-10.368V3.048H692V105zm37.44-9.216h54.576V105h-64.944V3.048h63.216v9.216H729.44V47.4h49.392v9.072H729.44v39.312z"></path>
+        </svg>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmapgenie.io%2Fconan-exiles%2Fmaps%2Fisle-of-siptah" target="_blank" title="Facebook" aria-label="分享到 Facebook" class="social-item social-facebook">
+        <svg style="display:block;fill:#fff;height:44%;margin:28% auto;" viewbox="0 -256 864 1664">
+            <path transform="matrix(1,0,0,-1,-95,1280)" d="M 959,1524 V 1260 H 802 q -86,0 -116,-36 -30,-36 -30,-108 V 927 H 949 L 910,631 H 656 V -128 H 350 V 631 H 95 v 296 h 255 v 218 q 0,186 104,288.5 104,102.5 277,102.5 147,0 228,-12 z"></path>
+        </svg>
+    </a>
+    <a href="https://twitter.com/share?url=https%3A%2F%2Fmapgenie.io%2Fconan-exiles%2Fmaps%2Fisle-of-siptah&amp;text=New+Conan+Exiles+interactive+map+by+%40MapGenie+%23ConanExiles+%23Conan" target="_blank" title="Twitter" aria-label="分享到 Twitter" class="social-item social-twitter">
+        <svg style="display:block;fill:#fff;height:36%;margin:32% auto;" viewbox="0 -256 1576 1280">
+            <path transform="matrix(1,0,0,-1,-44,1024)" d="m 1620,1128 q -67,-98 -162,-167 1,-14 1,-42 0,-130 -38,-259.5 Q 1383,530 1305.5,411 1228,292 1121,200.5 1014,109 863,54.5 712,0 540,0 269,0 44,145 q 35,-4 78,-4 225,0 401,138 -105,2 -188,64.5 -83,62.5 -114,159.5 33,-5 61,-5 43,0 85,11 Q 255,532 181.5,620.5 108,709 108,826 v 4 q 68,-38 146,-41 -66,44 -105,115 -39,71 -39,154 0,88 44,163 Q 275,1072 448.5,982.5 622,893 820,883 q -8,38 -8,74 0,134 94.5,228.5 94.5,94.5 228.5,94.5 140,0 236,-102 109,21 205,78 -37,-115 -142,-178 93,10 186,50 z"></path>
+        </svg>
+    </a>
+    <a href="https://www.reddit.com/submit?url=https%3A%2F%2Fmapgenie.io%2Fconan-exiles%2Fmaps%2Fisle-of-siptah&amp;title=MapGenie+%7C+Awesome+Interactive+Game+Maps" target="_blank" title="Reddit" aria-label="分享到 Reddit" class="social-item social-reddit">
+        <svg style="display:block;fill:#fff;height:46%;margin:26% auto;" viewbox="0 -256 1792 1692">
+            <path transform="matrix(1,0,0,-1,0,1280)" d="m 1792,690 q 0,-58 -29,-105.5 -30,-47.5 -80,-72.5 12,-46 12,-96 0,-155 -106,-287 Q 1482,-3 1298,-79.5 1114,-156 898,-156 682,-156 498.5,-79.5 315,-3 208.5,129 102,261 102,416 q 0,47 11,94 Q 62,535 31,583.5 0,632 0,690 q 0,82 58,140.5 58,58.5 141,58.5 85,0 145,-63 218,152 515,162 l 116,521 q 3,13 15,21 12,8 26,5 l 369,-81 q 18,37 54,60 36,22 79,22 62,0 106,-43 44,-44 44,-106 0,-62 -44,-106 -44,-44 -106,-44 -62,0 -105,44 -44,43 -44,105 l -334,74 -104,-472 q 300,-9 519,-160 58,61 143,61 83,0 141,-58.5 58,-58.5 58,-140.5 z M 418,491 q 0,-62 43.5,-106 43.5,-44 105.5,-44 62,0 106,44 44,44 44,106 0,62 -44,105.5 Q 629,640 567,640 506,640 462,596 418,552 418,491 z m 810,-355 q 11,11 11,26 0,15 -11,26 -10,10 -25,10 -15,0 -26,-10 -41,-42 -121,-62 -80,-20 -160,-20 -80,0 -160,20 -80,20 -121,62 -11,10 -26,10 -15,0 -25,-10 Q 553,178 553,162.5 553,147 564,136 607,93 682.5,68 758,43 805,38.5 852,34 896,34 q 44,0 91,4.5 47,4.5 123,29.5 75,25 118,68 z m -3,205 q 62,0 106,44 43,44 43,106 0,61 -44,105 -44,44 -105,44 -62,0 -106,-43.5 -44,-43.5 -44,-105.5 0,-62 44,-106 44,-44 106,-44 z"></path>
+        </svg>
+    </a>
+    <a href="whatsapp://send?text=https%3A%2F%2Fmapgenie.io%2Fconan-exiles%2Fmaps%2Fisle-of-siptah" title="WhatsApp" aria-label="分享到 WhatsApp" class="social-item social-whatsapp">
+        <svg style="display:block;fill:#fff;height:44%;margin:28% auto;" viewbox="0 -256 1536 1548">
+            <path transform="matrix(1,0,0,-1,0,1158)" d="m 985,562 q 13,0 98,-44 84,-44 89,-53 2,-5 2,-15 0,-33 -17,-76 -16,-39 -71,-65.5 -55,-26.5 -102,-26.5 -57,0 -190,62 -98,45 -170,118 -72,73 -148,185 -72,107 -71,194 v 8 q 3,91 74,158 24,22 52,22 6,0 18,-1 12,-2 19,-2 19,0 26.5,-6 7.5,-7 15.5,-28 8,-20 33,-88 25,-68 25,-75 0,-21 -34.5,-57.5 Q 599,735 599,725 q 0,-7 5,-15 34,-73 102,-137 56,-53 151,-101 12,-7 22,-7 15,0 54,48.5 39,48.5 52,48.5 z M 782,32 q 127,0 244,50 116,50 200,134 84,84 134,200.5 50,116.5 50,243.5 0,127 -50,243.5 -50,116.5 -134,200.5 -84,84 -200,134 -117,50 -244,50 -127,0 -243.5,-50 Q 422,1188 338,1104 254,1020 204,903.5 154,787 154,660 154,457 274,292 L 195,59 437,136 Q 595,32 782,32 z m 0,1382 q 153,0 293,-60 139,-60 240,-161 101,-101 161,-240.5 Q 1536,813 1536,660 1536,507 1476,367.5 1416,228 1315,127 1214,26 1075,-34 935,-94 782,-94 587,-94 417,0 L 0,-134 136,271 Q 28,449 28,660 q 0,153 60,292.5 60,139.5 161,240.5 101,101 240.5,161 139.5,60 292.5,60 z"></path>
+        </svg>
+    </a>
+    <a href="https://vk.com/share.php?url=https%3A%2F%2Fmapgenie.io%2Fconan-exiles%2Fmaps%2Fisle-of-siptah" target="_blank" title="VK" aria-label="分享到 VK" class="social-item social-vk">
+        <svg style="display:block;fill:#fff;height:32%;margin:34% auto;" viewbox="-1 -256 1921 1096">
+            <path transform="matrix(1,0,0,-1,0,839.1)" d="m 1917,1016 q 23,-64 -150,-294 -24,-32 -65,-85 -40,-51 -55,-72 -15,-21 -30,-49.5 -16,-28.5 -12,-42 3,-13.5 13,-34.5 9,-21 32,-43 23,-22 57,-53 4,-2 5,-4 141,-131 191,-221 3,-5 7,-12.5 3,-7.5 7,-26.5 3,-19 -1,-34 -4,-15 -25,-27.5 Q 1870,5 1832,5 L 1576,1 q -24,-5 -56,5 -32,10 -52,22 l -20,12 q -30,21 -70,64 -40,43 -68,77.5 -29,34.5 -61,58 -33,23.5 -57,15.5 -3,-1 -8,-3.5 -5,-2.5 -17,-14.5 -12,-12 -21,-29.5 -10,-17.5 -17,-52 -8,-34.5 -7,-77.5 0,-15 -3,-27.5 -4,-12.5 -8,-18.5 l -4,-5 Q 1089,8 1054,5 H 939 Q 868,1 793,21.5 718,42 661.5,74.5 605,107 558.5,140.5 512,174 488,198 l -25,24 Q 453,232 435.5,252 418,272 364,343 310,414 258,494 206,574 135.5,705 65,836 5,977 q -6,16 -6,27 0,11 3,16 l 4,6 q 15,19 57,19 l 274,2 q 12,-2 23,-6 11,-5 16,-9 l 5,-3 q 16,-11 24,-32 20,-50 46,-103.5 26,-53.5 41,-81.5 l 16,-29 q 29,-60 56,-104 27,-44 48.5,-68.5 Q 634,586 654,572 q 20,-14 34,-14 14,0 27,5 2,1 5,5 3,4 12,22 9,18 13.5,47 4.5,29 9.5,81 5,52 0,125 -2,40 -9,73 -7,33 -14,46 l -6,12 q -25,34 -85,43 -13,2 5,24 16,19 38,30 53,26 239,24 82,-1 135,-13 20,-5 34,-13 13,-9 20,-24 7,-16 11,-32 3,-17 3,-46 0,-29 -1,-55 -1,-26 -2,-70.5 -2,-44.5 -2,-82.5 0,-11 -1,-42 -1,-31 0,-48 0,-17 3,-40.5 3,-23.5 12,-39 8,-15.5 22,-24.5 8,-2 17,-4 9,-2 26,11 17,13 38,34.5 21,21.5 52,67 31,45.5 68,107.5 60,104 107,225 4,10 10,18 6,7 11,10 l 4,3 5,3 q 0,0 13,3 13,3 20,0 l 288,2 q 39,5 64,-2 25,-8 31,-17 z"></path>
+        </svg>
+    </a>
+
+            <div id="embed-button" class="social-item">
+            <svg xmlns="http://www.w3.org/2000/svg" role="img" width="2rem" height="1.1rem" preserveaspectratio="xMidYMid meet" viewbox="0 0 20 16" style="fill:#fff;">
+                <path d="M13 11.5l1.5 1.5l5-5l-5-5L13 4.5L16.5 8z"></path>
+                <path d="M7 4.5L5.5 3l-5 5l5 5L7 11.5L3.5 8z"></path>
+                <path d="M10.958 2.352l1.085.296l-3 11l-1.085-.296l3-11z"></path>
+            </svg>
+        </div>
+    </div>
+
+
+                            <hr>
+
+                <div class="map-switcher-panel">
+                                                                                                        <a class="map-link" href="/review/index.html">流放之地</a>
+                                                                                                                                                            <a class="map-link selected" href="/review/siptah.html">西普塔岛</a>
+                                                                                        </div>
+
+            <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="left-sidebar-buttons-container">
+                <div class="button-panel" id="left-sidebar-buttons">
+                    <button id="tutorial-button">?</button>
+                    <button id="show-all">显示全部</button>
+                    <button id="hide-all">隐藏全部</button>
+
+
+
+
+                                    </div>
+            </div>
+            <hr>
+
+            <div id="sidebar-categories-wrapper">
+
+                <div id="left-sidebar-search-container">
+                    <div id="search-wrapper">
+                        <div id="search-input-wrapper" class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button id="search-close" class="btn btn-outline-secondary d-none" type="button">X</button>
+                            </div>
+
+                            <input id="search-input" type="search" class="form-control" placeholder="搜索…" autocomplete="off" aria-label="搜索地图点位">
+                            <div class="input-group-append">
+                                <button id="search-submit" class="btn btn-outline-secondary" type="button">搜索</button>
+                            </div>
+                        </div>
+
+                        <div id="search-results-wrapper" class="not-shown"></div>
+                    </div>
+                </div>
+
+                <div id="categories-wrapper">
+                    <ul id="categories">
+                                                                                <h2 class="group-heading"><button class="header">Locations</button></h2>
+
+                            <div class="group-categories">
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-capital_city"></span>
+                                        <span class="title">Capital City</span>
+                                        <span class="bubble">9</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-cave"></span>
+                                        <span class="title">Cave</span>
+                                        <span class="bubble">22</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-dungeon"></span>
+                                        <span class="title">Dungeon</span>
+                                        <span class="bubble">11</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-obelisk"></span>
+                                        <span class="title">Obelisk</span>
+                                        <span class="bubble">10</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-ruin"></span>
+                                        <span class="title">Ruin</span>
+                                        <span class="bubble">73</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-vista"></span>
+                                        <span class="title">Vista</span>
+                                        <span class="bubble">55</span>
+                                    </div>
+                                                            </div>
+                                                                                                            <h2 class="group-heading"><button class="header">Camps</button></h2>
+
+                            <div class="group-categories">
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-black_hand_camp"></span>
+                                        <span class="title">Black Hand Camp</span>
+                                        <span class="bubble">21</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-cimmerian_camp"></span>
+                                        <span class="title">Cimmerian Camp</span>
+                                        <span class="bubble">1</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-dafari_camp"></span>
+                                        <span class="title">Dafari Camp</span>
+                                        <span class="bubble">21</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-desert_dogs_camp"></span>
+                                        <span class="title">Desert Dogs Camp</span>
+                                        <span class="bubble">8</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-exile_camp"></span>
+                                        <span class="title">Exile Camp</span>
+                                        <span class="bubble">24</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-frost_giant_camp"></span>
+                                        <span class="title">Frost Giant Camp</span>
+                                        <span class="bubble">6</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-lemurian_camp"></span>
+                                        <span class="title">Lemurian Camp</span>
+                                        <span class="bubble">1</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-other_camp"></span>
+                                        <span class="title">Other Camp</span>
+                                        <span class="bubble">5</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-relic_hunter_camp"></span>
+                                        <span class="title">Relic Hunter Camp</span>
+                                        <span class="bubble">5</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-vanir_camp"></span>
+                                        <span class="title">Vanir Camp</span>
+                                        <span class="bubble">15</span>
+                                    </div>
+                                                            </div>
+                                                                                                            <h2 class="group-heading"><button class="header">Collectibles</button></h2>
+
+                            <div class="group-categories">
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-dictionary"></span>
+                                        <span class="title">Dictionary</span>
+                                        <span class="bubble">28</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-emote"></span>
+                                        <span class="title">Emote</span>
+                                        <span class="bubble">44</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-lore"></span>
+                                        <span class="title">Lore</span>
+                                        <span class="bubble">123</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-recipe"></span>
+                                        <span class="title">Recipe</span>
+                                        <span class="bubble">31</span>
+                                    </div>
+                                                            </div>
+                                                                                                                                                                <h2 class="group-heading"><button class="header">NPC</button></h2>
+
+                            <div class="group-categories">
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-merchant"></span>
+                                        <span class="title">Merchant</span>
+                                        <span class="bubble">20</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-npc"></span>
+                                        <span class="title">NPC</span>
+                                        <span class="bubble">22</span>
+                                    </div>
+                                                            </div>
+                                                                                                            <h2 class="group-heading"><button class="header">Thralls</button></h2>
+
+                            <div class="group-categories">
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-alchemist"></span>
+                                        <span class="title">Alchemist</span>
+                                        <span class="bubble">2</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-archer"></span>
+                                        <span class="title">Archer</span>
+                                        <span class="bubble">6</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-armorer"></span>
+                                        <span class="title">Armorer</span>
+                                        <span class="bubble">6</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-bearer"></span>
+                                        <span class="title">Bearer</span>
+                                        <span class="bubble">13</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-blacksmith"></span>
+                                        <span class="title">Blacksmith</span>
+                                        <span class="bubble">9</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-carpenter"></span>
+                                        <span class="title">Carpenter</span>
+                                        <span class="bubble">5</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-cook"></span>
+                                        <span class="title">Cook</span>
+                                        <span class="bubble">10</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-fighter"></span>
+                                        <span class="title">Fighter</span>
+                                        <span class="bubble">12</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-performer"></span>
+                                        <span class="title">Performer</span>
+                                        <span class="bubble">16</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-priest"></span>
+                                        <span class="title">Priest</span>
+                                        <span class="bubble">14</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-random_thrall"></span>
+                                        <span class="title">Random Thrall</span>
+                                        <span class="bubble">52</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-smelter"></span>
+                                        <span class="title">Smelter</span>
+                                        <span class="bubble">3</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-tanner"></span>
+                                        <span class="title">Tanner</span>
+                                        <span class="bubble">5</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-taskmaster"></span>
+                                        <span class="title">Taskmaster</span>
+                                        <span class="bubble">9</span>
+                                    </div>
+                                                            </div>
+                                                                                                            <h2 class="group-heading"><button class="header">Pets</button></h2>
+
+                            <div class="group-categories">
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-bear"></span>
+                                        <span class="title">Bear</span>
+                                        <span class="bubble">15</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-boar"></span>
+                                        <span class="title">Boar</span>
+                                        <span class="bubble">38</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-crocodile"></span>
+                                        <span class="title">Crocodile</span>
+                                        <span class="bubble">125</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-elephant"></span>
+                                        <span class="title">Elephant</span>
+                                        <span class="bubble">2</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-fawn"></span>
+                                        <span class="title">Fawn</span>
+                                        <span class="bubble">74</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-frostwolf"></span>
+                                        <span class="title">Frostwolf</span>
+                                        <span class="bubble">15</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-jaguar"></span>
+                                        <span class="title">Jaguar</span>
+                                        <span class="bubble">26</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-lion"></span>
+                                        <span class="title">Lion</span>
+                                        <span class="bubble">2</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-ostrich"></span>
+                                        <span class="title">Ostrich</span>
+                                        <span class="bubble">4</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-panther"></span>
+                                        <span class="title">Panther</span>
+                                        <span class="bubble">45</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-rhino"></span>
+                                        <span class="title">Rhino</span>
+                                        <span class="bubble">19</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-sabretooth"></span>
+                                        <span class="title">Sabretooth</span>
+                                        <span class="bubble">27</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-shaleback"></span>
+                                        <span class="title">Shaleback</span>
+                                        <span class="bubble">67</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-spotted_hyena"></span>
+                                        <span class="title">Spotted Hyena</span>
+                                        <span class="bubble">48</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-striped_hyena"></span>
+                                        <span class="title">Striped Hyena</span>
+                                        <span class="bubble">67</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-tiger"></span>
+                                        <span class="title">Tiger</span>
+                                        <span class="bubble">33</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-wolf"></span>
+                                        <span class="title">Wolf</span>
+                                        <span class="bubble">65</span>
+                                    </div>
+                                                            </div>
+                                                                                                            <h2 class="group-heading"><button class="header">Resources</button></h2>
+
+                            <div class="group-categories">
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-black_ice"></span>
+                                        <span class="title">Black Ice</span>
+                                        <span class="bubble">25</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-brimstone"></span>
+                                        <span class="title">Brimstone</span>
+                                        <span class="bubble">88</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-coal"></span>
+                                        <span class="title">Coal</span>
+                                        <span class="bubble">278</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-crystal"></span>
+                                        <span class="title">Crystal</span>
+                                        <span class="bubble">30</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-ice"></span>
+                                        <span class="title">Ice</span>
+                                        <span class="bubble">71</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-iron"></span>
+                                        <span class="title">Iron</span>
+                                        <span class="bubble">696</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-obsidian"></span>
+                                        <span class="title">Obsidian</span>
+                                        <span class="bubble">58</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-silver"></span>
+                                        <span class="title">Silver</span>
+                                        <span class="bubble">5</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-star_metal"></span>
+                                        <span class="title">Star Metal</span>
+                                        <span class="bubble">111</span>
+                                    </div>
+                                                            </div>
+                                                                                                            <h2 class="group-heading"><button class="header">Other</button></h2>
+
+                            <div class="group-categories">
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-boss"></span>
+                                        <span class="title">Boss</span>
+                                        <span class="bubble">54</span>
+                                    </div>
+                                                                    <div class="category-item category-visible">
+                                        <span class="icon icon-miscellaneous"></span>
+                                        <span class="title">Miscellaneous</span>
+                                        <span class="bubble">7</span>
+                                    </div>
+                                                            </div>
+                                                                        </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <div id="right-sidebar" class="sidebar hidden-sm-down">
+        <div class="sidebar-close">
+            <div class="right-arrow"></div>
+        </div>
+
+        <div id="user-panel-wrapper">
+
+        </div>
+    </div>
+
+
+    <div id="checklist-sidebar" class="sidebar closed hidden-sm-down">
+    </div>
+
+    <div id="dialogs"></div>
+
+    <div id="editor-controls-overlay"></div>
+
+    <div id="multi-location-modal"></div>
+
+    <div id="location-features-modal"></div>
+
+    <div id="select-location-modal"></div>
+
+    <div id="quick-jump-modal">
+        <div id="quick-jump-content">
+            <span id="quick-jump-icon"></span>
+            <input id="quick-jump-input" class="autocomplete" autocomplete="off">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="modal fade" id="embed-dialog">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            Embed Map
+                        </h4>
+                        <button type="button" class="close" aria-label="关闭" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="upgrade-dialog-text">
+                            Embed this map on your own website by copying the code below and adding it to your html
+                        </div>
+                        <div class="position-relative form-group mt-3">
+                            <textarea id="embed-textarea" rows="3" class="form-control">&lt;iframe src=&quot;https://mapgenie.io/conan-exiles/maps/exiled-lands?embed=light&quot; height=&quot;500&quot; style=&quot;position: relative; width: 100%;&quot;&gt;&lt;/iframe&gt;</textarea>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn btn-dark" data-dismiss="modal">Cancel</button>
+                        <button id="embed-copy-button" class="btn btn-outline-secondary">Copy Embed Code</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div id="marker-tooltip">
+        <div id="marker-tooltip-title"></div>
+    </div>
+
+    <div id="map-context-menu"></div>
+
+    <div id="region-filter-notification" class="tool-info-panel center-top">
+        <div><small>Filter Active</small></div>
+        <div id="region-filter-region-title" class="tool-info-title">region_name</div>
+    </div>
+
+    <div id="distance-info-panel" class="tool-info-panel">
+        <div class="tool-info-title">Distance Measurement Tool</div>
+        <div id="distance-info" class="tool-info"></div>
+    </div>
+
+    <div id="radius-info-panel" class="tool-info-panel">
+        <div class="tool-info-title">Sniping Radius Tool</div>
+        <div id="radius-info" class="tool-info">Drag the target shape to visualize sniping distances. Dotted lines are 50m increments.</div>
+        <button id="radius-clear-button" class="btn btn-link tool-info">Clear Target</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/review/source/cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/review/source/cdn.mapgenie.io/css/vendor/ionicons@4.2.6.min.css">
+
+
+
+
+
+
+
+
+
+
+<script src="/review/source/cdn.mapgenie.io/js/maplibre.f1d91794.js" data-worker-url="/review/source/cdn.mapgenie.io/js/vendor/maplibre-gl-worker.5766dbb5.js"></script><script src="/review/source/cdn.jsdelivr.net/npm/markdown-it@13.0.2/dist/markdown-it.min.js"></script><script src="/review/source/ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script><script src="/review/source/cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script><script src="/review/source/cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script><script src="/review/source/cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.min.js"></script><script src="/review/source/cdnjs.cloudflare.com/ajax/libs/intro.js/2.9.3/intro.min.js"></script><script src="/review/source/cdn.mapgenie.io/js/vendor/toastr-2.1.3-modified.min.js"></script><script src="/review/siptah-config.js"></script><script src="/review/source/cdn.mapgenie.io/js/map.113b2a48.js"></script></body>
+</html>

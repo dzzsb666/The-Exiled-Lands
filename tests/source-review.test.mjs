@@ -17,6 +17,7 @@ test("source review keeps all point identities and native coordinates; translate
   const confirmed = new Map(json("public/data/map.json").points.map((p) => [p.id, p.name]));
   assert.equal(source.length, 2812);
   assert.equal(translated.length, source.length);
+  assert.deepEqual(json("public/review/data/locations.json").coordinateAreas, json("reference/api/v1/maps/258/data").coordinateAreas);
   source.forEach((p, index) => {
     const actual = translated[index];
     for (const key of ["id", "category_id", "latitude", "longitude", "region_id", "map_id"])
@@ -68,8 +69,8 @@ test("public entry uses the source renderer and all category icons keep their or
 });
 
 test("marker sizes, anchors, colors and circle paint retain the original source values", () => {
-  const original = text("reference/source/cdn.mapgenie.io/js/map.70aefaa6.js");
-  const localized = text("public/review/source/cdn.mapgenie.io/js/map.70aefaa6.js");
+  const original = text("reference/source/cdn.mapgenie.io/js/map.113b2a48.js");
+  const localized = text("public/review/source/cdn.mapgenie.io/js/map.113b2a48.js");
   const styles = (script) => {
     const result = [];
     const visit = (node) => {
@@ -88,7 +89,7 @@ test("marker sizes, anchors, colors and circle paint retain the original source 
   const originalStyles = styles(original);
   assert.ok(originalStyles.length > 0);
   assert.deepEqual(styles(localized), originalStyles);
-  assert.match(localized, /Ze=\.6,Qe=1/); // Original default icon scale is 1.
+  assert.match(localized, /Se=\.6,Ce=1/); // Original default icon scale is 1.
   assert.match(localized, /markerAnchor:"bottom"/);
   assert.match(localized, /circleLocationsPaint:\{"circle-radius":6\}/);
   const sprites = json("public/review/source/media.mapgenie.io/v2/assets/prod/games/conan-exiles/markers/markers.json");
@@ -114,6 +115,10 @@ test("review contains only allowlisted assets, blocks remote loads and excludes 
   assert.match(html, /class="map-link selected" href="\/review\/index\.html"/);
   assert.doesNotMatch(html, /href="https:\/\/mapgenie\.io\/conan-exiles\/maps\/exiled-lands"/);
   assert.match(html, /title="登录后记录探索进度并添加个人点位"/);
+  assert.match(html, /maplibre\.f1d91794\.js" data-worker-url="\/review\/source\/cdn\.mapgenie\.io\/js\/vendor\/maplibre-gl-worker\.5766dbb5\.js"/);
+  const renderer = text("public/review/source/cdn.mapgenie.io/js/map.113b2a48.js");
+  assert.match(renderer, /window\.offlineSearch\(n\)/);
+  assert.doesNotMatch(renderer, /window\.axios\.get\("\/api\/v1\/search"/);
   assert.doesNotMatch(html, /aria-label="(?:Share on [^"]+|Close)"/);
   for (const item of manifest.assets) {
     assert.match(item.file, /^(cdn\.mapgenie\.io|media\.mapgenie\.io|tiles\.mapgenie\.io|fonts\.gstatic\.com|ajax\.googleapis\.com|cdnjs\.cloudflare\.com|cdn\.jsdelivr\.net)\//);
@@ -122,19 +127,56 @@ test("review contains only allowlisted assets, blocks remote loads and excludes 
   }
 });
 
-test("localized source remains valid JavaScript and reports incomplete terrain honestly", () => {
-  parse(text("public/review/source/cdn.mapgenie.io/js/map.70aefaa6.js"), { sourceType: "script" });
+test("localized source remains valid JavaScript and reports terrain coverage accurately", () => {
+  parse(text("public/review/source/cdn.mapgenie.io/js/map.113b2a48.js"), { sourceType: "script" });
   parse(text("public/review/map-config.js"), { sourceType: "script" });
   const manifest = json("public/review/asset-manifest.json");
   const tiles = manifest.assets.filter((item) => item.file.startsWith("tiles.mapgenie.io/"));
-  assert.equal(tiles.length, 24);
-  assert.equal(manifest.tiles.complete, false);
-  assert.equal(manifest.tiles.fullZoom12Count, 256);
-  assert.ok(tiles.every((item) => item.file.includes("/default-v1/12/")));
+  assert.equal(tiles.length, manifest.tiles.capturedCount);
+  const expected = [1, 4, 16, 64, 256, 1024, 4096];
+  const full = ["exiled-lands", "isle-of-siptah"].every(slug => expected.every((count, i) =>
+    tiles.filter(item => item.file.includes(`/${slug}/default-v1/${i + 8}/`)).length === count));
+  assert.equal(manifest.tiles.complete, full);
+  for (const tile of tiles) assert.match(tile.file, /\/(exiled-lands|isle-of-siptah)\/default-v1\/(8|9|10|11|12|13|14)\/\d+\/\d+\.jpg$/);
+});
+
+test("Siptah preserves its own point identities, counts and map settings", () => {
+  const source = json("reference/api/v1/maps/259/data");
+  const actual = json("public/review/data/siptah-locations.json");
+  const config = JSON.parse(text("public/review/siptah-config.js").match(/^window\.mapData=(.+);$/m)[1]);
+  const originalConfig = json("reference/maps/259/config.json");
+  assert.equal(source.locations.length, 5231);
+  assert.equal(new Set(actual.locations.map(p => p.id)).size, 5231);
+  assert.deepEqual(actual.coordinateAreas, source.coordinateAreas);
+  source.locations.forEach((p, i) => {
+    const a = actual.locations[i];
+    for (const key of ["id", "map_id", "category_id", "latitude", "longitude", "region_id", "media"])
+      assert.deepEqual(a[key], p[key], `${p.id}:${key}`);
+    assert.equal(a.original_title, p.title);
+  });
+  assert.deepEqual(config.categories, originalConfig.categories);
+  assert.deepEqual(config.groups, originalConfig.groups);
+  assert.deepEqual(config.mapConfig.tile_sets, originalConfig.mapConfig.tile_sets);
+  assert.equal(config.map.id, 259);
+  assert.equal(config.mapConfig.tile_sets[0].max_zoom, 16);
+  assert.match(text("public/review/siptah.html"), /class="map-link selected" href="\/review\/siptah\.html"/);
+  assert.match(text("public/review/index.html"), /href="\/review\/siptah\.html"/);
+  assert.doesNotMatch(text("public/review/siptah.html"), /<iframe|<script[^>]+src="https?:|nitro-floating|blobby-overlay/i);
+});
+
+test("point media images are available locally without changing media identity", () => {
+  const source = json("reference/api/v1/maps/258/data").locations;
+  const actual = json("public/review/data/locations.json").locations;
+  for (let i = 0; i < source.length; i++) for (let j = 0; j < (source[i].media || []).length; j++) {
+    const media = source[i].media[j], local = actual[i].media[j];
+    assert.deepEqual({ ...local, url: media.url }, media);
+    assert.ok(local.url.startsWith("/review/source/media.mapgenie.io/storage/media/"));
+    assert.ok(fs.existsSync(path.join(root, "public", local.url.slice(1))));
+  }
 });
 
 test("map initialization retains a search that finished before the map was ready", () => {
-  const script = text("public/review/source/cdn.mapgenie.io/js/map.70aefaa6.js");
+  const script = text("public/review/source/cdn.mapgenie.io/js/map.113b2a48.js");
   let handler;
   const visit = (node) => {
     if (!node || typeof node !== "object") return;

@@ -33,7 +33,7 @@ var MARKER_TAG_SPRITE_KEYS={};
 var MARKER_IMAGES_WIDTH=792;
 var MARKER_IMAGES_HEIGHT=880;
 var MARKER_IMAGES_URL="/review/source/media.mapgenie.io/v2/assets/prod/games/conan-exiles/markers/markers@2x.png?v=1";
-window.mapboxgl=window.maplibregl;window.Analytics={trackEngagement(){},trackEvent(){},setDefaultParams(){}};window.isMobile=innerWidth<768;window.isOverwolf=false;window.md=window.markdownit({html:false});
+window.Analytics={trackEngagement(){},trackEvent(){},setDefaultParams(){}};window.isMobile=innerWidth<768;window.isOverwolf=false;window.md=window.markdownit({html:false});
 
 for(const key of ['cdnUrl','tilesCdnUrl']) window[key]=location.origin+window[key];MARKER_IMAGES_URL=location.origin+MARKER_IMAGES_URL;window.mapData.mapConfig.glyphs_url=location.origin+window.mapData.mapConfig.glyphs_url;
 

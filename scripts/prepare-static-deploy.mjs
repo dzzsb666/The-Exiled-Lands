@@ -41,6 +41,9 @@ const required = [
   "review/fonts.css",
   "review/no-ads.css",
   "review/data/locations.json",
+  "review/siptah.html",
+  "review/siptah-config.js",
+  "review/data/siptah-locations.json",
   "review/asset-manifest.json",
 ];
 for (const name of required)
@@ -70,6 +73,9 @@ const data = JSON.parse(
 );
 if (data.points.length !== 2812 || data.categories.length !== 64)
   throw new Error("Unexpected map data counts");
+const siptah = JSON.parse(fs.readFileSync(path.join(dist, "review/data/siptah-locations.json"), "utf8"));
+if (siptah.locations.length !== 5231 || !assetManifest.tiles.complete || assetManifest.tiles.capturedCount !== 10922)
+  throw new Error("Incomplete dual-map deployment");
 const dir = path.join(root, ".vercel-upload");
 fs.mkdirSync(dir, { recursive: true });
 fs.writeFileSync(path.join(dir, "manifest.json"), JSON.stringify(files));

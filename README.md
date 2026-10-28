@@ -2,9 +2,9 @@
 
 用户要求仅做中文本地化，其余界面参照MapGenie原站，排除广告与追踪。约束见[AGENTS.md](AGENTS.md)，[保真验收](design-qa.md)当前仍为blocked，不能把构建成功当作完整复刻通过。
 
-2026-10-16修正首页入口：`/`与`/review/index.html`现在使用相同的原站素材页面，不再加载旧React/Lucide/Leaflet实现。原站HTML、CSS、字体、64类标记图集、分类映射、原生经纬度与地图程序来自用户提供的本地保存包和HAR。旧`?point=ID`链接可继续打开对应点位。
+2026-10-28：两张动态地图使用原站当前程序、CSS、真实图集与字体。完整10922张原站瓦片覆盖两图8–14图片档位；操作上限分别为15和16。流放之地2812个点位，西普塔岛5231个点位，27张现有点位媒体已本地化。
 
-底图目前只有24张z12瓦片，其他区域和缩放层级仍缺图。账号/PRO后台、其他地图与部分外部媒体尚未实现；当前登录链接仍指向原站。旧版自制的本地进度、备注、个人标记、备份等功能没有移植到新入口，也不代表已按原站行为实现。需要补充的资料见[缺口清单](docs/NEEDED-MATERIALS.md)。
+入口：流放之地 / 或 /review/index.html；西普塔岛 /review/siptah.html。旧?point=ID链接继续兼容。没有Lucide/Leaflet替代入口；未确认译名保持英文。账号/PRO后台仍由原站提供，保留原站链接。详情见[采集核对](docs/MAP-CAPTURE-AUDIT-2026-10-28.md)与[缺口清单](docs/NEEDED-MATERIALS.md)。
 
 ## 开发与核对
 
@@ -23,7 +23,7 @@ npm run build
 
 `data/translations.json`保存用户确认的名称及来源，`data/point-overrides.json`保存单点覆盖，`data/categories.json`保存分类译名。当前2628个点位标题已有显示译名，184个标题保留英文；长篇说明未全部翻译。未核实的候选只记入[候选记录](docs/TRANSLATION-CANDIDATES.md)，不进入正式译名表。
 
-`data/pending-translations.csv`为待核对清单。确认后更新相应JSON，再运行`npm run build:review`；没有自动翻译流程。原始英文身份和说明保留，内部地图点位链接指向本地。
+`data/pending-translations.csv`为流放之地待核对清单，`data/pending-siptah-translations.csv`为西普塔岛待核对清单。确认后更新相应JSON，再运行`npm run build:review`；没有自动翻译流程。原始英文身份和说明保留，内部地图点位链接指向本地。
 
 ## GitHub与Vercel
 

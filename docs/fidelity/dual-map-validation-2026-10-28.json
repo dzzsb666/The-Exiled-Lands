@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-28",
+  "program": "map.113b2a48.js",
+  "maplibre": "maplibre.f1d91794.js",
+  "terrain": {
+    "capturedCount": 10922,
+    "byMap": {
+      "exiled-lands": {
+        "8": 1,
+        "9": 4,
+        "10": 16,
+        "11": 64,
+        "12": 256,
+        "13": 1024,
+        "14": 4096
+      },
+      "isle-of-siptah": {
+        "8": 1,
+        "9": 4,
+        "10": 16,
+        "11": 64,
+        "12": 256,
+        "13": 1024,
+        "14": 4096
+      }
+    },
+    "complete": true
+  },
+  "points": {
+    "exiled": 2812,
+    "siptah": 5231
+  },
+  "media": {
+    "exiled": 27,
+    "siptahResponseMedia": 0
+  },
+  "allTilesDecoded": {
+    "count": 10922,
+    "width": 256,
+    "height": 256
+  },
+  "search": {
+    "exiledBrimstone": 88,
+    "siptahBrimstone": 263
+  },
+  "browserErrors": [],
+  "zoom": [
+    {
+      "phase": "exiled-max",
+      "id": 258,
+      "loaded": true,
+      "max": 14,
+      "min": 7,
+      "moving": false,
+      "zoom": 14
+    },
+    {
+      "direction": "out",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 8
+    },
+    {
+      "direction": "out",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 7
+    },
+    {
+      "map": 259,
+      "minDisabled": true
+    },
+    {
+      "direction": "in",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 8
+    },
+    {
+      "direction": "in",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 9
+    },
+    {
+      "direction": "in",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 10
+    },
+    {
+      "direction": "in",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 11
+    },
+    {
+      "direction": "in",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 12
+    },
+    {
+      "direction": "in",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 13
+    },
+    {
+      "direction": "in",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 14
+    },
+    {
+      "direction": "in",
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 15
+    },
+    {
+      "map": 259,
+      "maxDisabled": true
+    }
+  ],
+  "corners": [
+    {
+      "map": "exiled",
+      "point": 200336,
+      "id": 258,
+      "loaded": true,
+      "max": 14,
+      "min": 7,
+      "moving": false,
+      "zoom": 14
+    },
+    {
+      "map": "exiled",
+      "point": 200637,
+      "id": 258,
+      "loaded": true,
+      "max": 14,
+      "min": 7,
+      "moving": false,
+      "zoom": 14
+    },
+    {
+      "map": "exiled",
+      "point": 119699,
+      "id": 258,
+      "loaded": true,
+      "max": 14,
+      "min": 7,
+      "moving": false,
+      "zoom": 14
+    },
+    {
+      "map": "exiled",
+      "point": 199883,
+      "id": 258,
+      "loaded": true,
+      "max": 14,
+      "min": 7,
+      "moving": false,
+      "zoom": 14
+    },
+    {
+      "map": "siptah",
+      "point": 206297,
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 15
+    },
+    {
+      "map": "siptah",
+      "point": 206309,
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 15
+    },
+    {
+      "map": "siptah",
+      "point": 203873,
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 15
+    },
+    {
+      "map": "siptah",
+      "point": 201244,
+      "id": 259,
+      "loaded": true,
+      "max": 15,
+      "min": 7,
+      "moving": false,
+      "zoom": 15
+    }
+  ],
+  "sourceExiledResponseSha256": "5191f518d5732db0d2d7e4b0b61a346b3d717313f74b88eb8b8d837b878a6880",
+  "sourceSiptahResponseSha256": "6945e94628b39aa2b0d795e7cbc65cf44095f4d8bd2507fb93bacc93d70eb6ef",
+  "scope": "Terrain, source renderer and public point data verified; full account/PRO and translation fidelity remain incomplete."
+}

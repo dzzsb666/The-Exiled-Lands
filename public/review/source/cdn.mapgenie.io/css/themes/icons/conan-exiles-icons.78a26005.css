@@ -1,4 +1,14 @@
-@font-face{font-family:icomoon;src:url('/review/source/cdn.mapgenie.io/fonts/conan-exiles/icons/icomoon.ttf') format('truetype');font-weight:normal;font-style:normal;font-display:block;}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../../fonts/conan-exiles/icons/icomoon.eot?c5q4a0');
+  src:  url('../../../fonts/conan-exiles/icons/icomoon.eot?c5q4a0#iefix') format('embedded-opentype'),
+    url('../../../fonts/conan-exiles/icons/icomoon.ttf?c5q4a0') format('truetype'),
+    url('../../../fonts/conan-exiles/icons/icomoon.woff?c5q4a0') format('woff'),
+    url('../../../fonts/conan-exiles/icons/icomoon.svg?c5q4a0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */

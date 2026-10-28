@@ -1,5 +1,8 @@
 # 来源与保留规则
 
+2026-10-28补充：正常用户Chrome实际访问两图原站及公开点位响应；按已读取的瓦片模板/边界取得10922张图片，27张点位媒体也已保存。同步当前公开程序、Worker、CSS和图集。仓库只保存公开响应/素材；原始浏览器导出保留research。无401/403/429响应，不改变认证或安全设置。详见MAP-CAPTURE-AUDIT-2026-10-28.md。
+
+
 - 底图：Funcom 官方论坛用户 darthphysicist 于 2023-04-04 发布的 T_FullscreenMap。此前保存于本地，原始4000×4000 JPEG字节未修改。
   https://forums.funcom.com/t/is-there-an-unmarked-map-of-the-exiled-lands-siptah/225634/5
 - 点位事实：此前会话保存的 MapGenie 流放之地数据快照；以2812个原始 ID、分类 ID、英文标题、地图位置为基础。不把快照当作实时数据。

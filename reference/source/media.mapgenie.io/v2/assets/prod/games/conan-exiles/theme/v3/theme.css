@@ -1,9 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
 @font-face {
   font-family: 'Crom';
-  src: url("/source/media.mapgenie.io/v2/assets/prod/fonts/crom/ttf/41704e3fedec.ttf") format('truetype');
+  src: url("https://media.mapgenie.io/v2/assets/prod/fonts/crom/ttf/41704e3fedec.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
