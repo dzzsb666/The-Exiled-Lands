@@ -1,0 +1,13 @@
+{
+  "origin": "https://the-exiled-lands-kappa.vercel.app",
+  "commit": "af2ef2773d83b795c2dda90564a2cba25d19e4e0",
+  "complete": true,
+  "checked": 11002,
+  "byteExactFiles": 11001,
+  "normalizedTextOnly": [
+    "favicon.svg"
+  ],
+  "sourceAssets": 10988,
+  "allSourceAssetsByteExact": true,
+  "failures": []
+}
