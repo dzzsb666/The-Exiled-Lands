@@ -4,7 +4,7 @@
 
 ## 翻译
 
-仅用用户确认的游戏用语。未知标题保持英文，不机翻。流放之地待核对153个标题见data/pending-translations.csv；西普塔岛另见data/pending-siptah-translations.csv，包含原始ID、分类语境、17项新增分类和668个待核对点位。文献最后处理。
+仅用用户确认的游戏用语。未知标题保持英文，不机翻。流放之地待核对147个标题见data/pending-translations.csv；西普塔岛另见data/pending-siptah-translations.csv，包含原始ID、分类语境、17项新增分类和668个待核对点位。文献最后处理。
 
 ## 账号与用户内容
 
