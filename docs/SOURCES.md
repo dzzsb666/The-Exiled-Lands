@@ -79,3 +79,5 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 
 2026-10-29用户确认六种莲花点位：Grey Lotus=灰莲花；Frost Lotus=霜莲花；Crimson Lotus=深红莲花；Yellow Lotus=黄莲花；Purple Lotus=紫莲花；Black Lotus=黑莲花。另确认火山的金莲花。原始2812点快照没有Golden Lotus相关标题；资料https://conanexiles.fandom.com/wiki/The_Shattered_Stairs记载当地有Golden Lotus Flowers，只有区域依据，不是逐株坐标。金莲花补点的精度另行记录，不把原数据缺项当作未确认译名。
 金莲花英文物品名核对：https://conanexiles.gaming.tools/items/11089 （Golden Lotus Flower，Exiled Lands列出78处，但本次未取得各点坐标，不按数量凭空补点）。
+
+2026-10-29用户对金莲花补点方式回复：“等取得精确采集点坐标后再补”。此决定替代此前待确认状态；仅确认名称与补点精度要求，未确认任何具体采集坐标。
