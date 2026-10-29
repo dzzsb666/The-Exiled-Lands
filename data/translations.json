@@ -1606,5 +1606,29 @@
   "Ruins of al-Merayah": {
     "name": "阿梅莱亚废墟",
     "source": "用户2026-10-15在地图制作会话确认；exiled-lands-points-revision23.json 的同英文地点，sourceId C6A43FAE49DCEB07C1E0699480D894BF，对应MapGenie点位88189。"
+  },
+  "Dredger": {
+    "name": "挖掘者",
+    "source": "用户2026-10-29本会话逐项确认：老图配方点位120153，原文照录，不推断物品或NPC身份。"
+  },
+  "Dogs of the Desert Banners": {
+    "name": "沙漠之犬战旗",
+    "source": "用户2026-10-29本会话逐项确认：老图配方点位120159，原文照录，不推断物品或NPC身份。"
+  },
+  "Scorpion Queen Venom": {
+    "name": "蝎子女王毒液",
+    "source": "用户2026-10-29本会话逐项确认：老图配方点位120165，原文照录，不推断物品或NPC身份。"
+  },
+  "Relic Hunter Banners": {
+    "name": "遗宝猎人战旗",
+    "source": "用户2026-10-29本会话逐项确认：老图配方点位120166，原文照录，不推断物品或NPC身份。"
+  },
+  "Serpent-Man Weapons": {
+    "name": "蛇人武器",
+    "source": "用户2026-10-29本会话逐项确认：老图配方点位120181，原文照录，不推断物品或NPC身份。"
+  },
+  "Totems": {
+    "name": "图腾",
+    "source": "用户2026-10-29本会话逐项确认：老图配方点位120182，原文照录，不推断物品或NPC身份。"
   }
 }
