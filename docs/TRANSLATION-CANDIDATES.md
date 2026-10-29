@@ -52,3 +52,5 @@ Bit-Tarken the Whip（199474）：原站“奴隶 / 监工”分类，无额外�
 First Mate's Report（198480）：用户提供同名物品中文“大副的报告”及资料https://conanexiles.th.gl/zh-Hans/db/inventory/item_30015，但未确认该点位对应此物品，继续保留英文。
 
 Mountaineering Journal（198463）、Bonepile（198474）、The Road Home（198475）、Cargo List（198476）：用户明确跳过，继续保留英文。
+
+2026-10-29用户确认暂时找不到以下四个文献点位的游戏内中文，均跳过并继续保留英文：Mercenary's Diary（198487）、Scholar's Note（198510）、A Confession（198509）、Torn Journal Page（198484）。取得新依据前不重复询问。
