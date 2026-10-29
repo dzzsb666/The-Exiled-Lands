@@ -75,6 +75,27 @@ function copyTree(dir, relative = "") {
           if (text.split(initialFilter).length !== 2)
             throw new Error("Unexpected original initial map filter implementation.");
           text = text.replace(initialFilter, 'key:"getInitialLocationsFilter",value:function(e){var t=window.store.getState().search.searchResults;if(t&&t.locations)return["in",["get","locationId"],["literal",t.locations]];return');
+          // Each map keeps its own settings; leave the parallel Siptah implementation intact.
+          if (file.endsWith("/map.113b2a48.js")) {
+            for (const setting of ["remember_categories", "visible_categories:id_"]) {
+              const originalKey = `"mg:settings:game_".concat(window.game.id,":${setting}")`;
+              if (text.split(originalKey).length !== 2)
+                throw new Error("Unexpected original category preference key.");
+              text = text.replace(originalKey, `"mg:settings:game_".concat(window.game.id,(window.mapData.map.id===258?":map_258":"")+":${setting}")`);
+            }
+            const markerSize = 'if(null===t)return e(this.iconSize);';
+            if (text.split(markerSize).length !== 2)
+              throw new Error("Unexpected original old-map marker size.");
+            text = text.replace(markerSize, 'if(null===t&&window.mapData.map.id===258)return["interpolate",["linear"],["zoom"],7,e(.2*this.iconSize),14,e(this.iconSize)];if(null===t)return e(this.iconSize);');
+            const markerScale = 'if(null===e)return this.iconSize;';
+            if (text.split(markerScale).length !== 2)
+              throw new Error("Unexpected original popup marker scale.");
+            text = text.replace(markerScale, 'if(null===e)return window.mapData.map.id===258?this.iconSize*(.2+.8*(Math.max(7,Math.min(14,this.map.getZoom()))-7)/7):this.iconSize;');
+            const layersReady = 'var je=(0,Z().PL)().locationLinesConfig||{};';
+            if (text.split(layersReady).length !== 2)
+              throw new Error("Unexpected original map layer assembly.");
+            text = text.replace(layersReady, 'if(window.mapData.map.id===258){const exiledCircleLayer=Re.find(layer=>layer.id===x);if(exiledCircleLayer){const radius=exiledCircleLayer.paint["circle-radius"];exiledCircleLayer.paint["circle-radius"]=["interpolate",["linear"],["zoom"],7,["*",.2,radius],14,radius];}}' + layersReady);
+          }
           text = translateLiterals(text);
         }
         bytes = Buffer.from(text);
@@ -166,7 +187,19 @@ window.offlineSearch=async function(query){
   return {data:{locations,notes:[],categories:[]}};
 };
 `;
-fs.writeFileSync(path.join(target, "map-config.js"), config);
+const exiledDefaults = `
+// First visit: places only. Native category actions persist later choices, including none.
+for(const category of Object.values(window.mapData.categories)) category.visible=category.group_id===750;
+try {
+  const base='mg:settings:game_'+window.game.id+':map_258:';
+  if(localStorage.getItem(base+'remember_categories')===null){
+    for(const category of Object.values(window.mapData.categories))
+      localStorage.setItem(base+'visible_categories:id_'+category.id,category.group_id===750?'true':'');
+    localStorage.setItem(base+'remember_categories','true');
+  }
+}catch(error){console.warn('Cannot save map filters',error)}
+`;
+fs.writeFileSync(path.join(target, "map-config.js"), config + exiledDefaults);
 // Preserve the source renderer and map-specific configuration for the second map.
 const originalStaticData = JSON.parse(config.match(/^window\.mapData=(.+);$/m)[1]);
 siptahData.mapConfig.glyphs_url = originalStaticData.mapConfig.glyphs_url;

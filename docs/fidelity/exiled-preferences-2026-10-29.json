@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-29",
+  "mapId": 258,
+  "firstVisit": {
+    "categoryIds": [
+      3282,
+      3283,
+      3284,
+      3285,
+      3286,
+      3290
+    ],
+    "locations": 180
+  },
+  "rememberedAfterReload": {
+    "none": 0,
+    "brimstoneOnly": [
+      3359
+    ],
+    "all": 64,
+    "afterPermalink": [
+      3282,
+      3283,
+      3284,
+      3285,
+      3286,
+      3290
+    ]
+  },
+  "storage": "mg:settings:game_75:map_258:",
+  "zoom": [
+    {
+      "loaded": true,
+      "scale": 0.5428571428571429,
+      "zoom": 10
+    },
+    {
+      "loaded": true,
+      "scale": 0.4285714285714286,
+      "zoom": 9
+    },
+    {
+      "loaded": true,
+      "scale": 0.3142857142857143,
+      "zoom": 8
+    },
+    {
+      "loaded": true,
+      "scale": 0.2,
+      "zoom": 7
+    },
+    {
+      "loaded": true,
+      "scale": 0.3142857142857143,
+      "zoom": 8
+    },
+    {
+      "loaded": true,
+      "scale": 0.4285714285714286,
+      "zoom": 9
+    },
+    {
+      "loaded": true,
+      "scale": 0.5428571428571429,
+      "zoom": 10
+    },
+    {
+      "loaded": true,
+      "scale": 0.6571428571428573,
+      "zoom": 11
+    },
+    {
+      "loaded": true,
+      "scale": 0.7714285714285714,
+      "zoom": 12
+    },
+    {
+      "loaded": true,
+      "scale": 0.8857142857142859,
+      "zoom": 13
+    },
+    {
+      "loaded": true,
+      "scale": 1,
+      "zoom": 14
+    }
+  ],
+  "circleRadius": [
+    "interpolate",
+    [
+      "linear"
+    ],
+    [
+      "zoom"
+    ],
+    7,
+    [
+      "*",
+      0.2,
+      [
+        "coalesce",
+        [
+          "get",
+          "circle-radius"
+        ],
+        6
+      ]
+    ],
+    14,
+    [
+      "coalesce",
+      [
+        "get",
+        "circle-radius"
+      ],
+      6
+    ]
+  ],
+  "renamed": {
+    "942399": "沉没都市",
+    "942406": "酒馆副本",
+    "942407": "碎神副本"
+  },
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "tests": 19,
+  "consoleErrors": [],
+  "scope": "Old map only; no Siptah configuration or point changes"
+}

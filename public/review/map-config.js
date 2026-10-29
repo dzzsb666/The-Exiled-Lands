@@ -63,3 +63,14 @@ window.offlineSearch=async function(query){
   const locations=data.locations.filter(p=>[p.title,p.original_title,window.mapData.categories[p.category_id]?.title,p.description].some(v=>typeof v==='string'&&v.toLocaleLowerCase().includes(q))).map(p=>p.id);
   return {data:{locations,notes:[],categories:[]}};
 };
+
+// First visit: places only. Native category actions persist later choices, including none.
+for(const category of Object.values(window.mapData.categories)) category.visible=category.group_id===750;
+try {
+  const base='mg:settings:game_'+window.game.id+':map_258:';
+  if(localStorage.getItem(base+'remember_categories')===null){
+    for(const category of Object.values(window.mapData.categories))
+      localStorage.setItem(base+'visible_categories:id_'+category.id,category.group_id===750?'true':'');
+    localStorage.setItem(base+'remember_categories','true');
+  }
+}catch(error){console.warn('Cannot save map filters',error)}

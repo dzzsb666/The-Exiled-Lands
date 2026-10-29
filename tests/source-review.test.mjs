@@ -68,7 +68,7 @@ test("public entry uses the source renderer and all category icons keep their or
     assert.deepEqual(localized.groups.find((g) => g.id === group.id), group, `${group.id}: original category order and styling`);
 });
 
-test("marker sizes, anchors, colors and circle paint retain the original source values", () => {
+test("source marker layout, anchors and colors are retained before the requested zoom scaling", () => {
   const original = text("reference/source/cdn.mapgenie.io/js/map.113b2a48.js");
   const localized = text("public/review/source/cdn.mapgenie.io/js/map.113b2a48.js");
   const styles = (script) => {

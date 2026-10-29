@@ -396,16 +396,16 @@
     "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
   },
   "The Sunken City": {
-    "name": "沉没的城市入口",
-    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+    "name": "沉没都市",
+    "source": "用户2026-10-29本会话明确更正并确认老图副本名称。"
   },
   "Warmaker's Sanctuary": {
-    "name": "引战者圣殿入口",
-    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+    "name": "碎神副本",
+    "source": "用户2026-10-29本会话明确更正并确认老图副本名称。"
   },
   "Wine Cellar": {
-    "name": "酒窖入口",
-    "source": "沿用用户已验收地图：exiled-lands-points-v2.json；此前地图会话中的整体验收，不代表逐名客户端实测"
+    "name": "酒馆副本",
+    "source": "用户2026-10-29本会话明确更正并确认老图副本名称。"
   },
   "Pariah's Overwatch": {
     "name": "弃民的掩护地",

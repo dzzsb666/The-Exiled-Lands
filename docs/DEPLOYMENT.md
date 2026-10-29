@@ -15,3 +15,8 @@
 原始HAR、Cookie、请求头和账号信息不进入Git或部署。reference/siptah-source中的用户静态地图资料未修改、未提交。
 
 尚未迁入账号/PRO后台；未确认译名保持英文，整站1:1最终验收仍为blocked，见根目录design-qa.md。这次发布解决的是两图完整地形、缩放与公开点位接入，不能称作全部账号服务复刻。
+
+
+## 2026-10-29 老图更新
+
+独立分支codex/exiled-map-preferences实现地点默认筛选、访客选择记忆、随缩放调整图钉/资源圆点和三个副本名称更正。19项测试和独立生产构建通过；本地桌面/手机与缩放操作证据见fidelity/exiled-preferences-2026-10-29.json。发布沿用现有GitHub main→Vercel集成，不创建新的自动化。
