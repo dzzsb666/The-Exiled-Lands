@@ -108,3 +108,5 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 2026-10-29用户确认第一批六个斗士名称：Captain（199398）=队长；Tarman（199417）=塔曼；Sully（199418）=萨利；Braggi the Bold（199420）=大胆的布拉吉；Cruaidh the Crusher（199421）=粉碎者克鲁艾德；Gall of the Spear-Din（199442）=刺矛加洛。Captain只有通用标题，按用户确认使用“队长”，不指定其本名。
 
 2026-10-29用户确认第二批六个斗士名称：Hekkr Waverunner（199443）=破浪者赫克；N'batu（199461）=恩疤图；Janos（199488）=亚诺什；Lian（199495）=炼；Dalinsia Snowhunter（199502）=雪地猎手达林思雅；Cimmerian Berserker（895669）=西米里亚狂战士。Lian使用用户确认的单字“炼”；Cimmerian Berserker使用“西米里亚狂战士”，不套用其他条目的族名写法。
+
+2026-10-29用户确认第一批六名艺人：Luba the Luscious（199394）=绚丽的露芭；Thutmekri the Dramatist（199395）=剧作人瑟特梅克里；Bohdan the Flexible（199402）=柔韧的博单；Senk the Pillowdancer（199403）=枕舞者森珂；Danyo the Seductive（199431）=迷人的丹佑；Imiu of Derkheto（199432）=得喀托的伊缪。按用户完整写法录入，不替换称号、音译字或推导其他神名和角色译名。
