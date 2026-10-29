@@ -100,3 +100,5 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 2026-10-29用户确认第二批六名具名奴隶：Dina, Master Huntress（503279）=大猎师迪娜；Freya（503281）=弗雷娅；Ghamm Armorer（199392）=破损者加姆；B'naru Heavyhands（199399）=沉掌宾纳鲁；Fia（199453）=菲亚；Llarn Steeltoe（199462）=钢趾拉恩。Ghamm Armorer按用户完整写法“破损者加姆”录入，不套用制甲匠分类译名，也不根据英文改写称号。
 
 2026-10-29用户确认第三批六名具名奴隶：Werk of the Lost Tribe（199503）=遗失部落的工匠；Narr Bearer（199396）=山羊蹄纳尔；Arvad of Akbitan（199422）=艾克比塔纳的阿瓦德；Talitha Goldfingers（199468）=塔丽萨·金指；Beri（199471）=伯里；Vulfeles the Hammer（199509）=大锤弗菲勒斯。保留用户完整写法，Werk of the Lost Tribe不擅自音译人物名，Narr Bearer不套用搬运工分类译名。
+
+2026-10-29用户确认第四批六名具名奴隶：Rayne of the Rosewood（199413）=蔷薇林的瑞恩；Siygn the Woodworker（199430）=木工希金；Airk Strong-in-the-arm（199480）=壮臂埃尔克；Acastel Ninefingers（199508）=九指阿卡斯特；Bragoras the Baker（199389）=面包师布莱戈拉斯；Vatessa the Potent（199419）=大力的维特萨。保留完整游戏内称号，“木工希金”不按木匠分类标签改写。
