@@ -106,3 +106,5 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 2026-10-29用户确认第五批六名具名奴隶：Secas the Smith（199513）=铁匠塞卡斯；Galacus the Gourmand（199438）=好吃者加拉瑟斯；Gnash the Hungry（199452）=饥饿的格纳什；Rikkart the Baker（199482）=面包师里卡特；Merram the Cook（199506）=厨师末兰；Ennis the Gobbler（199512）=暴食者艾尼斯。“好吃者加拉瑟斯”“厨师末兰”等称号与姓名均按用户原文保留，不替换为自行选择的近义词。
 
 2026-10-29用户确认第一批六个斗士名称：Captain（199398）=队长；Tarman（199417）=塔曼；Sully（199418）=萨利；Braggi the Bold（199420）=大胆的布拉吉；Cruaidh the Crusher（199421）=粉碎者克鲁艾德；Gall of the Spear-Din（199442）=刺矛加洛。Captain只有通用标题，按用户确认使用“队长”，不指定其本名。
+
+2026-10-29用户确认第二批六个斗士名称：Hekkr Waverunner（199443）=破浪者赫克；N'batu（199461）=恩疤图；Janos（199488）=亚诺什；Lian（199495）=炼；Dalinsia Snowhunter（199502）=雪地猎手达林思雅；Cimmerian Berserker（895669）=西米里亚狂战士。Lian使用用户确认的单字“炼”；Cimmerian Berserker使用“西米里亚狂战士”，不套用其他条目的族名写法。
