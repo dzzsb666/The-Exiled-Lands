@@ -81,3 +81,5 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 金莲花英文物品名核对：https://conanexiles.gaming.tools/items/11089 （Golden Lotus Flower，Exiled Lands列出78处，但本次未取得各点坐标，不按数量凭空补点）。
 
 2026-10-29用户对金莲花补点方式回复：“等取得精确采集点坐标后再补”。此决定替代此前待确认状态；仅确认名称与补点精度要求，未确认任何具体采集坐标。
+
+2026-10-29用户确认六名老图商人完整名称：Zenia the Vixen（198402）=悍妇辛莲娜；Koros the Brave（198403）=勇敢的柯洛斯；Owen the Beautiful（198404）=漂亮的欧文；Shamalla the Pirate Queen（198405）=海盗女王夏马拉；Weeba Shamrock（198406）=三叶草威巴；Ignatius the Greedy（198407）=贪婪的依格纳提斯。只更新标题，不翻译或修改原站售卖内容、价格、坐标及人物身份。
