@@ -126,3 +126,5 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 Bit-Tarken the Whip（199474）用户明确跳过，保留英文且仍计入待核对；Galtar of Bossonia（199424）继续沿用此前跳过决定。
 
 2026-10-29用户确认三个非文献分类标题：The Cyclopean Halls（942388）=独眼巨人大厅；Blood Crystal Rocknose（942417）=血晶石鼻兽；Harlot's Journal #9（120231）=妓女的日记 #9。用户明确同意表情分类的Harlot's Journal #9同用此前的日记基名；保留原站编号和分类。未确认/此前跳过的其他表情与奴隶名称继续英文。
+
+2026-10-29文献核对第一批：Priest's Journal（198472）=祭司的日记。用户确认点位与同名物品记载的米特拉祭坛位置吻合，并提供简中资料https://conanexiles.th.gl/zh-Hans/db/inventory/item_30019；First Mate's Report（198480）仅确认同名物品“大副的报告”，点位对应关系未确认，留在候选记录。Mountaineering Journal、Bonepile、The Road Home、Cargo List按用户要求跳过，保留英文。

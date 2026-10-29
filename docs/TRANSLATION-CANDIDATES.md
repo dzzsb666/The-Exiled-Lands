@@ -46,3 +46,9 @@ Ophirean候选引用由用户提供：[中文百科分类页](https://conanexile
 Galtar of Bossonia（199424）：原站“奴隶 / 弓箭手”分类，原站没有额外说明。用户明确跳过，暂不提供中文候选；保持英文并计入待核对，取得新依据前不重复询问。
 
 Bit-Tarken the Whip（199474）：原站“奴隶 / 监工”分类，无额外说明。用户2026-10-29明确跳过，保留英文并计入待核对，不提供自行翻译的中文候选；取得新依据前不重复询问。
+
+## 2026-10-29 文献候选更新
+
+First Mate's Report（198480）：用户提供同名物品中文“大副的报告”及资料https://conanexiles.th.gl/zh-Hans/db/inventory/item_30015，但未确认该点位对应此物品，继续保留英文。
+
+Mountaineering Journal（198463）、Bonepile（198474）、The Road Home（198475）、Cargo List（198476）：用户明确跳过，继续保留英文。
