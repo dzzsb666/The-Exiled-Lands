@@ -76,3 +76,6 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 2026-10-29用户确认六个老图Boss点位：Giant Crocodile=巨型鳄鱼（119642）；Undead Dragon=不死巨龙（119645）；The End of All Hope=希望全终（119647）；The King Beneath=地底之王（119662）；Red Dragon=红龙（119704）；Green Dragon=绿龙（895665）。特别保留用户“希望全终”原文，不改写，不据原站快照属性/奖励推测星级。
 
 2026-10-29用户完成Boss类标题核对：通用点位Boss（119664）明确不用翻译，保留原站英文大小写；Sand Reaper Hive Queen (?)（119679）使用用户完整写法“沙漠掠魂者女王”，不另补问号。本轮未把Boss当作具体NPC姓名或未知译名。
+
+2026-10-29用户确认六种莲花点位：Grey Lotus=灰莲花；Frost Lotus=霜莲花；Crimson Lotus=深红莲花；Yellow Lotus=黄莲花；Purple Lotus=紫莲花；Black Lotus=黑莲花。另确认火山的金莲花。原始2812点快照没有Golden Lotus相关标题；资料https://conanexiles.fandom.com/wiki/The_Shattered_Stairs记载当地有Golden Lotus Flowers，只有区域依据，不是逐株坐标。金莲花补点的精度另行记录，不把原数据缺项当作未确认译名。
+金莲花英文物品名核对：https://conanexiles.gaming.tools/items/11089 （Golden Lotus Flower，Exiled Lands列出78处，但本次未取得各点坐标，不按数量凭空补点）。
