@@ -114,3 +114,13 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 2026-10-29用户确认第二批五名艺人及一个祭司点位：Varkin Fleetfoot（199454）=迅足瓦尔金；Poscore Nimblefingers（199455）=巧手帕斯科；Sadeh the Lithe（199463）=轻盈的萨迪；Ionna the Seductress（199473）=狐狸精艾欧娜；Oyvind Tall-tree（199481）=乔木厄伊温；Yog Priest（201392）=约格的祭司。Yog Priest使用用户完整称呼“约格的祭司”，不添加个人姓名。
 
 2026-10-29用户确认三名司炉与三名制革角色：Daya Leaddrinker（199387）=妲雅·饮铅；Jon the Tinkerer（199484）=修补匠琼恩；Matias Snowmelt（199504）=融雪马提亚斯；Inigo the Vengeful（199388）=复仇伊尼戈；Valenso Da Reyn（199429）=瓦伦索·达·莱恩；Oskar Thunderhead（199479）=雷暴云奥斯卡。所有名称及间隔号按用户原文保留，不按职业标签更改角色称号。
+
+2026-10-29用户确认七个制革/监工名称，并逐项提供资料（保留链接，未独立核验页面）：
+- Gratt Stinkfinger（199505）=臭指格拉特。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_gratt_stinkfinger)
+- Beli the Breaker（199390）=屈志者贝莉。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_beli_the_breaker)
+- Olena the Oathmaker（199391）=立誓人欧列娜。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_olena_the_oathmaker)
+- Saddur the Slaver（199425）=奴隶贩子萨达尔。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_saddur_the_slaver)
+- Vanko the Fearsome（199433）=可怖的范寇。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_vanko_the_fearsome)
+- Shevatas the Merciless（199475）=无情谢瓦塔斯。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_shevatas_the_merciless)
+- Manos the Handful（199483）=不服管的马诺斯。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_manos_the_handful)
+Bit-Tarken the Whip（199474）用户明确跳过，保留英文且仍计入待核对；Galtar of Bossonia（199424）继续沿用此前跳过决定。
