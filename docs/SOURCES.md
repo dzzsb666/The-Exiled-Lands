@@ -94,3 +94,5 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 
 2026-10-29用户确认最后五名待核对老图NPC：The Outcast（120126）=放逐者；Braga（120128）=博尔卡；Conan（120130）=柯南；Razma of Shem（120131）=谢姆的拉兹玛；Harpagus the Hatcher（120132）=孵化者哈帕谷。Braga按用户完整写法“博尔卡”录入；所有NPC类点位标题已确认，不代表交互说明已全部翻译。
 NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of the Outer Dark，以及此前用户要求保留学习点显示名的120127（阿萨之傲套装）、120129（攀爬套装）。后两项是点位覆盖名，不表示NPC本名已确认；保留单点覆盖优先级，不改成职业或猜测姓名。
+
+2026-10-29用户确认第一批具名奴隶中的五项：Rokur the Alchemist（199499）=炼金术士罗库；Darmok the Experimenter（199500）=实验者达莫克；Mandughai Hundred-Arrow（199397）=曼都海·万箭；Conchaka of Hyrkania（199409）=赫卡尼亚的孔恰卡；Varpnir（199487）=瓦普尼尔。Galtar of Bossonia（199424，弓箭手）明确跳过，继续保留英文且仍计入待核对；不能把跳过当作已确认保留英文。

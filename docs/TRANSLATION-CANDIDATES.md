@@ -40,3 +40,7 @@ Ophirean候选引用由用户提供：[中文百科分类页](https://conanexile
 用户2026-10-16提供：[同名物品简中资料item_30014](https://conanexiles.th.gl/zh-Hans/db/inventory/item_30014)。这是用户核实的物品名称记录；未独立核验页面，也不等于点位身份已确认。
 
 同轮用户确认以下五项中文仍未核实，继续保留英文：The Aqueduct（198450）、The Observatory（198465）、The Summoning Circle（198466）、The Gladiator Conscription（198468）、The Gallery（198469）。原站均无具体说明，暂不推断是游戏交互标题、编辑器标签或对应何种物品。
+
+## 2026-10-29 具名奴隶暂跳过
+
+Galtar of Bossonia（199424）：原站“奴隶 / 弓箭手”分类，原站没有额外说明。用户明确跳过，暂不提供中文候选；保持英文并计入待核对，取得新依据前不重复询问。
