@@ -72,3 +72,5 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 2026-10-29用户确认老图六个配方点位：Dredger=挖掘者（120153）、Dogs of the Desert Banners=沙漠之犬战旗（120159）、Scorpion Queen Venom=蝎子女王毒液（120165）、Relic Hunter Banners=遗宝猎人战旗（120166）、Serpent-Man Weapons=蛇人武器（120181）、Totems=图腾（120182）。严格照录用户用语，仅本批配方语境，不改成其他近义词。
 
 2026-10-29用户确认后续五个老图配方：Frost Smithing=黑冰锻造（120183）；Alchemical Decor (Knowledge)=炼金装饰（942414）；Heirs of the North Banner=北方后裔战旗（942415）；Forgotten furnishings=被人遗忘的装潢（942434）；Dragonbone Weapons=龙骨武器（120139）。保留用户完整用词，不添加“知识”等后缀；龙骨武器的原暂缓记录已解除。
+
+2026-10-29用户确认六个老图Boss点位：Giant Crocodile=巨型鳄鱼（119642）；Undead Dragon=不死巨龙（119645）；The End of All Hope=希望全终（119647）；The King Beneath=地底之王（119662）；Red Dragon=红龙（119704）；Green Dragon=绿龙（895665）。特别保留用户“希望全终”原文，不改写，不据原站快照属性/奖励推测星级。
