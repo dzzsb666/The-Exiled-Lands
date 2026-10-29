@@ -91,3 +91,6 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 2026-10-29用户确认第一批六名老图NPC：Muriela the Artisan（119297）=工匠穆里拉；Child of Jhebbal Sag（119697）=贾巴尔赛格之子；Arcos the Wanderer（120116）=漫游者阿科斯；Nunu the Cannibal（120117）=食人者努努；Warmaker Klael（120118）=引战者克立尔；Gilzan the Treasure Hunter（120119）=宝藏猎人吉尔赞。本批仅确认角色名称，不据此翻译关联交互、知识或物品。
 
 2026-10-29用户确认第二批六名老图NPC：The Archivist（120120）=档案管理员；Mek-kamoses（120121）=迈卡摩西；Jamila the Pirate Queen（120122）=海盗女王嘉密拉；Petruso the Sandstorm Maniac（120123）=沙暴狂人佩鲁索；Yakira, Priestess of Derketo（120124）=得喀托女祭司雅琪拉；Vathis the Hierophant（120125）=圣师瓦希斯。本批只确认这些角色点位的完整名称，不把姓名里的神名或称号自动扩用到其他条目。
+
+2026-10-29用户确认最后五名待核对老图NPC：The Outcast（120126）=放逐者；Braga（120128）=博尔卡；Conan（120130）=柯南；Razma of Shem（120131）=谢姆的拉兹玛；Harpagus the Hatcher（120132）=孵化者哈帕谷。Braga按用户完整写法“博尔卡”录入；所有NPC类点位标题已确认，不代表交互说明已全部翻译。
+NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of the Outer Dark，以及此前用户要求保留学习点显示名的120127（阿萨之傲套装）、120129（攀爬套装）。后两项是点位覆盖名，不表示NPC本名已确认；保留单点覆盖优先级，不改成职业或猜测姓名。
