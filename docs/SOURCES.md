@@ -112,3 +112,5 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 2026-10-29用户确认第一批六名艺人：Luba the Luscious（199394）=绚丽的露芭；Thutmekri the Dramatist（199395）=剧作人瑟特梅克里；Bohdan the Flexible（199402）=柔韧的博单；Senk the Pillowdancer（199403）=枕舞者森珂；Danyo the Seductive（199431）=迷人的丹佑；Imiu of Derkheto（199432）=得喀托的伊缪。按用户完整写法录入，不替换称号、音译字或推导其他神名和角色译名。
 
 2026-10-29用户确认第二批五名艺人及一个祭司点位：Varkin Fleetfoot（199454）=迅足瓦尔金；Poscore Nimblefingers（199455）=巧手帕斯科；Sadeh the Lithe（199463）=轻盈的萨迪；Ionna the Seductress（199473）=狐狸精艾欧娜；Oyvind Tall-tree（199481）=乔木厄伊温；Yog Priest（201392）=约格的祭司。Yog Priest使用用户完整称呼“约格的祭司”，不添加个人姓名。
+
+2026-10-29用户确认三名司炉与三名制革角色：Daya Leaddrinker（199387）=妲雅·饮铅；Jon the Tinkerer（199484）=修补匠琼恩；Matias Snowmelt（199504）=融雪马提亚斯；Inigo the Vengeful（199388）=复仇伊尼戈；Valenso Da Reyn（199429）=瓦伦索·达·莱恩；Oskar Thunderhead（199479）=雷暴云奥斯卡。所有名称及间隔号按用户原文保留，不按职业标签更改角色称号。
