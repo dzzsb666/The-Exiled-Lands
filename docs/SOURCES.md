@@ -124,3 +124,5 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 - Shevatas the Merciless（199475）=无情谢瓦塔斯。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_shevatas_the_merciless)
 - Manos the Handful（199483）=不服管的马诺斯。[用户提供的资料](https://conanexiles.th.gl/zh-Hans/db/creatures/creature_manos_the_handful)
 Bit-Tarken the Whip（199474）用户明确跳过，保留英文且仍计入待核对；Galtar of Bossonia（199424）继续沿用此前跳过决定。
+
+2026-10-29用户确认三个非文献分类标题：The Cyclopean Halls（942388）=独眼巨人大厅；Blood Crystal Rocknose（942417）=血晶石鼻兽；Harlot's Journal #9（120231）=妓女的日记 #9。用户明确同意表情分类的Harlot's Journal #9同用此前的日记基名；保留原站编号和分类。未确认/此前跳过的其他表情与奴隶名称继续英文。

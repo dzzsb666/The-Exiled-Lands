@@ -14,7 +14,7 @@
 
 Ophirean候选引用由用户提供：[中文百科分类页](https://conanexiles.fandom.com/zh/wiki/Category:未完成)。这是候选记录，不代表游戏内名称已确认或页面已经独立核验。
 
-原数据中`Ophirean Journal #5`（120228）和`Harlot's Journal #9`（120231）属于表情分类（3305），仍保留英文，不在本轮文献系列的核对范围内。
+原数据中`Ophirean Journal #5`（120228）和`Harlot's Journal #9`（120231）均属于表情分类（3305），此前不在文献系列核对范围内。2026-10-29用户已明确确认120231使用“妓女的日记 #9”，已采用并移出待核对；120228仍保留英文，与未确认的Ophirean系列一并待核对。
 
 已采用的Razma、Harlot、Lemurian三组名称另见`data/translations.json`和`docs/SOURCES.md`，其中百科/攻略来源与游戏客户端实测不混为一谈。
 
