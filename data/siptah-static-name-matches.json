@@ -1,0 +1,1002 @@
+{
+  "source": "research/static-map-history/assets-maps/siptah-discovery-r24-points.json",
+  "method": "唯一英文标题一对一对应；六处 Leyshrine 按已完成静态地图名称与原站后缀对应；重名条目仅当所有静态译名完全相同才复用；一处原站拼写差异按唯一标题和分类匹配；学习点采用静态图 learning 唯一英文标题；表情及 NPC 仅复用项目已确认的同名译名",
+  "points": [
+    {
+      "id": 88381,
+      "english": "Violet Isle",
+      "chinese": "紫色岛屿",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88382,
+      "english": "Refuge of the Goblinoids",
+      "chinese": "地精生物的避难所",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88383,
+      "english": "Sanctuary of the Snakemen",
+      "chinese": "蛇人的圣所",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88384,
+      "english": "Volary of Jhil",
+      "chinese": "吉尔的鸟舍",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88385,
+      "english": "Den of the Wolf-brothers",
+      "chinese": "狼族兄弟的巢穴",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88386,
+      "english": "Harbor of the Drowned",
+      "chinese": "溺亡者港口",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88387,
+      "english": "Bastion of the Bat-demons",
+      "chinese": "恶魔蝙蝠的堡垒",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88388,
+      "english": "Demense of the Demon Spiders",
+      "chinese": "恶魔蜘蛛的领地",
+      "source": "静态地图 r24 Demesne of the Demon Spiders；动态原文拼作 Demense，类别同为 Vault"
+    },
+    {
+      "id": 88389,
+      "english": "Asylum of the Fiends",
+      "chinese": "邪魔的收容所",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88390,
+      "english": "Volary of the Harpy",
+      "chinese": "鸟妖的鸟舍",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88391,
+      "english": "Refuge of the Gremlins",
+      "chinese": "怪灵的避难所",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88392,
+      "english": "Harbor of the Twice Drowned",
+      "chinese": "二次溺亡者港口",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88393,
+      "english": "Den of the Wolfmen",
+      "chinese": "狼人的巢穴",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88394,
+      "english": "Sanctuary of the Serpent",
+      "chinese": "巨蛇的圣所",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88395,
+      "english": "Asylum of the Outsiders",
+      "chinese": "外来者的收容所",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88396,
+      "english": "Sweetwater Falls",
+      "chinese": "甘泉湖瀑布",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88397,
+      "english": "Old Smugglers Route",
+      "chinese": "旧走私者之路",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88398,
+      "english": "Camp of the Castaways",
+      "chinese": "遇难者的营地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88399,
+      "english": "The Barrens",
+      "chinese": "贫瘠之地",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88400,
+      "english": "The Tower",
+      "chinese": "高塔",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88401,
+      "english": "Leyshrine of the Fiends",
+      "chinese": "邪魔的活祭祀",
+      "source": "静态地图 r24 六处活祭祀名称；用户2026-10-29确认分类用语"
+    },
+    {
+      "id": 88402,
+      "english": "Serpent Pass",
+      "chinese": "巨蛇关隘",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88403,
+      "english": "Leyshrine of the Serpent",
+      "chinese": "巨蛇的活祭祀",
+      "source": "静态地图 r24 六处活祭祀名称；用户2026-10-29确认分类用语"
+    },
+    {
+      "id": 88404,
+      "english": "The Artificer's Chasm",
+      "chinese": "工匠裂隙",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88405,
+      "english": "The Jut",
+      "chinese": "凸出之地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88406,
+      "english": "The Northwood",
+      "chinese": "北部森林",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88407,
+      "english": "New Luxur",
+      "chinese": "新罗谢",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88408,
+      "english": "Chamber of Scales",
+      "chinese": "天平室",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88409,
+      "english": "Chamber of Sacraments",
+      "chinese": "圣礼室",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88410,
+      "english": "Flame in the North",
+      "chinese": "北方火焰",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88411,
+      "english": "Blacksail Harbor",
+      "chinese": "黑帆港口",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88412,
+      "english": "Causeway of the Apostate",
+      "chinese": "背教者堤道",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88413,
+      "english": "Traitor's Falls",
+      "chinese": "叛徒瀑布",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88414,
+      "english": "Heretic Haunt",
+      "chinese": "异教徒栖息地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88415,
+      "english": "The Gash",
+      "chinese": "裂隙之地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88416,
+      "english": "Strandwatch Keep",
+      "chinese": "守岸哨塔",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88417,
+      "english": "Bahk-hotep's Refuge",
+      "chinese": "巴克霍特普的避难所",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88418,
+      "english": "Scavenger Coast",
+      "chinese": "出生点",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；7条静态记录"
+    },
+    {
+      "id": 88419,
+      "english": "Flame in the East",
+      "chinese": "东方火焰",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88420,
+      "english": "Flame in the South",
+      "chinese": "南方火炬",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88422,
+      "english": "The Circle of Ros-krana",
+      "chinese": "罗斯克拉纳之圈",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88423,
+      "english": "Imui's Pathway",
+      "chinese": "伊穆之路",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88424,
+      "english": "Southwatch Keep",
+      "chinese": "守南哨塔",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88425,
+      "english": "The Boneway",
+      "chinese": "骨路",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88426,
+      "english": "The Fork",
+      "chinese": "分叉之地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88427,
+      "english": "The Valley of Shade",
+      "chinese": "阴影谷",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88428,
+      "english": "The Southwood",
+      "chinese": "南部森林",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88429,
+      "english": "Riverwatch Keep",
+      "chinese": "守河哨塔",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88430,
+      "english": "Scryer's Heights",
+      "chinese": "占星师高地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88431,
+      "english": "Tears of Asura",
+      "chinese": "阿苏拉的眼泪",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88432,
+      "english": "Asura's Basin",
+      "chinese": "阿苏拉盆地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88433,
+      "english": "The Haunted Wreck",
+      "chinese": "闹鬼残骸",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88434,
+      "english": "Siptah's Ascension",
+      "chinese": "西普塔飞升",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88435,
+      "english": "Siptah's Contemplation",
+      "chinese": "西普塔冥想",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88436,
+      "english": "Eye of Ekim",
+      "chinese": "埃基姆之眼",
+      "source": "静态地图 r24 按三张用户参考图交叉转录，待用户逐字复核"
+    },
+    {
+      "id": 88437,
+      "english": "Leyshrine of the Drowned",
+      "chinese": "溺亡者的活祭祀",
+      "source": "静态地图 r24 六处活祭祀名称；用户2026-10-29确认分类用语"
+    },
+    {
+      "id": 88438,
+      "english": "Costigan's Bluff",
+      "chinese": "科斯蒂根虚张声势",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88439,
+      "english": "Leyshrine of the Goblinoid",
+      "chinese": "地精的活祭祀",
+      "source": "静态地图 r24 六处活祭祀名称；用户2026-10-29确认分类用语"
+    },
+    {
+      "id": 88440,
+      "english": "Asura's Sight",
+      "chinese": "阿苏拉风景",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88441,
+      "english": "Leyshrine of the Demon",
+      "chinese": "恶魔的活祭祀",
+      "source": "静态地图 r24 六处活祭祀名称；用户2026-10-29确认分类用语"
+    },
+    {
+      "id": 88442,
+      "english": "The Underclaw",
+      "chinese": "爪下之地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88443,
+      "english": "The Claws",
+      "chinese": "利爪之地",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；4条静态记录"
+    },
+    {
+      "id": 88444,
+      "english": "The Claws",
+      "chinese": "利爪之地",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；4条静态记录"
+    },
+    {
+      "id": 88445,
+      "english": "The Claws",
+      "chinese": "利爪之地",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；4条静态记录"
+    },
+    {
+      "id": 88446,
+      "english": "The Claws",
+      "chinese": "利爪之地",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；4条静态记录"
+    },
+    {
+      "id": 88447,
+      "english": "Fuming Cave",
+      "chinese": "发烟洞穴",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88448,
+      "english": "Bridge of the Chosen",
+      "chinese": "爱民之桥",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88449,
+      "english": "Gates of X\\'chotl",
+      "chinese": "希科特之扉",
+      "source": "静态地图 r24 两处 Gates of X'chotl 均为希科特之扉；原站此记录含转义反斜杠"
+    },
+    {
+      "id": 88450,
+      "english": "Gates of X'chotl",
+      "chinese": "希科特之扉",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；2条静态记录"
+    },
+    {
+      "id": 88451,
+      "english": "Bridge of the Penitent",
+      "chinese": "忏悔者之桥",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88452,
+      "english": "Chasm of the Unbeliever",
+      "chinese": "异教徒裂隙",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88453,
+      "english": "Ruins of X'chotl",
+      "chinese": "希科特遗迹",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88455,
+      "english": "Tears of Xanarus",
+      "chinese": "夏那鲁斯的眼泪",
+      "source": "静态地图 r24 按三张用户参考图交叉转录，待用户逐字复核"
+    },
+    {
+      "id": 88456,
+      "english": "Grave of the Leviathan",
+      "chinese": "海兽的坟墓",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88457,
+      "english": "Witches Pass",
+      "chinese": "女巫关隘",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88458,
+      "english": "Witcheye Lake",
+      "chinese": "女巫之眼湖",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88459,
+      "english": "Island of Threa",
+      "chinese": "瑟瑞娅之岛",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88460,
+      "english": "Sweetwater Lake",
+      "chinese": "甘泉湖",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88461,
+      "english": "Leyshrine of the Birdmen",
+      "chinese": "鸟人的活祭祀",
+      "source": "静态地图 r24 六处活祭祀名称；用户2026-10-29确认分类用语"
+    },
+    {
+      "id": 88462,
+      "english": "Arno's Prospect",
+      "chinese": "亚诺勘探地",
+      "source": "静态地图 r24 按三张用户参考图交叉转录，待用户逐字复核"
+    },
+    {
+      "id": 88463,
+      "english": "Scavenger Coast",
+      "chinese": "出生点",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；7条静态记录"
+    },
+    {
+      "id": 88464,
+      "english": "Scavenger Coast",
+      "chinese": "出生点",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；7条静态记录"
+    },
+    {
+      "id": 88465,
+      "english": "Scavenger Coast",
+      "chinese": "出生点",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；7条静态记录"
+    },
+    {
+      "id": 88466,
+      "english": "Scavenger Coast",
+      "chinese": "出生点",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；7条静态记录"
+    },
+    {
+      "id": 88467,
+      "english": "Scavenger Coast",
+      "chinese": "出生点",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；7条静态记录"
+    },
+    {
+      "id": 88468,
+      "english": "Scavenger Coast",
+      "chinese": "出生点",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；7条静态记录"
+    },
+    {
+      "id": 88469,
+      "english": "The Depths",
+      "chinese": "深渊",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88470,
+      "english": "Glowing Cavern",
+      "chinese": "发光洞穴",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88471,
+      "english": "The Lonely Grave",
+      "chinese": "孤坟",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88472,
+      "english": "Grove of Jorgan",
+      "chinese": "乔根丛林",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88473,
+      "english": "Cairn of the First men",
+      "chinese": "先民石冢",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；3条静态记录"
+    },
+    {
+      "id": 88474,
+      "english": "Cairn of the First men",
+      "chinese": "先民石冢",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；3条静态记录"
+    },
+    {
+      "id": 88475,
+      "english": "Cairn of the First men",
+      "chinese": "先民石冢",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；3条静态记录"
+    },
+    {
+      "id": 88476,
+      "english": "Circle of the Ravager",
+      "chinese": "掠夺者之圈",
+      "source": "静态地图 r24 按三张用户参考图交叉转录，待用户逐字复核"
+    },
+    {
+      "id": 88477,
+      "english": "Haven of the Cursed",
+      "chinese": "受诅者的避难所",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88478,
+      "english": "Circle of the Moon",
+      "chinese": "月之圈",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88481,
+      "english": "Spinner's Ridge",
+      "chinese": "织网者山脊",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88482,
+      "english": "Towerwatch Keep",
+      "chinese": "守塔哨群",
+      "source": "静态地图 r24 按三张用户参考图交叉转录，待用户逐字复核"
+    },
+    {
+      "id": 88483,
+      "english": "Wreck of the Alderman",
+      "chinese": "市政官残骸",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88485,
+      "english": "Watchtower",
+      "chinese": "瞭望塔",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；5条静态记录"
+    },
+    {
+      "id": 88486,
+      "english": "Watchtower",
+      "chinese": "瞭望塔",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；5条静态记录"
+    },
+    {
+      "id": 88487,
+      "english": "Watchtower",
+      "chinese": "瞭望塔",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；5条静态记录"
+    },
+    {
+      "id": 88488,
+      "english": "Tillerman's Watch",
+      "chinese": "舵手的戒护点",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88489,
+      "english": "Steerman's Watch",
+      "chinese": "舵轮手的庇护点",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88490,
+      "english": "Watchtower",
+      "chinese": "瞭望塔",
+      "source": "静态地图 r24 同一英文标题的全部点均为相同中文；5条静态记录"
+    },
+    {
+      "id": 88491,
+      "english": "The Ashen Core",
+      "chinese": "苍白核心",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88492,
+      "english": "Coldheart Ruins",
+      "chinese": "寒冰之心遗迹",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88493,
+      "english": "Raider's Gap",
+      "chinese": "劫掠者缺口",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88494,
+      "english": "Accursed Citadel",
+      "chinese": "受诅城堡",
+      "source": "静态地图 r24 按三张用户参考图交叉转录，待用户逐字复核"
+    },
+    {
+      "id": 88495,
+      "english": "Bastard's Stand",
+      "chinese": "杂种的土地",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88496,
+      "english": "Duskholme",
+      "chinese": "黄昏岛",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88497,
+      "english": "The Bloodmine",
+      "chinese": "血矿",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88498,
+      "english": "The Triune Grave",
+      "chinese": "三重坟",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88499,
+      "english": "The Fractured Citadel",
+      "chinese": "破碎城堡",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88500,
+      "english": "Pit of the Grey Ones",
+      "chinese": "灰怪之坑",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88501,
+      "english": "The Broken Temple",
+      "chinese": "破庙",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88502,
+      "english": "The Proving Grounds",
+      "chinese": "比武场",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88503,
+      "english": "Westlight",
+      "chinese": "西之光",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88504,
+      "english": "The Pools of the Grey Ones",
+      "chinese": "灰怪之池",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88505,
+      "english": "Eastlight",
+      "chinese": "东之光",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88506,
+      "english": "The Nook",
+      "chinese": "角落之地",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88507,
+      "english": "Ruins of New Khemi",
+      "chinese": "新凯米遗迹",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88508,
+      "english": "New Khemi Docks",
+      "chinese": "新凯米码头",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88509,
+      "english": "Netikerty's Throne",
+      "chinese": "奈帝柯帝王座",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88510,
+      "english": "Baywatch Camp",
+      "chinese": "守湾营地",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88511,
+      "english": "Lunatic's Reach",
+      "chinese": "疯人癫",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88512,
+      "english": "Temple of the Loon",
+      "chinese": "狂人庙",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88513,
+      "english": "The Rave in the Rubble",
+      "chinese": "癫狂遗迹",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88514,
+      "english": "Salvage Point",
+      "chinese": "打捞点",
+      "source": "静态地图 r24 已按参考图转录，仍需最终逐字复核"
+    },
+    {
+      "id": 88515,
+      "english": "Sipho's Shipyard",
+      "chinese": "西福造船厂",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88516,
+      "english": "Lubber's Watch",
+      "chinese": "旱鸭戒护站",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88517,
+      "english": "The Spit",
+      "chinese": "吐痰地",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 88518,
+      "english": "Dusky Inlet",
+      "chinese": "黄昏水湾",
+      "source": "静态地图 r24 用户2026-10-23逐条确认"
+    },
+    {
+      "id": 201211,
+      "english": "Snake Dance",
+      "chinese": "蛇舞",
+      "source": "项目已确认译名：沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+    },
+    {
+      "id": 201217,
+      "english": "War Dance",
+      "chinese": "战舞",
+      "source": "项目已确认译名：沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+    },
+    {
+      "id": 201218,
+      "english": "Khitan Dance",
+      "chinese": "契丹舞",
+      "source": "项目已确认译名：沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+    },
+    {
+      "id": 201219,
+      "english": "Belly Dance",
+      "chinese": "肚皮舞",
+      "source": "项目已确认译名：沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+    },
+    {
+      "id": 201221,
+      "english": "Cimmerian Dance",
+      "chinese": "西米里亚舞",
+      "source": "项目已确认译名：沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+    },
+    {
+      "id": 201222,
+      "english": "Aquilonian Dance",
+      "chinese": "阿奎罗尼亚舞",
+      "source": "项目已确认译名：沿用用户已验收的学习点地图；build_learning_revision2.py / learning-revision3-points.json。"
+    },
+    {
+      "id": 206416,
+      "english": "Black Corsair Outfit",
+      "chinese": "黑色海盗服装",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206419,
+      "english": "Faux Taxidermist II",
+      "chinese": "动物标本制作配方2",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206422,
+      "english": "Shield of the Grey Ones",
+      "chinese": "灰怪盾",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206423,
+      "english": "Shortsword of the Grey Ones",
+      "chinese": "灰怪短剑",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206424,
+      "english": "Spear of the Grey Ones",
+      "chinese": "灰怪矛",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206425,
+      "english": "Mace of the Grey Ones",
+      "chinese": "灰怪钉锤",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206426,
+      "english": "Sword of the Grey Ones",
+      "chinese": "灰怪剑",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206427,
+      "english": "Axe of the Grey Ones",
+      "chinese": "灰怪单手斧",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206428,
+      "english": "Warhammer of the Grey Ones",
+      "chinese": "灰怪战锤",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206429,
+      "english": "Great Sword of the Grey Ones",
+      "chinese": "灰怪大剑",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206431,
+      "english": "Katana of the Grey Ones",
+      "chinese": "灰怪武士刀",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206432,
+      "english": "Daggers of the Grey Ones",
+      "chinese": "灰怪匕首",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206433,
+      "english": "The Bastard's Banner",
+      "chinese": "遗忘部落战旗",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206435,
+      "english": "Wrecker",
+      "chinese": "破坏者",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206440,
+      "english": "Oar",
+      "chinese": "桨",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206442,
+      "english": "Island Hunter",
+      "chinese": "岛屿猎人",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206443,
+      "english": "Stygian Palisades",
+      "chinese": "斯泰吉亚栅栏",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 206446,
+      "english": "Pirate Banners",
+      "chinese": "海盗旗",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 503282,
+      "english": "Grey One Armor",
+      "chinese": "灰怪护甲",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 503283,
+      "english": "Great Axe of The Grey Ones",
+      "chinese": "灰怪战斧",
+      "source": "西普塔静态地图 r24 learning 学习点，唯一英文标题对应"
+    },
+    {
+      "id": 590065,
+      "english": "Adherent of the Outer Dark",
+      "chinese": "黑暗外域的信徒",
+      "source": "项目已确认译名：用户2026-10-16确认：3处可快速前往Isle of Siptah的NPC点位标题。"
+    },
+    {
+      "id": 590068,
+      "english": "Adherent of the Outer Dark",
+      "chinese": "黑暗外域的信徒",
+      "source": "项目已确认译名：用户2026-10-16确认：3处可快速前往Isle of Siptah的NPC点位标题。"
+    },
+    {
+      "id": 590069,
+      "english": "Adherent of the Outer Dark",
+      "chinese": "黑暗外域的信徒",
+      "source": "项目已确认译名：用户2026-10-16确认：3处可快速前往Isle of Siptah的NPC点位标题。"
+    },
+    {
+      "id": 942435,
+      "english": "Forge of the First Men",
+      "chinese": "先民熔炉",
+      "source": "静态地图 r24 用户2026-10-23确认添加蓝字"
+    },
+    {
+      "id": 88480,
+      "english": "Boatswain's Beacon",
+      "chinese": "克利弗残骸",
+      "source": "用户要求按地图坐标对应静态 r24；静态同位置英文为 Boatswain's Beacon，坐标误差约 0.01 原生像素。"
+    },
+    {
+      "id": 88479,
+      "english": "Simmi's Beacon",
+      "chinese": "水手长的灯塔",
+      "source": "用户要求按地图坐标对应静态 r24；静态同位置英文为 Boatswain's Beacon，坐标误差约 0.01 原生像素，原英文存在差异。"
+    },
+    {
+      "id": 88421,
+      "english": "Wreck of the Sea Dog",
+      "chinese": "海的女儿残骸",
+      "source": "用户要求按地图坐标对应静态 r24；静态同位置英文为 Wreck of the Sea Girl，坐标误差约 0.002 原生像素，原英文存在差异。"
+    }
+  ]
+}

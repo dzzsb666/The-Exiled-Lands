@@ -63,3 +63,37 @@ window.offlineSearch=async function(query){
   const locations=data.locations.filter(p=>[p.title,p.original_title,window.mapData.categories[p.category_id]?.title,p.description].some(v=>typeof v==='string'&&v.toLocaleLowerCase().includes(q))).map(p=>p.id);
   return {data:{locations,notes:[],categories:[]}};
 };
+
+// User-confirmed Siptah category names; point titles stay independent.
+const confirmedSiptahPets={"3352":"岛屿猞猁","3353":"山狮","3354":"蝎子","3356":"蜘蛛","3374":"土狼","3375":"骆驼","3376":"冠蜥","3380":"丛林爪虎","3383":"石鼻兽","3384":"沙漠掠魂怪","3386":"獠牙兽"};
+for(const group of window.mapData.groups)
+  for(const category of group.categories)
+    if(confirmedSiptahPets[category.id])category.title=confirmedSiptahPets[category.id];
+for(const category of Object.values(window.mapData.categories))
+  if(confirmedSiptahPets[category.id])category.title=confirmedSiptahPets[category.id];
+window.mapData.categories[3287].title='暗窖';
+window.mapData.categories[3288].title='活祭祀';
+window.mapData.categories[3369].title='BOSS';
+window.mapData.categories[3355].title='乌龟';
+window.mapData.categories[3378].title='马驹';
+window.mapData.categories[3377].title='狗';
+window.mapData.categories[3390].title='金矿';
+for(const group of window.mapData.groups)
+  for(const category of group.categories)
+    if(category.id===3287)category.title='暗窖';
+    else if(category.id===3288)category.title='活祭祀';
+    else if(category.id===3369)category.title='BOSS';
+    else if(category.id===3355)category.title='乌龟';
+    else if(category.id===3378)category.title='马驹';
+    else if(category.id===3377)category.title='狗';
+    else if(category.id===3390)category.title='金矿';
+// The source renderer already remembers category choices. Enable it on first visit.
+try {
+  const key='mg:settings:game_'+window.game.id+':map_259:remember_categories';
+  if(localStorage.getItem(key)===null){
+    const prefix='mg:settings:game_'+window.game.id+':map_259:visible_categories:id_';
+    for(const category of Object.values(window.mapData.categories))
+      localStorage.setItem(prefix+category.id,category.group_id===750?'true':'');
+    localStorage.setItem(key,'true');
+  }
+}catch(error){console.warn('Cannot save map filters',error)}
