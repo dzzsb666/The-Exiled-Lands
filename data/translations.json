@@ -1630,5 +1630,25 @@
   "Totems": {
     "name": "图腾",
     "source": "用户2026-10-29本会话逐项确认：老图配方点位120182，原文照录，不推断物品或NPC身份。"
+  },
+  "Frost Smithing": {
+    "name": "黑冰锻造",
+    "source": "用户2026-10-29本会话逐项明确确认：老图配方点位120183，严格照录原文；Dragonbone Weapons此前暂缓状态已解除。"
+  },
+  "Alchemical Decor (Knowledge)": {
+    "name": "炼金装饰",
+    "source": "用户2026-10-29本会话逐项明确确认：老图配方点位942414，严格照录原文；Dragonbone Weapons此前暂缓状态已解除。"
+  },
+  "Heirs of the North Banner": {
+    "name": "北方后裔战旗",
+    "source": "用户2026-10-29本会话逐项明确确认：老图配方点位942415，严格照录原文；Dragonbone Weapons此前暂缓状态已解除。"
+  },
+  "Forgotten furnishings": {
+    "name": "被人遗忘的装潢",
+    "source": "用户2026-10-29本会话逐项明确确认：老图配方点位942434，严格照录原文；Dragonbone Weapons此前暂缓状态已解除。"
+  },
+  "Dragonbone Weapons": {
+    "name": "龙骨武器",
+    "source": "用户2026-10-29本会话逐项明确确认：老图配方点位120139，严格照录原文；Dragonbone Weapons此前暂缓状态已解除。"
   }
 }

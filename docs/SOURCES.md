@@ -70,3 +70,5 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 旧React首页没有导入原网站程序、用户账号/云同步、评论、付费内容、说明图片和长篇文本。中文核对入口已导入保存的原程序及说明原文，但账号服务和未保存的外部媒体仍缺。未确认中文不自行补写；档案馆有争议的旧清单不导入。
 
 2026-10-29用户确认老图六个配方点位：Dredger=挖掘者（120153）、Dogs of the Desert Banners=沙漠之犬战旗（120159）、Scorpion Queen Venom=蝎子女王毒液（120165）、Relic Hunter Banners=遗宝猎人战旗（120166）、Serpent-Man Weapons=蛇人武器（120181）、Totems=图腾（120182）。严格照录用户用语，仅本批配方语境，不改成其他近义词。
+
+2026-10-29用户确认后续五个老图配方：Frost Smithing=黑冰锻造（120183）；Alchemical Decor (Knowledge)=炼金装饰（942414）；Heirs of the North Banner=北方后裔战旗（942415）；Forgotten furnishings=被人遗忘的装潢（942434）；Dragonbone Weapons=龙骨武器（120139）。保留用户完整用词，不添加“知识”等后缀；龙骨武器的原暂缓记录已解除。
