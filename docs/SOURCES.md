@@ -104,3 +104,5 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 2026-10-29用户确认第四批六名具名奴隶：Rayne of the Rosewood（199413）=蔷薇林的瑞恩；Siygn the Woodworker（199430）=木工希金；Airk Strong-in-the-arm（199480）=壮臂埃尔克；Acastel Ninefingers（199508）=九指阿卡斯特；Bragoras the Baker（199389）=面包师布莱戈拉斯；Vatessa the Potent（199419）=大力的维特萨。保留完整游戏内称号，“木工希金”不按木匠分类标签改写。
 
 2026-10-29用户确认第五批六名具名奴隶：Secas the Smith（199513）=铁匠塞卡斯；Galacus the Gourmand（199438）=好吃者加拉瑟斯；Gnash the Hungry（199452）=饥饿的格纳什；Rikkart the Baker（199482）=面包师里卡特；Merram the Cook（199506）=厨师末兰；Ennis the Gobbler（199512）=暴食者艾尼斯。“好吃者加拉瑟斯”“厨师末兰”等称号与姓名均按用户原文保留，不替换为自行选择的近义词。
+
+2026-10-29用户确认第一批六个斗士名称：Captain（199398）=队长；Tarman（199417）=塔曼；Sully（199418）=萨利；Braggi the Bold（199420）=大胆的布拉吉；Cruaidh the Crusher（199421）=粉碎者克鲁艾德；Gall of the Spear-Din（199442）=刺矛加洛。Captain只有通用标题，按用户确认使用“队长”，不指定其本名。
