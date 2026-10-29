@@ -98,3 +98,5 @@ NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of 
 2026-10-29用户确认第一批具名奴隶中的五项：Rokur the Alchemist（199499）=炼金术士罗库；Darmok the Experimenter（199500）=实验者达莫克；Mandughai Hundred-Arrow（199397）=曼都海·万箭；Conchaka of Hyrkania（199409）=赫卡尼亚的孔恰卡；Varpnir（199487）=瓦普尼尔。Galtar of Bossonia（199424，弓箭手）明确跳过，继续保留英文且仍计入待核对；不能把跳过当作已确认保留英文。
 
 2026-10-29用户确认第二批六名具名奴隶：Dina, Master Huntress（503279）=大猎师迪娜；Freya（503281）=弗雷娅；Ghamm Armorer（199392）=破损者加姆；B'naru Heavyhands（199399）=沉掌宾纳鲁；Fia（199453）=菲亚；Llarn Steeltoe（199462）=钢趾拉恩。Ghamm Armorer按用户完整写法“破损者加姆”录入，不套用制甲匠分类译名，也不根据英文改写称号。
+
+2026-10-29用户确认第三批六名具名奴隶：Werk of the Lost Tribe（199503）=遗失部落的工匠；Narr Bearer（199396）=山羊蹄纳尔；Arvad of Akbitan（199422）=艾克比塔纳的阿瓦德；Talitha Goldfingers（199468）=塔丽萨·金指；Beri（199471）=伯里；Vulfeles the Hammer（199509）=大锤弗菲勒斯。保留用户完整写法，Werk of the Lost Tribe不擅自音译人物名，Narr Bearer不套用搬运工分类译名。
