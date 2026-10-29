@@ -74,3 +74,5 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 2026-10-29用户确认后续五个老图配方：Frost Smithing=黑冰锻造（120183）；Alchemical Decor (Knowledge)=炼金装饰（942414）；Heirs of the North Banner=北方后裔战旗（942415）；Forgotten furnishings=被人遗忘的装潢（942434）；Dragonbone Weapons=龙骨武器（120139）。保留用户完整用词，不添加“知识”等后缀；龙骨武器的原暂缓记录已解除。
 
 2026-10-29用户确认六个老图Boss点位：Giant Crocodile=巨型鳄鱼（119642）；Undead Dragon=不死巨龙（119645）；The End of All Hope=希望全终（119647）；The King Beneath=地底之王（119662）；Red Dragon=红龙（119704）；Green Dragon=绿龙（895665）。特别保留用户“希望全终”原文，不改写，不据原站快照属性/奖励推测星级。
+
+2026-10-29用户完成Boss类标题核对：通用点位Boss（119664）明确不用翻译，保留原站英文大小写；Sand Reaper Hive Queen (?)（119679）使用用户完整写法“沙漠掠魂者女王”，不另补问号。本轮未把Boss当作具体NPC姓名或未知译名。
