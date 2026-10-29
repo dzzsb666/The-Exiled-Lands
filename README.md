@@ -21,7 +21,7 @@ npm run build
 
 ## 中文核对
 
-`data/translations.json`保存用户确认的名称及来源，`data/point-overrides.json`保存单点覆盖，`data/categories.json`保存分类译名。当前2665个点位标题已有确认名称（其中Boss按用户要求保留英文），147个标题待确认；长篇说明未全部翻译。未核实的候选只记入[候选记录](docs/TRANSLATION-CANDIDATES.md)，不进入正式译名表。
+`data/translations.json`保存用户确认的名称及来源，`data/point-overrides.json`保存单点覆盖，`data/categories.json`保存分类译名。当前2673个点位标题已有确认名称（其中Boss按用户要求保留英文），139个标题待确认；长篇说明未全部翻译。未核实的候选只记入[候选记录](docs/TRANSLATION-CANDIDATES.md)，不进入正式译名表。
 
 `data/pending-translations.csv`为流放之地待核对清单，`data/pending-siptah-translations.csv`为西普塔岛待核对清单。确认后更新相应JSON，再运行`npm run build:review`；没有自动翻译流程。原始英文身份和说明保留，内部地图点位链接指向本地。
 
