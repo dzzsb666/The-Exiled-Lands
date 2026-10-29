@@ -87,3 +87,5 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 2026-10-29用户确认第二批六名老图商人完整名称：Retas Metmeg（198408）=瑞塔斯梅特麦；Anzu the Broke（198409）=背包客安祖；Ephremis the Broker（198410）=背包客艾福睿梅斯；Siarra the Haggler（198411）=小贩席娅拉；Consigner Arphus（198412）=货主阿福斯；Vennor Skinflint（198413）=守财奴温诺。以用户给出的游戏内名称为准，不根据英文外号重译。
 
 2026-10-29用户确认最后八名老图商人完整名称：Handler Thiena（198414）=商人锡耶娜；Hannah the Broker（198415）=掮客汉娜；Handler PutKet'Leon（198416）=商人帕吉特雷昂；Shawna the Strange（198417）=怪人肖纳；Urik, Master Tamer（198418）=驯兽大师尤里科；Olz Forked-Tongue（198419）=花言巧语的欧尔斯；Essel the Trader（198420）=贸易商埃塞尔；Iliz of the Blood（198421）=母巢的依立兹。老图商人分类20个点位的标题均已逐项确认。Iliz of the Blood采用用户完整写法“母巢的依立兹”，不根据英文自行改写称号。
+
+2026-10-29用户确认第一批六名老图NPC：Muriela the Artisan（119297）=工匠穆里拉；Child of Jhebbal Sag（119697）=贾巴尔赛格之子；Arcos the Wanderer（120116）=漫游者阿科斯；Nunu the Cannibal（120117）=食人者努努；Warmaker Klael（120118）=引战者克立尔；Gilzan the Treasure Hunter（120119）=宝藏猎人吉尔赞。本批仅确认角色名称，不据此翻译关联交互、知识或物品。
