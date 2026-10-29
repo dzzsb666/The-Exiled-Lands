@@ -96,3 +96,5 @@ y = (-17660.170344924696 × latitude + 18401.51471807706) / 3
 NPC分类实际共22点：本轮17名角色，加上3处已确认的Adherent of the Outer Dark，以及此前用户要求保留学习点显示名的120127（阿萨之傲套装）、120129（攀爬套装）。后两项是点位覆盖名，不表示NPC本名已确认；保留单点覆盖优先级，不改成职业或猜测姓名。
 
 2026-10-29用户确认第一批具名奴隶中的五项：Rokur the Alchemist（199499）=炼金术士罗库；Darmok the Experimenter（199500）=实验者达莫克；Mandughai Hundred-Arrow（199397）=曼都海·万箭；Conchaka of Hyrkania（199409）=赫卡尼亚的孔恰卡；Varpnir（199487）=瓦普尼尔。Galtar of Bossonia（199424，弓箭手）明确跳过，继续保留英文且仍计入待核对；不能把跳过当作已确认保留英文。
+
+2026-10-29用户确认第二批六名具名奴隶：Dina, Master Huntress（503279）=大猎师迪娜；Freya（503281）=弗雷娅；Ghamm Armorer（199392）=破损者加姆；B'naru Heavyhands（199399）=沉掌宾纳鲁；Fia（199453）=菲亚；Llarn Steeltoe（199462）=钢趾拉恩。Ghamm Armorer按用户完整写法“破损者加姆”录入，不套用制甲匠分类译名，也不根据英文改写称号。
