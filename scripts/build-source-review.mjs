@@ -65,6 +65,11 @@ function copyTree(dir, relative = "") {
             throw new Error("Unexpected original map data loader.");
           const apiFunction = apiCall.slice(0, apiCall.indexOf("("));
           text = text.replace(apiCall, `${apiFunction}(259===Number(e)?"/review/data/siptah-locations.json":"/review/data/locations.json")`);
+          if (file.endsWith("/map.113b2a48.js")) {
+            const mapAssignment = "window.map=m,m}";
+            if (text.split(mapAssignment).length !== 2) throw new Error("Unexpected map initialization");
+            text = text.replace(mapAssignment, 'window.map=m,window.mapData.map.id===258&&m.on("load",function(){for(let y=0;y<4;y++)for(let x=0;x<4;x++){let lng=a=>-1.0465309279485098+.0001716256016695978*a,lat=a=>1.041978325357848-.00016987378616577204*a,id="static-landmarks-"+x+"-"+y;m.addSource(id,{type:"image",url:"/review/landmarks/"+x+"-"+y+".png",coordinates:[[lng(x*1000),lat(y*1000)],[lng((x+1)*1000),lat(y*1000)],[lng((x+1)*1000),lat((y+1)*1000)],[lng(x*1000),lat((y+1)*1000)]]});m.addLayer({id:id,type:"raster",source:id,paint:{"raster-fade-duration":0}})}}),m}');
+          }
           // Original controls are clickable before the asynchronous map manager is ready.
           const filterStart = 'key:"setLocationsFilter",value:function(){var e=this.getLocationsFilter()';
           if (text.split(filterStart).length !== 2)
